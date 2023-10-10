@@ -2,8 +2,8 @@
 
 //atomics styles
 @import "../components/atoms/Buttons/FlatButton/FlatRoundButton";
-@import "../components/atoms/Buttons/IconButton/_iconButton";
-@import "../components/atoms/Buttons/RoundedButtons/SliderButton/_sliderButton";
+@import "../components/atoms/Buttons/IconButton/iconButton";
+@import "../components/atoms/Buttons/RoundedButtons/SliderButton/sliderButton";
 @import "../components/atoms/Buttons/RoundedButtons/AngleRoundedButtons/angleRoundedButton";
 @import "../components/atoms/Logo/logo.scss";
 
@@ -17,19 +17,19 @@
 @import "../components/molecules/Slider/Carousal/CardsCarousal/4CardsSlider/cardCarousal";
 @import "../components/molecules/Slider/Carousal/MulitiRowCardCarousal/multipleRowCarousal";
 
-@import "../components/molecules/MenuSection/_menuSection.scss";
-@import "../components/molecules/ButtonsMenu/_buttonsMenuSection.scss";
+@import "../components/molecules/MenuSection/menuSection.scss";
+@import "../components/molecules/ButtonsMenu/buttonsMenuSection.scss";
 @import "../components/molecules/SocialMediaMenu/socialMediaMenu";
 @import "../components/molecules/SectionHeader/sectionHeader";
 @import "../components/molecules/Contents/ContactUs/contactUsDetail";
 
-@import "../components/organisms/NavigationBar/_navigationBar.scss";
-@import "../components/organisms/Sliders/HeroSLider/_heroSlider.scss";
+@import "../components/organisms/NavigationBar/navigationBar.scss";
+@import "../components/organisms/Sliders/HeroSLider/heroSlider.scss";
 @import "../components/organisms/MobileDarwer/mobileDrawer";
 @import "../components/organisms/Contents/OtherSayingContent/otherSaying";
 
 //Templates
-@import "../components/templates/HomePagetemplates/HomePageHeroSection/_homepageheroSection.scss";
+@import "../components/templates/HomePagetemplates/HomePageHeroSection/homepageheroSection.scss";
 @import "../components/templates/HomePagetemplates/RentATukTukSection/rentATuk";
 @import "../components/templates/HomePagetemplates/LocalCraftsSection/localCrafts";
 @import "../components/templates/Footer/footer";
