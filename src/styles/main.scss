@@ -29,10 +29,11 @@
 @import "../components/organisms/Contents/OtherSayingContent/otherSaying";
 
 //Templates
-@import "../components/templates/HomePagetemplates/HomePageHeroSection/homepageheroSection.scss";
+
 @import "../components/templates/HomePagetemplates/RentATukTukSection/rentATuk";
 @import "../components/templates/HomePagetemplates/LocalCraftsSection/localCrafts";
 @import "../components/templates/Footer/footer";
+@import "../components/templates/HomePagetemplates/HomePageHeroSection/homePageHeroSection";
 
 .home{
   position: relative;
