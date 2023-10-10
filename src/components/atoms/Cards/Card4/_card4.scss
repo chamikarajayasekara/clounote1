@@ -1,0 +1,118 @@
+.img-background-card-4 {
+  width: 268px;
+  height: 320px;
+  transition: transform 0.3s;
+  @media #{$Mobile}  {
+    width: 200px;
+    height: 260px;
+  }
+  .img-section {
+    width: 268px;
+    height: 283px;
+    border-radius: 5px;
+    @media #{$Mobile}  {
+      width: 200px;
+      height: 220px;
+    }
+  }
+
+  .content-section-card4 {
+    margin-top: 8px;
+
+    .content1 {
+      display: flex;
+
+      .hotel-name {
+        width: 50%;
+        display: flex;
+        justify-content: flex-start;
+      }
+
+      .hotel-category {
+        width: 50%;
+        text-align: left;
+        font: normal normal normal 14px/19px $mainFont;
+        letter-spacing: 0px;
+        color: $grey;
+        opacity: 1;
+        display: flex;
+        justify-content: flex-end;
+        @media #{$Mobile}  {
+          font-size: 10px;
+          line-height: 10px;
+        }
+      }
+    }
+    .content2{
+      text-align: left;
+      font: normal normal medium 18px/24px Avenir;
+      letter-spacing: 0px;
+      color: $black1;
+      text-transform: capitalize;
+      opacity: 1;
+      height: 25px;
+      @media #{$Mobile}  {
+        font-size: 12px;
+        line-height: 12px;
+      }
+    }
+    .content3 {
+      display: flex;
+      margin-top: 5px;
+      .location {
+        width: 50%;
+        display: flex;
+        justify-content: flex-start;
+        align-items: start;
+        text-align: left;
+        font: normal normal 900 14px/14px $mainFont;
+        letter-spacing: 0.2px;
+        color: #1D5AFF;
+        opacity: 1;
+        @media #{$Mobile}  {
+          font-size: 8px;
+          line-height: 8px;
+        }
+        .location-img {
+          width: 13px;
+          height: 13px;
+          @media #{$Mobile}  {
+            font-size: 8px;
+            line-height: 8px;
+          }
+        }
+      }
+      .price-sec{
+        display: flex;
+        justify-content: flex-end;
+        width: 50%;
+        align-items: center;
+        .price{
+          text-align: right;
+          font: normal normal 900 16px/19px $mainFont;
+          letter-spacing: 0px;
+          color: #000000;
+          @media #{$Mobile}  {
+            font-size: 8px;
+            line-height: 8px;
+          }
+        }
+        .unit{
+          text-align: right;
+          font: normal normal medium 14px/19px $mainFont;
+          letter-spacing: 0px;
+          color: #939393;
+          @media #{$Mobile}  {
+            font-size: 8px;
+            line-height: 8px;
+          }
+        }
+      }
+    }
+  }
+}
+
+
+.img-background-card-4:hover {
+  transform: scale(1.05);
+}

@@ -1,0 +1,41 @@
+import React, {useState} from 'react';
+import NavigationBar from "../../../organisms/NavigationBar/NavigationBar";
+import HeroSlider from "../../../organisms/Sliders/HeroSLider/HeroSlider";
+import hero1 from "../../../../assets/knk.jpg";
+import hero2 from "../../../../assets/hero2.jpg";
+import hero3 from "../../../../assets/hero3.jpg";
+import menu from "../../../../assets/menu.png";
+import MobileDrawer from '../../../organisms/MobileDarwer/MobileDrawer';
+import IconButton from "../../../atoms/Buttons/IconButton/IconButton";
+
+const HomePageHeroSection = () => {
+    const [isDrawerOpen, setIsDrawerOpen] = useState(false);
+
+    const handleOpenDrawer = () => {
+        setIsDrawerOpen(true);
+    };
+
+    const handleCloseDrawer = () => {
+        console.log("click")
+        setIsDrawerOpen(false);
+    };
+
+    const images = [
+        hero1,hero2,hero3
+    ];
+
+    return (
+        <div className="hero-section">
+            <NavigationBar/>
+            <HeroSlider images={images}/>
+            <span onClick={handleOpenDrawer} className="drawer-button">
+                 <IconButton name={'menu'} icon={menu} width={20} height={20}/>
+            </span>
+            {
+                isDrawerOpen ? <MobileDrawer isOpen={isDrawerOpen} onClose={handleCloseDrawer} /> : null
+            }
+        </div>
+    );
+};
+
+export default HomePageHeroSection;

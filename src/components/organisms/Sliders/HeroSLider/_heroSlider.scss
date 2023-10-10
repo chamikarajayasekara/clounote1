@@ -1,0 +1,247 @@
+
+.carousel-container {
+  position: relative;
+  overflow: hidden;
+  height: 702px;
+  //background: transparent linear-gradient(90deg, #000000CC 0%, #00000000 100%) 0% 0% no-repeat padding-box;
+  //z-index: -1
+  @media #{$Mobile}  {
+    height: 350px;
+  }
+  .slick-list{
+    height: 702px;
+  }
+}
+.slick-slider{
+  //background-image: url(https://placekitten.com/800/400);
+}
+.slick-dots{
+  top: 88% !important;
+  width: 10% !important;
+  position: absolute;
+  height: 30px;
+  left: 8%;
+  @media #{$Mobile}  {
+    left: 85%;
+    top: 10% !important;
+  }
+  @media #{$Tablet}  {
+    left: 10%;
+    top: 43% !important;
+    display: flex !important;
+  }
+  li{
+    button{
+      color: #FFFFFF !important;
+      width: 20px;
+      height: 20px;
+    }
+  }
+}
+.slick-dots li.slick-active button:before {
+  opacity: .75 !important;
+  color: white !important;
+  font-size: 12px !important;
+}
+
+.slick-next {
+  right: 10px !important;
+  top: 20% !important;
+  display: none !important;
+}
+.slick-prev {
+  right: 5px !important;
+  top: 20% !important;
+  display: none !important;
+}
+
+
+.slick-dots li button:before {
+  font-family: 'slick';
+  font-size: 20px;
+  line-height: 30px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  content: '•';
+  text-align: center;
+  opacity: .50;
+  color: white !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.carousel-slide {
+  position: relative;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  .carousal-img{
+    width: 100%;
+    @media #{$Mobile}  {
+      height: 350px;
+    }
+  }
+  .inside-content{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: transparent linear-gradient(90deg, #000000CC 0%, #00000000 100%) 0% 0% no-repeat padding-box;
+    z-index: 1;
+    .mid-content{
+      position: absolute;
+      width: 49%;
+      top: 12%;
+      left: 10%;
+      @media #{$Mobile}  {
+        width: 80%;
+        top: unset;
+        left: unset;
+        margin: 4%;
+      }
+      @media #{$Tablet}  {
+      width: 80%;
+      top: unset;
+      left: unset;
+      margin: 4%;
+    }
+      .watch-video{
+        text-align: left;
+        font: normal normal 900 13px/16px $mainFont;
+        letter-spacing: 0.26px;
+        color: #FFFFFF;
+        opacity: 1;
+        margin-left: 18px;
+      }
+      .carousel-content-1{
+        text-align: left;
+        margin-top: 5%;
+        @media #{$Mobile}  {
+
+        }
+        span{
+          text-align: left;
+          font-style: normal;
+          font-variant: normal;
+          font-weight: 900;
+          font-size: 73px;
+          line-height: 80px;
+          font-family: $mainFont;
+          letter-spacing: 0px;
+          color: #FFFFFF;
+          text-transform: capitalize;
+          opacity: 1;
+          @media #{$Mobile}  {
+            font-size: 30px;
+            line-height: 30px;
+          }
+        }
+      }
+      .carousel-content-2 {
+        margin-top: 5%;
+        text-align: left;
+        @media #{$Mobile}  {
+          //width: 70%;
+          //top: 42%;
+          //left: 40%;
+        }
+        @media #{$Tablet}  {
+          margin-top: 2%;
+          text-align: left;
+          width: 65%;
+        }
+        span{
+          text-align: left;
+          font-style: normal;
+          font-variant: normal;
+          font-weight: medium;
+          font-size: 18px;
+          line-height: 25px;
+          font-family: $mainFont;
+          letter-spacing: 0px;
+          color: #FFFFFF;
+          opacity: 1;
+          @media #{$Mobile}  {
+            font-size: 12px;
+            line-height: 22px;
+          }
+          @media #{$Tablet}  {
+            font-size: 14px;
+            line-height: 0px !important;
+          }
+        }
+      }
+      .carousel-content-3{
+        margin-top: 5%;
+        text-align: left;
+        display: flex;
+        @media #{$Mobile}  {
+          //width: 70%;
+          //top: 70%;
+          //left: 51%;
+        }
+        @media #{$Tablet}  {
+          margin-top: 2%;
+        }
+        span{
+          cursor: pointer;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          padding-left: 20px;
+          text-align: left;
+          text-decoration: underline;
+          font-style: normal;
+          font-variant: normal;
+          font-weight: 900;
+          font-size: 14px;
+          line-height: 24px;
+          font-family: $mainFont;
+          letter-spacing: 0px;
+          color: #FFFFFF;
+          opacity: 1;
+          @media #{$Mobile}  {
+            font-size: 10px;
+            line-height: 20px;
+          }
+          @media #{$Tablet}  {
+            font-size: 14px;
+          }
+        }
+      }
+    }
+
+  }
+
+}
+
+.carousel-content-4{
+  position: absolute;
+  width: 50px;
+  height: 200px;
+  top: 55%;
+  right: 8%;
+  transform: translate(-50%, -50%);
+  display: block;
+  .social-media-icon{
+    margin-bottom: 25px;
+  }
+}
+
+.carousel-controls {
+  position: absolute;
+  bottom: 8%;
+  right: 8%;
+}
+
+.dots {
+  display: inline-block;
+  margin-right: 10px;
+  background-color: #1B202C;
+}
+
+.buttons button {
+  margin-right: 10px;
+}

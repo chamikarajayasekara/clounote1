@@ -1,0 +1,19 @@
+
+.slider-button {
+  background-color: $base-green;
+  color: #ffffff;
+  border: none;
+  border-radius: 32px;
+  width: 32px;
+  height: 32px;
+  margin: 0 5px;
+  cursor: pointer;
+  position: relative;
+  .slider-icon{
+    top:50%;
+    left: 50%;
+    transform: translate3d(-50%,-50%, 0);
+    position: absolute;
+    width: 20px;
+  }
+}

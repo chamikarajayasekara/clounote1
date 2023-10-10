@@ -1,0 +1,28 @@
+.card-carousal-content{
+  margin-left: 2%;
+  margin-right: 2%;
+  margin-top: 20px;
+  .slick-list{
+    //height: 450px;
+    .slick-initialized{
+      .slick-list{
+        .slick-track{
+          .slick-slide {
+            @media #{$Mobile}  {
+              display: flex !important;
+              justify-content: center;
+            }
+        }
+      }
+
+      }
+    }
+  }
+}
+
+.card-carousal-content-2{
+  margin: 2%;
+  .slick-list{
+    //height: 375px;
+  }
+}

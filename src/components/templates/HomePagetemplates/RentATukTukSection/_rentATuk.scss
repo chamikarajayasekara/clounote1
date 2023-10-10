@@ -1,0 +1,114 @@
+.rent-a-tuk{
+  width: 100%;
+  height: 636px;
+  background: $popular-black 0% 0% no-repeat padding-box;
+  border-radius: 12px;
+  opacity: 1;
+  margin-top: 80px;
+  position: relative;
+  @media #{$Tablet}  {
+    height: 500px;
+    width: 99%;
+  }
+  @media #{$SmallLaptops}  {
+    width: 100%;
+    height: 500px;
+  }
+  .left-side-content{
+    position: absolute;
+    top: 50%;
+    left: 22%;
+    transform: translate(-50%, -50%);
+    @media #{$Mobile}  {
+      top: 30%;
+      left: 54%;
+      width: 80%;
+      height: 50%;
+    }
+    @media #{$Tablet}  {
+      top: 58%;
+      left: 32%;
+      width: 50%;
+    }
+    @media #{$SmallLaptops}  {
+      width: 50%;
+      height: 50%;
+      left: 32%;
+    }
+    h1{
+      text-align: left;
+      font: normal normal 900 67px/78px $mainFont;
+      letter-spacing: 0px;
+      color: #FFFFFF;
+      opacity: 1;
+      @media #{$Mobile}  {
+        font-size: 40px;
+        line-height:40px;
+      }
+      @media #{$SmallLaptops}  {
+        font-size: 50px;
+        line-height:50px;
+      }
+    }
+    p{
+      margin-top: 10%;
+      margin-bottom: 10%;
+      text-align: left;
+      font: normal normal medium 18px/25px $mainFont;
+      letter-spacing: 0px;
+      color: #FFFFFF;
+      opacity: 1;
+      @media #{$Mobile}  {
+        font-size: 10px;
+        line-height:10px;
+      }
+      @media #{$SmallLaptops}  {
+        font-size: 12px;
+        line-height:12px;
+      }
+    }
+  }
+  .right-side-content{
+    position: absolute;
+    top: 62%;
+    left: 69%;
+    transform: translate(-50%, -50%);
+    width: 684px;
+    height: 626px;
+    border-radius: 10px;
+    @media #{$Mobile}  {
+      position: relative;
+      width: 50%;
+      height: 50%;
+    }
+    @media #{$SmallLaptops}  {
+      width: 50%;
+      height: 50%;
+    }
+    .wheel-img{
+      width: 650px;
+      height: 626px;
+      opacity: 1;
+      @media #{$Mobile}  {
+        position: absolute;
+        transform: translate(-50%, -50%);
+        width: 80vw;
+        height: 80vw;
+        left: 9%;
+        top: 70%;
+      }
+      @media #{$Tablet}  {
+        position: absolute;
+        transform: translate(-50%, -50%);
+        width: 50vw;
+        height: 50vw;
+        top: 66%;
+        left: 49%;
+      }
+      @media #{$SmallLaptops}  {
+        width: 40vw;
+        height: 40vw;
+      }
+    }
+  }
+}

@@ -1,0 +1,37 @@
+.navigation-bar{
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  height:80px;
+  @media #{$Mobile}  {
+    display: none;
+  }
+  .navigation-bar-wrapper{
+    width: 100%;
+    display: flex;
+  }
+  .logo-section{
+    cursor: pointer;
+    width: 14%;
+    display: flex;
+    justify-content: flex-end;
+    &svg{
+      @media #{$Mobile}  {
+        width: 100px;
+        height: 33.33px;
+      }
+      @media #{$SmallLaptops}  {
+        width: 150px;
+        height: 80.33px;
+      }
+    }
+    @media #{$Mobile}  {
+      width:30%;
+      margin: 0;
+    }
+    @media #{$SmallLaptops}  {
+      width:25%;
+      margin: 0;
+    }
+  }
+}

@@ -1,0 +1,27 @@
+@font-face {
+  font-family: 'Avenir';
+  src: url('../utils/fonts/avenir2.woff') format('woff');
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,500&display=swap');
+
+$primary-color: #3498db;
+$base-green: #54BD36;
+$base-white: #FFFFFF;
+$badge-red: #AA2032;
+$grey: #939393;
+$blue: #1D5AFF;
+$black1: #3C3C4B;
+
+$popular-black:#1B202C;
+$Avenir: 'Avenir', sans-serif;
+$mainFont:  'Nunito Sans', sans-serif;  ;
+$latoFont: 'Lato', sans-serif;
+
+
+//screen sizes
+$Mobile: "only screen and (max-width: 768px)";
+$Tablet:"only screen and (min-width: 427px) and (max-width: 768px)";
+$SmallLaptops : "only screen and (min-width: 769px) and (max-width: 1024px)";
+$bigScreens : "only screen and (min-width: 1500px)";

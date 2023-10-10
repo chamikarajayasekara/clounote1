@@ -1,0 +1,43 @@
+
+[
+  {
+    "image": "../../../../../assets/cycle.png",
+    "content1": "Content for item 1",
+    "content2": "Additional content for item 1"
+  },
+  {
+    "image": "../../../../../assets/cycle.png",
+    "content1": "Content for item 2",
+    "content2": "Additional content for item 2"
+  },
+  {
+    "image": "../../../../../assets/cycle.png",
+    "content1": "Content for item 3",
+    "content2": "Additional content for item 3"
+  },
+  {
+    "image": "../../../../../assets/cycle.png",
+    "content1": "Content for item 4",
+    "content2": "Additional content for item 4"
+  },
+  {
+    "image": "../../../../../assets/cycle.png",
+    "content1": "Content for item 1",
+    "content2": "Additional content for item 1"
+  },
+  {
+    "image": "../../../../../assets/cycle.png",
+    "content1": "Content for item 2",
+    "content2": "Additional content for item 2"
+  },
+  {
+    "image": "../../../../../assets/cycle.png",
+    "content1": "Content for item 3",
+    "content2": "Additional content for item 3"
+  },
+  {
+    "image": "../../../../../assets/cycle.png",
+    "content1": "Content for item 4",
+    "content2": "Additional content for item 4"
+  }
+]

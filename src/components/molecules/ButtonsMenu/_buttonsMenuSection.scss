@@ -1,0 +1,27 @@
+.menu-section-buttons{
+  display: flex;
+  justify-content: center;
+  width: 28%;
+  align-items: center;
+  @media #{$Tablet}  {
+    justify-content: left;
+    width: 100%;
+    margin-top: 5%;
+  }
+  @media #{$Mobile}  {
+    justify-content: left;
+    width: 100%;
+    margin-top: 5%;
+  }
+  .list-styles {
+    text-decoration: none;
+    .menu-item {
+      display: flex;
+      align-items: center;
+      @media #{$SmallLaptops}  {
+        width: 100px;
+      }
+    }
+
+  }
+}

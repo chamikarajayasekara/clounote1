@@ -1,0 +1,27 @@
+.contact-us-detail{
+  display: flex;
+
+  img{
+    width: 24px;
+    height: 24px;
+
+  }
+  span{
+    margin-left: 20px;
+    margin-bottom: 10px;
+    width: 276px;
+    height: 41px;
+    /* UI Properties */
+    text-align: left;
+    font: normal normal normal 14px/22px $mainFont;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+    @media #{$Mobile}  {
+      font-size: 10px;
+    }
+    @media #{$Tablet}  {
+     height: 55px;
+    }
+  }
+}
