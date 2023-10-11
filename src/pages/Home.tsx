@@ -9,6 +9,7 @@ import HotelsSection from "../components/templates/HomePagetemplates/HotelsSecti
 import WhatOtherSayingSection
     from "../components/templates/HomePagetemplates/WhatOtherSayingSection/WhatOtherSayingSection";
 import Footer from "../components/templates/Footer/Footer";
+import Test from "../components/templates/Test/Test";
 
 const Home = () => {
     return (
@@ -22,7 +23,6 @@ const Home = () => {
             <WhatOtherSayingSection/>
             <Footer/>
             <SocialMediaMenu/>
-
         </div>
     );
 };
