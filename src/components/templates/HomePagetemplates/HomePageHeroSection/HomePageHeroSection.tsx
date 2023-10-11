@@ -7,6 +7,7 @@ import hero3 from "../../../../assets/h4.png";
 import menu from "../../../../assets/dmb.png";
 import MobileDrawer from '../../../organisms/MobileDarwer/MobileDrawer';
 import IconButton from "../../../atoms/Buttons/IconButton/IconButton";
+import MobileMenu from "../../../molecules/MenuSection/MobileMenu/MobileMenu";
 
 const HomePageHeroSection = () => {
     const [isDrawerOpen, setIsDrawerOpen] = useState(false);
@@ -28,12 +29,7 @@ const HomePageHeroSection = () => {
         <div className="hero-section">
             <NavigationBar/>
             <HeroSlider images={images}/>
-            <div className="drawer-round-button">
-                  <div onClick={handleOpenDrawer} className="drawer-button">
-                        <IconButton name={'menu'} icon={menu} width={20} height={20}/>
-                    </div>
-            </div>
-
+            <MobileMenu handleOpenDrawer={handleOpenDrawer}/>
             {
                 isDrawerOpen ? <MobileDrawer isOpen={isDrawerOpen} onClose={handleCloseDrawer} /> : null
             }

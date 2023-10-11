@@ -1,0 +1,42 @@
+.mobile-nav{
+    height: 50px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 12%;
+    left: 50%;
+    .drawer-button{
+      width: 40px !important;
+      height: 40px !important;
+      background-color: white;
+      box-shadow: 0px 3px 6px #00000029;
+      border-radius: 50px;
+      position: relative;
+      .icon-button{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+    }
+  .drawer-round-button2{
+    @media #{$Mobile}  {
+      display: block;
+
+    }
+    .drawer-button{
+      width: 40px !important;
+      height: 40px !important;
+      background-color: white;
+      box-shadow: 0px 3px 6px #00000029;
+      border-radius: 50px;
+      position: relative;
+      .icon-button{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+    }
+  }
+
+}

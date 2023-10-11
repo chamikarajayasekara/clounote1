@@ -6,7 +6,7 @@
   //background: transparent linear-gradient(90deg, #000000CC 0%, #00000000 100%) 0% 0% no-repeat padding-box;
   //z-index: -1
   @media #{$Mobile}  {
-    height: 350px;
+    height: 518px;
   }
   .slick-list{
     height: 702px;
@@ -78,7 +78,7 @@
   .carousal-img{
     width: 100%;
     @media #{$Mobile}  {
-      height: 350px;
+      height: 518px;
     }
   }
   .inside-content{
@@ -97,7 +97,7 @@
       left: 10%;
       @media #{$Mobile}  {
         width: 80%;
-        top: unset;
+        top: 20%;
         left: unset;
         margin: 4%;
       }
@@ -107,19 +107,30 @@
       left: unset;
       margin: 4%;
     }
-      .watch-video{
-        text-align: left;
-        font: normal normal 900 13px/16px $mainFont;
-        letter-spacing: 0.26px;
-        color: #FFFFFF;
-        opacity: 1;
-        margin-left: 18px;
+      .video-btn-section{
+        display: flex;
+        align-items: center;
+
+        @media #{$Mobile}  {
+          display: none;
+        }
+        .watch-video{
+          text-align: left;
+          font: normal normal 900 13px/16px $mainFont;
+          letter-spacing: 0.26px;
+          color: #FFFFFF;
+          opacity: 1;
+          margin-left: 18px;
+        }
       }
+
       .carousel-content-1{
         text-align: left;
         margin-top: 5%;
         @media #{$Mobile}  {
-
+          margin-top: unset;
+          width: 248px;
+          height: 84px;
         }
         span{
           text-align: left;
@@ -134,8 +145,8 @@
           text-transform: capitalize;
           opacity: 1;
           @media #{$Mobile}  {
-            font-size: 30px;
-            line-height: 30px;
+            font: normal normal 900 32px/40px $mainFont;
+            letter-spacing: 0px;
           }
         }
       }
@@ -143,9 +154,9 @@
         margin-top: 5%;
         text-align: left;
         @media #{$Mobile}  {
-          //width: 70%;
-          //top: 42%;
-          //left: 40%;
+          margin-top: 25px;
+          width: 337px;
+          height: 100px;
         }
         @media #{$Tablet}  {
           margin-top: 2%;
@@ -164,8 +175,9 @@
           color: #FFFFFF;
           opacity: 1;
           @media #{$Mobile}  {
-            font-size: 12px;
-            line-height: 22px;
+            font-size: 14px;
+            line-height: 19px;
+            letter-spacing: 0px;
           }
           @media #{$Tablet}  {
             font-size: 14px;
@@ -178,9 +190,7 @@
         text-align: left;
         display: flex;
         @media #{$Mobile}  {
-          //width: 70%;
-          //top: 70%;
-          //left: 51%;
+          margin-top: 16px;
         }
         @media #{$Tablet}  {
           margin-top: 2%;
@@ -203,8 +213,8 @@
           color: #FFFFFF;
           opacity: 1;
           @media #{$Mobile}  {
-            font-size: 10px;
-            line-height: 20px;
+            font-size: 16px;
+            line-height: 24px;
           }
           @media #{$Tablet}  {
             font-size: 14px;

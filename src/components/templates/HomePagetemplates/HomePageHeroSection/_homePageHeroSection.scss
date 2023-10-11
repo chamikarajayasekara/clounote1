@@ -2,30 +2,7 @@
   //height:100vh;
   position: relative;
   @media #{$Mobile}  {
-    height: 350px;
-  }
-  .drawer-round-button{
-    @media #{$Mobile}  {
-      display: block;
-      position: absolute;
-      top: 10%;
-      right: 2%;
-      transform: translate(-50%, -50%);
-    }
-    .drawer-button{
-      width: 40px !important;
-      height: 40px !important;
-      background-color: white;
-      box-shadow: 0px 3px 6px #00000029;
-      border-radius: 50px;
-      position: relative;
-      .icon-button{
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-      }
-    }
+    height: 518px;
   }
 
 }

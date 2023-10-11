@@ -10,5 +10,6 @@
   z-index: 1000;
   @media #{$Mobile}  {
     right: 2%;
+    display: none;
   }
 }

@@ -9,6 +9,9 @@
   margin: 0 5px;
   cursor: pointer;
   position: relative;
+  @media #{$Mobile}  {
+   display: none;
+  }
   .slider-icon{
     top:50%;
     left: 50%;

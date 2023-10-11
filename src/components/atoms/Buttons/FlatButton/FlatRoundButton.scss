@@ -64,10 +64,10 @@
     color: #FFFFFF;
     opacity: 1;
     @media #{$Mobile}  {
-      width: 78px;
-      height: 40px;
-      font-size: 10px;
-      line-height: 10px;
+      width: 120px;
+      height: 50px;
+      font-size: 16px;
+      line-height: 24px;
     }
     @media #{$Tablet}  {
       width: 100px;
