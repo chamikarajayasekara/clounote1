@@ -56,6 +56,9 @@
 
 .img-background-card:hover {
   transform: scale(1.05);
+  @media #{$Mobile}  {
+    transform: unset;
+  }
 }
 
 
