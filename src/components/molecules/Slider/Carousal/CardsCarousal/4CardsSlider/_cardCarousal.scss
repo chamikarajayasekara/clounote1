@@ -2,19 +2,30 @@
   margin-left: 2%;
   margin-right: 2%;
   margin-top: 20px;
-  .slick-list{
-    //height: 450px;
-    .slick-initialized{
-      .slick-list{
-        .slick-track{
-          .slick-slide {
-            @media #{$Mobile}  {
-              display: flex !important;
-              justify-content: center;
+  @media #{$Mobile}  {
+    margin-left:unset;
+    margin-right:unset;
+    margin-top: unset;
+  }
+  .slick-slider{
+    .slick-list{
+      .slick-track {
+        //transform: translate3d(-234px, 0px, 0px) !important;
+        //.slick-slide{
+        //  @media #{$Mobile}  {
+        //    width:235px !important;
+        //  }
+        //}
+         .slick-current{
+          @media #{$Mobile}  {
+            width:225px !important;
             }
+          }
+        .slick-active {
+          @media #{$Mobile}  {
+            width: 225px !important;
+          }
         }
-      }
-
       }
     }
   }

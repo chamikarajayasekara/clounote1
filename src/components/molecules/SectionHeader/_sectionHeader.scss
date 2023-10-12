@@ -3,10 +3,19 @@
   margin-left: 4%;
   margin-right: 4%;
   margin-top: 7%;
+  justify-content: center;
+  align-items: center;
+  @media #{$Mobile}  {
+    margin-left: unset;
+    margin-right: unset;
+  }
   .section-name{
     width: 50%;
     display: flex;
     justify-content: flex-start;
+    @media #{$Mobile}  {
+      width: 80%;
+    }
     span{
       text-align: left;
       font-family: $mainFont;
@@ -17,9 +26,25 @@
       color: #1B202C;
       opacity: 1;
       @media #{$Mobile}  {
-        font-size: 14px;
-        line-height: 20px;
+        font-size: 20px;
+        line-height: 24px;
       }
+    }
+  }
+  .view-all{
+    display: none;
+    width: 20%;
+    @media #{$Mobile}  {
+      display: block;
+      //width: 10%;
+    }
+    span{
+      display: block;
+      text-align: right;
+      letter-spacing: 0px;
+      color: $grey;
+      opacity: 1;
+      font-size: 12px ;
     }
   }
   .section-controllers{
@@ -27,6 +52,9 @@
     display: flex;
     justify-content: flex-end;
     align-items: center;
+    @media #{$Mobile}  {
+     display: none;
+    }
     span{
       margin-right: 1%;
       cursor: pointer;

@@ -27,6 +27,9 @@ const SectionHeader:React.FC<Props>= ({ onClick, name, noOfItems, toNavigate, ha
                 <div className="section-name">
                     <span>{name}</span>
                 </div>
+                <div className="view-all">
+                    <span>{`See All >`}</span>
+                </div>
                 <div className="section-controllers">
                     <span onClick={handleNavigate}>Show All ({noOfItems})</span>
                     {/*<AngleRoundedButtons name={'angleLeft'} icon={angleLeft} width={40} height={40} onClick={handlePrev}/>*/}

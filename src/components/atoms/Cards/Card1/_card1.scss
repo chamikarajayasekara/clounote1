@@ -12,8 +12,9 @@
   position: relative;
   //border-radius: 10px;
   @media #{$Mobile}  {
-    width: 200px;
-    height: 283px;
+    width: 218px  !important;
+    height: 300px !important;
+    border-radius: 10px !important;
   }
   .content-section{
     top:82%;
@@ -66,6 +67,9 @@
     margin-left: unset;
     display: flex !important;
     justify-content: center;
+    margin-top: 15px;
+    width: 218px  !important;;
+    height: 300px  !important;;
   }
   @media #{$Tablet}  {
     margin-left: unset;
