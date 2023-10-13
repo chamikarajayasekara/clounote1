@@ -6,7 +6,6 @@
   .slick-slider{
     display: none;
     @media #{$Mobile}  {
-      margin-left: 10px !important;
       display: flex !important;
     }
     .slick-list{
