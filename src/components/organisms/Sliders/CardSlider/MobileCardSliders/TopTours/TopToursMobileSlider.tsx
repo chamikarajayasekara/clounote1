@@ -13,7 +13,7 @@ const TopToursMobileSlider = () => {
 
     const renderSlide = (slide: any, index: number) => {
         const slideStyle: React.CSSProperties = {
-            width: activeIndex === index ? (index % 2 === 0 ? "290px" : "290px") : "290px"
+            width: activeIndex === index ? (index % 2 === 0 ? "260px" : "260px") : "260px"
         };
 
         return (

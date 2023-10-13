@@ -5,13 +5,13 @@
   border: 1px solid #E0E0E0;
   margin-bottom: 7%;
   @media #{$Mobile}  {
-    width: 275px;
-    height: 300px;
+    width: 250px;
+    height: 323px;
   }
   .img-content{
     height: 223px;
     @media #{$Mobile}  {
-      width: 275px;
+      width: 250px;
       height: 182px;
     }
     .full-content-card-img{
@@ -24,7 +24,7 @@
       border-radius: 10px 10px 0px 0px;
       opacity: 1;
       @media #{$Mobile}  {
-        width: 275px;
+        width: 250px;
         height: 182px;
       }
     }
@@ -48,14 +48,13 @@
       //text-overflow: ellipsis;
       @media #{$Mobile}  {
         font-size: 14px;
-        line-height: 14px;
+        line-height: 17px;
       }
       .content{
         width: 70%;
         height: 50px;
         overflow: hidden;
         @media #{$Mobile}  {
-          height: unset;
         }
       }
       .location{
@@ -93,6 +92,11 @@
         font-family: $mainFont;
         letter-spacing: 0px;
         color: $grey;
+        overflow: hidden;
+        @media #{$Mobile}  {
+          font-size: 14px;
+          line-height: 19px;
+        }
       }
     }
   }
@@ -103,7 +107,7 @@
   @media #{$Mobile}  {
     display: flex !important;
     justify-content: center;
-    width: 275px;
+    width: 250px;
     height: 350px;
   }
 }
