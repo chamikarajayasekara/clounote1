@@ -1,6 +1,10 @@
 .things-to-do-mobile-slider{
-  display: none;
+
+  @media #{$Mobile}  {
+    //display: flex !important;
+  }
   .slick-slider{
+    display: none;
     @media #{$Mobile}  {
       margin-left: 10px !important;
       display: flex !important;

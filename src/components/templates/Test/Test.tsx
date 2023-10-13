@@ -26,16 +26,16 @@ const VariableWidth: React.FC = () => {
     const settings = {
         className: "slider variable-width",
         infinite: true,
-        slidesToShow: 2, // Show 2 slides by default
+        slidesToShow: 2,
         slidesToScroll: 1,
         variableWidth: true,
         centerPadding: "0",
         beforeChange: handleBeforeChange,
         responsive: [
             {
-                breakpoint: 768, // Adjust based on your mobile breakpoint
+                breakpoint: 768,
                 settings: {
-                    slidesToShow: 1 // Show only 1 slide on mobile
+                    slidesToShow: 1
                 }
             }
         ]

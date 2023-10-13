@@ -24,6 +24,7 @@ const Home = () => {
             <HotelsSection/>
             <WhatOtherSayingSection/>
             <Footer/>
+            <VariableWidth/>
             <SocialMediaMenu/>
         </div>
     );
