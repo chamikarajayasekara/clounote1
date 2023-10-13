@@ -3,16 +3,16 @@
   height: 320px;
   transition: transform 0.3s;
   @media #{$Mobile}  {
-    width: 200px;
-    height: 307px;
+    width: 160px;
+    height:  257px;
   }
   .img-section {
     width: 268px;
     height: 283px;
     border-radius: 5px;
     @media #{$Mobile}  {
-      width: 200px;
-      height: 220px;
+      width: 160px;
+      height: 160px;
     }
   }
 
@@ -115,4 +115,7 @@
 
 .img-background-card-4:hover {
   transform: scale(1.05);
+  @media #{$Mobile}  {
+    transform: unset;
+  }
 }

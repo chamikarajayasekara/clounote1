@@ -1,6 +1,6 @@
 import React from 'react';
-import MultipleRowCarousal from "../../../molecules/Slider/Carousal/MulitiRowCardCarousal/MultipleRowCarousal";
-import {TopToursDataset}from "../../../../utils/helpers/ThingsToDoDataset";
+import MultipleRowCarousal from "../../../../molecules/Slider/Carousal/MulitiRowCardCarousal/MultipleRowCarousal";
+import {TopToursDataset}from "../../../../../utils/helpers/ThingsToDoDataset";
 const Fade = require("react-reveal/Fade")
 interface Props {
     slider:any,

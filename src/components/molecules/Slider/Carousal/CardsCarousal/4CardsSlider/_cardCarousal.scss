@@ -45,3 +45,9 @@
   }
 }
 
+.card-carousal-content-3{
+  @media #{$Mobile}  {
+    margin: unset;
+    display: none;
+  }
+}

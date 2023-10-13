@@ -94,3 +94,14 @@
     margin-left: unset;
   }
 }
+
+.card4{
+  cursor: pointer;
+  @media #{$Mobile}  {
+    margin-left: unset;
+    display: flex !important;
+    justify-content: center;
+    width: 160px  !important;;
+    height: 257px  !important;;
+  }
+}

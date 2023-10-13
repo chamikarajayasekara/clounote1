@@ -1,6 +1,6 @@
 import React from 'react';
-import CardCarousal from "../../../molecules/Slider/Carousal/CardsCarousal/4CardsSlider/CardCarousal";
-import {ThingsToDoDataset}from "../../../../utils/helpers/ThingsToDoDataset";
+import CardCarousal from "../../../../molecules/Slider/Carousal/CardsCarousal/4CardsSlider/CardCarousal";
+import {ThingsToDoDataset}from "../../../../../utils/helpers/ThingsToDoDataset";
 const Fade = require("react-reveal/Fade")
 interface Props {
     slider:any,

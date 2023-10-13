@@ -1,6 +1,6 @@
 import React from 'react';
-import {HotelsDataset} from "../../../../utils/helpers/ThingsToDoDataset";
-import HotelsCarousal from "../../../molecules/Slider/Carousal/CardsCarousal/HotelsCarousal/HotelsCarousal";
+import {HotelsDataset} from "../../../../../utils/helpers/ThingsToDoDataset";
+import HotelsCarousal from "../../../../molecules/Slider/Carousal/CardsCarousal/HotelsCarousal/HotelsCarousal";
 
 const Fade = require("react-reveal/Fade")
 interface Props {

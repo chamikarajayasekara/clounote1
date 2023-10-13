@@ -10,7 +10,7 @@ interface Props {
 }
 const HotelsCarousal :React.FC<Props>= ({  slider,settings, slides}) => {
     return (
-        <div className="card-carousal-content">
+        <div className="card-carousal-content-3">
             <Slider ref={slider} {...settings}>
                 {
                     slides?.map((slide: any, key:number) =>

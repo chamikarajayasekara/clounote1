@@ -2,8 +2,8 @@ import React, {useRef} from 'react';
 import Slider from "react-slick";
 import {Container} from "react-bootstrap";
 import SectionHeader from "../../../molecules/SectionHeader/SectionHeader";
-import ThingsToDoCardSlider from "../../../organisms/Sliders/CardSlider/ThingsToDoCardSlider";
-import CarftsCardSlider from "../../../organisms/Sliders/CardSlider/CarftsCardSlider";
+import ThingsToDoCardSlider from "../../../organisms/Sliders/CardSlider/DesktopCardSliders/ThingsToDoCardSlider";
+import CarftsCardSlider from "../../../organisms/Sliders/CardSlider/DesktopCardSliders/CarftsCardSlider";
 import LocalCraft from "../../../organisms/Sliders/CardSlider/MobileCardSliders/LocalCraft/LocalCraft";
 
 const LocalCraftsSection = () => {

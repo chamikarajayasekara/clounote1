@@ -4,7 +4,9 @@
   position: relative;
   margin-top: 100px;
   @media #{$Mobile}  {
+    display: none;
    height: 250px;
+    margin-top: unset;
   }
   @media #{$Tablet}  {
     height: 400px;

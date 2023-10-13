@@ -93,6 +93,7 @@
     width: 100%;
     @media #{$Mobile}  {
       height: 518px;
+      object-fit: cover;
     }
   }
   .inside-content{

@@ -1,9 +1,10 @@
 import React, {useRef} from 'react';
 import SectionHeader from "../../../molecules/SectionHeader/SectionHeader";
-import ThingsToDoCardSlider from "../../../organisms/Sliders/CardSlider/ThingsToDoCardSlider";
+import ThingsToDoCardSlider from "../../../organisms/Sliders/CardSlider/DesktopCardSliders/ThingsToDoCardSlider";
 import {Container} from "react-bootstrap";
 import Slider from "react-slick";
-import HotelsCardSlider from "../../../organisms/Sliders/CardSlider/HotelsCardSlider";
+import HotelsCardSlider from "../../../organisms/Sliders/CardSlider/DesktopCardSliders/HotelsCardSlider";
+import HotelsMobile from "../../../organisms/Sliders/CardSlider/MobileCardSliders/Hotels/HotelsMobile";
 
 const HotelsSection = () => {
     const settings = {
@@ -64,6 +65,7 @@ const HotelsSection = () => {
         <Container className="hotels-section">
             <SectionHeader name={'Best Hotels to Stay'} onClick={()=>{}} noOfItems={23} toNavigate={'/things-to-do'} handlePrev={handlePrev} handleNext={handleNext}/>
             <HotelsCardSlider slider={sliderRef4} settings={settings} />
+            <HotelsMobile/>
         </Container>
     );
 };

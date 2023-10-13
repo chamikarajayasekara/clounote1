@@ -2,7 +2,7 @@ import React, {useRef} from 'react';
 import Slider from "react-slick";
 import {Container} from "react-bootstrap";
 import SectionHeader from "../../../molecules/SectionHeader/SectionHeader";
-import TopToursCardSlide from "../../../organisms/Sliders/CardSlider/TopToursCardSlide";
+import TopToursCardSlide from "../../../organisms/Sliders/CardSlider/DesktopCardSliders/TopToursCardSlide";
 import TopToursMobileSlider
     from "../../../organisms/Sliders/CardSlider/MobileCardSliders/TopTours/TopToursMobileSlider";
 

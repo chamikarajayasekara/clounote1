@@ -28,15 +28,18 @@
 @import "../components/organisms/NavigationBar/navigationBar.scss";
 @import "../components/organisms/Sliders/HeroSLider/heroSlider.scss";
 @import "../components/organisms/MobileDarwer/mobileDrawer";
-@import "../components/organisms/Contents/OtherSayingContent/otherSaying";
+@import "../components/organisms/Contents/OtherSayingContent/Desktop/otherSaying";
+@import "../components/organisms/Contents/OtherSayingContent/Mobile/otherSayingMobile";
 @import "../components/organisms/Sliders/CardSlider/MobileCardSliders/ThingsToDO/ThingsToDoMobileSlider";
 @import "../components/organisms/Sliders/CardSlider/MobileCardSliders/TopTours/topToursMobile";
 @import "../components/organisms/Sliders/CardSlider/MobileCardSliders/LocalCraft/craftsMobileSlider";
+@import "../components/organisms/Sliders/CardSlider/MobileCardSliders/Hotels/hotelsMobile";
 
 //Templates
 
 @import "../components/templates/HomePagetemplates/RentATukTukSection/rentATuk";
 @import "../components/templates/HomePagetemplates/LocalCraftsSection/localCrafts";
+@import "../components/templates/HomePagetemplates/HotelsSection/hotelsSection";
 @import "../components/templates/Footer/footer";
 @import "../components/templates/HomePagetemplates/HomePageHeroSection/homePageHeroSection";
 

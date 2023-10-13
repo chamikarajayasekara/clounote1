@@ -1,7 +1,7 @@
 import React, {useRef} from 'react';
 import SectionHeader from "../../../molecules/SectionHeader/SectionHeader";
 import Slider from "react-slick";
-import ThingsToDoCardSlider from "../../../organisms/Sliders/CardSlider/ThingsToDoCardSlider";
+import ThingsToDoCardSlider from "../../../organisms/Sliders/CardSlider/DesktopCardSliders/ThingsToDoCardSlider";
 import { Container } from 'react-bootstrap';
 import ThingsToDoMobileCardSlider
     from "../../../organisms/Sliders/CardSlider/MobileCardSliders/ThingsToDO/ThingsToDoMobileCardSlider";
