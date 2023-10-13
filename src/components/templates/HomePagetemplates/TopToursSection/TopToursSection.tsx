@@ -3,6 +3,8 @@ import Slider from "react-slick";
 import {Container} from "react-bootstrap";
 import SectionHeader from "../../../molecules/SectionHeader/SectionHeader";
 import TopToursCardSlide from "../../../organisms/Sliders/CardSlider/TopToursCardSlide";
+import TopToursMobileSlider
+    from "../../../organisms/Sliders/CardSlider/MobileCardSliders/TopTours/TopToursMobileSlider";
 
 const TopToursSection = () => {
     const settings = {
@@ -63,6 +65,7 @@ const TopToursSection = () => {
         <Container className="things-to-do-section">
             <SectionHeader name={'Knuckles Top Tours'} onClick={()=>{}} noOfItems={12} toNavigate={'/things-to-do'} handlePrev={handlePrev} handleNext={handleNext}/>
             <TopToursCardSlide slider={sliderRef2} settings={settings}/>
+            <TopToursMobileSlider/>
         </Container>
     );
 };

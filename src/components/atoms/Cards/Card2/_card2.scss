@@ -5,14 +5,14 @@
   border: 1px solid #E0E0E0;
   margin-bottom: 7%;
   @media #{$Mobile}  {
-    width: 250px;
-    height: 315px;
+    width: 275px;
+    height: 300px;
   }
   .img-content{
     height: 223px;
     @media #{$Mobile}  {
-      width: 200px;
-      height: 200px;
+      width: 275px;
+      height: 182px;
     }
     .full-content-card-img{
       width: 366px;
@@ -24,15 +24,15 @@
       border-radius: 10px 10px 0px 0px;
       opacity: 1;
       @media #{$Mobile}  {
-        width: 250px;
-        height: 200px;
+        width: 275px;
+        height: 182px;
       }
     }
   }
   .content-section{
     margin: 5%;
     @media #{$Mobile}  {
-      margin: 4%;
+      margin: 16px 10px 23px;
     }
     .content1{
       display: flex;
@@ -80,7 +80,7 @@
       display: flex;
       align-items: center;
       @media #{$Mobile}  {
-        margin-top: 5px;
+        margin-top: 10px;
       }
       .category{
         margin-left: 10px;
@@ -103,5 +103,7 @@
   @media #{$Mobile}  {
     display: flex !important;
     justify-content: center;
+    width: 275px;
+    height: 350px;
   }
 }

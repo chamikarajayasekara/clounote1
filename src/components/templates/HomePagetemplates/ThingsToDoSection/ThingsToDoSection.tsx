@@ -4,7 +4,7 @@ import Slider from "react-slick";
 import ThingsToDoCardSlider from "../../../organisms/Sliders/CardSlider/ThingsToDoCardSlider";
 import { Container } from 'react-bootstrap';
 import ThingsToDoMobileCardSlider
-    from "../../../organisms/Sliders/CardSlider/MobileCardSliders/ThingsToDoMobileCardSlider";
+    from "../../../organisms/Sliders/CardSlider/MobileCardSliders/ThingsToDO/ThingsToDoMobileCardSlider";
 
 const ThingsToDoSection = () => {
     const settings = {

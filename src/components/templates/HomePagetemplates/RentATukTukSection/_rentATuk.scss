@@ -6,6 +6,9 @@
   opacity: 1;
   margin-top: 80px;
   position: relative;
+  @media #{$Mobile}  {
+    margin-top: unset;
+  }
   @media #{$Tablet}  {
     height: 500px;
     width: 99%;
