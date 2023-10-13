@@ -6,84 +6,111 @@ footer{
   @media #{$Mobile}  {
     height: unset;
   }
-  .footer-top-row{
-    margin-left: 2%;
-    margin-right: 2%;
-    margin-top: 6%;
-    border-bottom: 1px solid #CCCCCC;
-    .content-one-p{
-      margin-top: 22px;
-      width: 268px;
-      height: 61px;
-      /* UI Properties */
-      text-align: left;
-      font: normal normal normal 14px/21px $mainFont;
-      letter-spacing: 0px;
-      color: #FFFFFF;
-      opacity: 1;
+  .container{
+    @media #{$Mobile}{
+      padding: 0;
+    }
+    .footer-top-row{
+      margin-left: 2%;
+      margin-right: 2%;
+      margin-top: 6%;
+      border-bottom: 1px solid #CCCCCC;
       @media #{$Mobile}  {
-        font-size: 12px;
-        line-height: 12px;
-        width: unset;
+        margin-left:0;
+        margin-right: 0;
+        margin-top: 50px;
+      }
+
+      .content-one-p{
+        margin-top: 22px;
+        width: 268px;
+        height: 61px;
+        /* UI Properties */
+        text-align: left;
+        font: normal normal normal 14px/21px $mainFont;
+        letter-spacing: 0px;
+        color: #FFFFFF;
+        opacity: 1;
+        @media #{$Mobile}  {
+          font-size: 14px;
+          line-height: 21px;
+          width: unset;
+          margin-top: 12px;
+        }
+      }
+      .social-media-footer{
+        display: flex;
+        margin-bottom: 75px;
+        @media #{$Mobile}  {
+          margin-bottom: 60px;
+        }
+        span{
+          margin-right: 15px;
+        }
+      }
+      .contact-us{
+        @media #{$Mobile}  {
+          margin-bottom: 60px;
+        }
+        h5{
+          width: 83px;
+          height: 22px;
+          /* UI Properties */
+          text-align: left;
+          font: normal normal 900 16px/26px $mainFont;
+          letter-spacing: 0px;
+          color: #FFFFFF;
+          opacity: 1;
+          margin-bottom: 34px;
+          @media #{$Mobile}  {
+            margin-bottom: 20px;
+          }
+        }
+        .contact-item{
+
+        }
+      }
+      .useful-info{
+        @media #{$Mobile}  {
+          padding-bottom: 10px;
+        }
+        h5{
+          width: 83px;
+          height: 22px;
+          /* UI Properties */
+          text-align: left;
+          font: normal normal 900 16px/26px $mainFont;
+          letter-spacing: 0px;
+          color: #FFFFFF;
+          opacity: 1;
+          margin-bottom: 34px;
+          @media #{$Mobile}  {
+            margin-bottom: 20px;
+          }
+        }
+        p{
+          text-align: left;
+          font: normal normal normal 14px/22px $mainFont;
+          letter-spacing: 0px;
+          color: #FFFFFF;
+          opacity: 1;
+        }
       }
     }
-    .social-media-footer{
-      display: flex;
-      margin-bottom: 75px;
+    .footer-bottom-row{
+      margin-left: 2%;
+      margin-top: 2%;
+      @media #{$Mobile}  {
+        margin-left: 0;
+      }
       span{
-        margin-right: 15px;
-      }
-    }
-    .contact-us{
-      h5{
-        width: 83px;
-        height: 22px;
-        /* UI Properties */
         text-align: left;
-        font: normal normal 900 16px/26px $mainFont;
+        font: normal normal normal 12px/26px $mainFont;
         letter-spacing: 0px;
         color: #FFFFFF;
-        opacity: 1;
-        margin-bottom: 34px;
-      }
-      .contact-item{
-
-      }
-    }
-    .useful-info{
-      @media #{$Mobile}  {
-       padding-bottom: 10px;
-      }
-      h5{
-        width: 83px;
-        height: 22px;
-        /* UI Properties */
-        text-align: left;
-        font: normal normal 900 16px/26px $mainFont;
-        letter-spacing: 0px;
-        color: #FFFFFF;
-        opacity: 1;
-        margin-bottom: 34px;
-      }
-      p{
-        text-align: left;
-        font: normal normal normal 14px/22px $mainFont;
-        letter-spacing: 0px;
-        color: #FFFFFF;
-        opacity: 1;
+        opacity: 0.8;
       }
     }
   }
-  .footer-bottom-row{
-    margin-left: 2%;
-    margin-top: 2%;
-    span{
 
-      text-align: left;
-      font: normal normal normal 12px/26px $mainFont;
-      letter-spacing: 0px;
-      color: #FFFFFF;
-      opacity: 0.8;
-    }
-  }
 }
