@@ -40,4 +40,7 @@
 
 .img-background-card-3:hover {
   transform: scale(1.05);
+  @media #{$Mobile}  {
+    transform: unset;
+  }
 }
