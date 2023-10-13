@@ -1,0 +1,18 @@
+.crafts-mobile-slider{
+  .slick-slider{
+    display: none;
+    @media #{$Mobile}  {
+      display: flex !important;
+    }
+    .slick-list{
+      @media #{$Mobile}  {
+        margin-top: 15px !important;
+      }
+      .slick-track{
+        @media #{$Mobile}  {
+          display: flex !important;
+        }
+      }
+    }
+  }
+}

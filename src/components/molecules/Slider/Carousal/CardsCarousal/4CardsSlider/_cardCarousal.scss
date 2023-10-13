@@ -39,8 +39,9 @@
 
 .card-carousal-content-2{
   margin: 2%;
-  .slick-list{
-    //height: 375px;
+  @media #{$Mobile}  {
+    margin: unset;
+    display: none;
   }
 }
 

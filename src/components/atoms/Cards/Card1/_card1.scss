@@ -79,3 +79,18 @@
   }
 }
 
+.card3{
+  //margin-top: 20px;
+  //margin-left: 10%;
+  cursor: pointer;
+  @media #{$Mobile}  {
+    margin-left: unset;
+    display: flex !important;
+    justify-content: center;
+    width: 193px  !important;;
+    height: 256px  !important;;
+  }
+  @media #{$Tablet}  {
+    margin-left: unset;
+  }
+}

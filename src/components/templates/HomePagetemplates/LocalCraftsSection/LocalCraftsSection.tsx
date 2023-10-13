@@ -4,6 +4,7 @@ import {Container} from "react-bootstrap";
 import SectionHeader from "../../../molecules/SectionHeader/SectionHeader";
 import ThingsToDoCardSlider from "../../../organisms/Sliders/CardSlider/ThingsToDoCardSlider";
 import CarftsCardSlider from "../../../organisms/Sliders/CardSlider/CarftsCardSlider";
+import LocalCraft from "../../../organisms/Sliders/CardSlider/MobileCardSliders/LocalCraft/LocalCraft";
 
 const LocalCraftsSection = () => {
     const settings = {
@@ -65,6 +66,7 @@ const LocalCraftsSection = () => {
         <Container className="local-crafts">
             <SectionHeader name={'Enjoy Local Crafts'} onClick={()=>{}} noOfItems={23} toNavigate={'/local-crafts'} handlePrev={handlePrev} handleNext={handleNext}/>
             <CarftsCardSlider slider={sliderRef3} settings={settings} />
+            <LocalCraft/>
         </Container>
     );
 };

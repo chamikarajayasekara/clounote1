@@ -1,3 +1,6 @@
 .local-crafts{
-    margin-top: 5%;
+
+    @media #{$Mobile}  {
+       margin-bottom: 50px;
+    }
 }
