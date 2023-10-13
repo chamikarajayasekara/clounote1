@@ -3,6 +3,8 @@ import SectionHeader from "../../../molecules/SectionHeader/SectionHeader";
 import Slider from "react-slick";
 import ThingsToDoCardSlider from "../../../organisms/Sliders/CardSlider/ThingsToDoCardSlider";
 import { Container } from 'react-bootstrap';
+import ThingsToDoMobileCardSlider
+    from "../../../organisms/Sliders/CardSlider/MobileCardSliders/ThingsToDoMobileCardSlider";
 
 const ThingsToDoSection = () => {
     const settings = {
@@ -31,13 +33,6 @@ const ThingsToDoSection = () => {
                     slidesToShow: 2,
                     slidesToScroll: 1,
                 }
-            },
-            {
-                breakpoint: 480,
-                settings: {
-                    slidesToShow: 1,
-                    slidesToScroll: 1,
-                }
             }
         ]
     };
@@ -64,6 +59,7 @@ const ThingsToDoSection = () => {
         <Container className="things-to-do-section">
             <SectionHeader name={'Things To Do In Riverston'} onClick={()=>{}} noOfItems={8} toNavigate={'/things-to-do'} handlePrev={handlePrev} handleNext={handleNext}/>
             <ThingsToDoCardSlider slider={sliderRef} settings={settings} />
+            <ThingsToDoMobileCardSlider/>
         </Container>
     );
 };

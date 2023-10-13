@@ -1,25 +1,24 @@
-import React, { useState } from "react";
+import React, {useState} from 'react';
 import Slider from "react-slick";
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
-import {ThingsToDoDataset} from "../../../utils/helpers/ThingsToDoDataset";
+import {ThingsToDoDataset} from "../../../../../utils/helpers/ThingsToDoDataset";
+import Card1 from "../../../../atoms/Cards/Card1/Card1";
 
-const VariableWidth: React.FC = () => {
+const ThingsToDoMobileCardSlider = () => {
     const [activeIndex, setActiveIndex] = useState(0);
 
     const handleBeforeChange = (oldIndex: number, newIndex: number) => {
         setActiveIndex(newIndex);
     }
 
-    const renderSlide = (item: any, index: number) => {
+    const renderSlide = (slide: any, index: number) => {
         const slideStyle: React.CSSProperties = {
             width: activeIndex === index ? (index % 2 === 0 ? "225px" : "225px") : "225px"
         };
 
         return (
-            <div key={index} style={slideStyle}>
-                <img src={item.image} alt={item.content1} width={218} height={300} />
-            </div>
+                <div key={index} className="card1" style={slideStyle}>
+                    <Card1 image={slide.image} content1={slide.content1} content2={slide.content2} />
+                </div>
         );
     }
 
@@ -42,14 +41,12 @@ const VariableWidth: React.FC = () => {
     };
 
     return (
-        <div>
-            <h2>Variable width</h2>
+        <div className="things-to-do-mobile-slider">
             <Slider {...settings}>
                 {ThingsToDoDataset.map((item:any, index:number) => renderSlide(item, index))}
             </Slider>
-            <p>Active Index: {activeIndex}</p>
         </div>
     );
-}
+};
 
-export default VariableWidth;
+export default ThingsToDoMobileCardSlider;

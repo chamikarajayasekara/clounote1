@@ -10,6 +10,8 @@ import WhatOtherSayingSection
     from "../components/templates/HomePagetemplates/WhatOtherSayingSection/WhatOtherSayingSection";
 import Footer from "../components/templates/Footer/Footer";
 import Test from "../components/templates/Test/Test";
+import CardCarouselTest from "../components/templates/Test/Test";
+import VariableWidth from "../components/templates/Test/Test";
 
 const Home = () => {
     return (

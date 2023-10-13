@@ -1,0 +1,16 @@
+.things-to-do-mobile-slider{
+  display: none;
+  .slick-slider{
+    @media #{$Mobile}  {
+      margin-left: 10px !important;
+      display: flex !important;
+    }
+    .slick-list{
+      .slick-track{
+        @media #{$Mobile}  {
+          display: flex !important;
+        }
+      }
+    }
+  }
+}

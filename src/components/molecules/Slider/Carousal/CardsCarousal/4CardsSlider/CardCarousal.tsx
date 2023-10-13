@@ -20,7 +20,7 @@ const CardCarousal:React.FC<Props>= ({  slider,settings, slides}) => {
                       (
                           <div key={key} className="card1">
                             <Card1 image={slide.image} content1={slide.content1} content2={slide.content2} />
-                        </div>
+                          </div>
                       )
                     )
                 }
