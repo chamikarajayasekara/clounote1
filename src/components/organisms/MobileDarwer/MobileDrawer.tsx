@@ -3,6 +3,7 @@ import Offcanvas from 'react-bootstrap/Offcanvas';
 import Logo from '../../atoms/Logo/Logo'
 import MenuSection from "../../molecules/MenuSection/MenuSection";
 import ButtonsMenuSection from "../../molecules/ButtonsMenu/ButtonsMenuSection";
+import MobileButtonMenu from "../../molecules/ButtonsMenu/MobileButtonMenu/MobileButtonMenu";
 interface MobileDrawerProps {
     isOpen: boolean;
     onClose: () => void;
@@ -20,12 +21,12 @@ const MobileDrawer: React.FC<MobileDrawerProps> = ({ isOpen, onClose }) => {
             <Offcanvas show={isOpen} onHide={onClose} placement={'end'}>
                 <Offcanvas.Header closeButton>
                     <Offcanvas.Title>
-                        <Logo/>
+
                     </Offcanvas.Title>
                 </Offcanvas.Header>
                 <Offcanvas.Body>
                     <MenuSection mobile={true}/>
-                    <ButtonsMenuSection/>
+                    <MobileButtonMenu/>
                 </Offcanvas.Body>
             </Offcanvas>
         </>

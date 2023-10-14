@@ -44,6 +44,10 @@ footer{
         @media #{$Mobile}  {
           margin-bottom: 60px;
         }
+        @media #{$Tablet}  {
+          margin-top: 40px;
+          margin-bottom: 0;
+        }
         span{
           margin-right: 15px;
         }
@@ -51,6 +55,9 @@ footer{
       .contact-us{
         @media #{$Mobile}  {
           margin-bottom: 60px;
+        }
+        @media #{$Tablet}  {
+          margin-bottom: 0;
         }
         h5{
           width: 83px;

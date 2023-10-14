@@ -27,8 +27,8 @@
     display: flex !important;
   }
   @media #{$Tablet}  {
-    left: 10%;
-    top: 43% !important;
+    left: 50%;
+    top: 65% !important;
     display: flex !important;
   }
   li{
@@ -116,12 +116,6 @@
         left: unset;
         margin: 4%;
       }
-      @media #{$Tablet}  {
-      width: 80%;
-      top: unset;
-      left: unset;
-      margin: 4%;
-    }
       .video-btn-section{
         display: flex;
         align-items: center;

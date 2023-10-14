@@ -18,6 +18,10 @@ const FlatRoundButton:  React.FC<Props> = ({name, onClick, text}) => {
             return 'rounded-flat-btn button-green-white-two'
         }else if (name === 'greenButton3'){
             return 'rounded-flat-btn button-green-white-three'
+        }else if (name === 'greenButtonFull'){
+            return 'rounded-flat-btn button-green-white-full'
+        }else if (name === "whiteButtonFull") {
+            return 'rounded-flat-btn button-white-green-full'
         }
     }
 

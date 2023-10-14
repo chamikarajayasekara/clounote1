@@ -19,6 +19,7 @@
     opacity: 1;
     @media #{$Mobile}  {
       font-size: 10px;
+      height: unset;
     }
     @media #{$Tablet}  {
      height: 55px;

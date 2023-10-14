@@ -24,6 +24,9 @@
           color: $popular-black;
           letter-spacing: 0px;
           opacity: 1;
+          &:hover {
+            color: $base-green;
+          }
         }
       }
 
@@ -39,10 +42,11 @@
   width: 100%;
   .list-styles {
     text-decoration: none;
-    text-align: left;
+    text-align: center;
     display: flex;
+    justify-content: center;
     .menu-item {
-      margin-top: 10px;
+      margin-bottom: 40px;
       .link-tag {
         text-decoration: none;
         .menu-item-name{
@@ -55,6 +59,9 @@
           color: $popular-black;
           letter-spacing: 0px;
           opacity: 1;
+          &:hover {
+            color: $base-green;
+          }
         }
       }
 
