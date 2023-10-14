@@ -1,6 +1,6 @@
 import cycle from '../../assets/cycle.png'
 import camping from '../../assets/camp.png'
-import hike from '../../assets/hike2.png'
+import hike from '../../assets/hike3.png'
 import tuk from '../../assets/TukTuk.png'
 import walk from '../../assets/walk.png'
 import wf from '../../assets/wf.png'
