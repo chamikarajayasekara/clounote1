@@ -14,6 +14,7 @@ const Footer = () => {
                     <FooterContentTwo/>
                     <FooterContentThree/>
                 </Row>
+                <hr/>
                 <FooterContentFour/>
             </Container>
         </footer>

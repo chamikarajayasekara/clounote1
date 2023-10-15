@@ -13,7 +13,7 @@ const HotelsMobile = () => {
 
     const renderSlide = (slide: any, index: number) => {
         const slideStyle: React.CSSProperties = {
-            width: activeIndex === index ? (index % 2 === 0 ? "166px" : "166px") : "166px"
+            width: activeIndex === index ? (index % 2 === 0 ? "170px" : "170px") : "170px"
         };
 
         return (

@@ -7,17 +7,23 @@
     display: block;
   }
   .top-section{
-    height: 233px;
     background: #FFFFFF 0% 0% no-repeat padding-box;
     border: 1px solid #E0E0E0;
     border-radius: 10px 10px 0px 0px;
     opacity: 1;
     .inside-box{
-      margin-top: 20px;
-      margin-left: 20px;
+      margin: 25px;
       h4{
         text-align: left;
         font: normal normal 900 22px/24px $mainFont;
+        letter-spacing: 0px;
+        color: #1B202C;
+        opacity: 1;
+      }
+      p{
+        /* UI Properties */
+        text-align: left;
+        font: normal normal normal 14px/19px Avenir;
         letter-spacing: 0px;
         color: #1B202C;
         opacity: 1;

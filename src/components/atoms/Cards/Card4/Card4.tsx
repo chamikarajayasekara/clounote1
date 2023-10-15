@@ -25,7 +25,7 @@ const Card4 :React.FC<Props>= ({image,content1, rating, category, location, pric
                         <Rating rate={rating} space={'2px'} widths={'16px'} color={'#FF8300'}/>
                     </span>
                     <span className="mobile-rate">
-                        <Rating rate={rating} space={'2px'} widths={'10px'} color={'#FF8300'}/>
+                        <Rating rate={rating} space={'0'} widths={'14px'} color={'#FF8300'}/>
                     </span>
                     <span className="hotel-category">{category}</span>
                 </div>
@@ -35,7 +35,7 @@ const Card4 :React.FC<Props>= ({image,content1, rating, category, location, pric
                         <img src={locationimg} alt="" className='location-img'/>{location}
                     </span>
                     <div className="price-sec">
-                        <span className="price">{price}</span>&nbsp;<span className="unit">/{unit}</span>
+                        <span className="price">{price}</span>&nbsp;<span className="unit">/&nbsp;{unit}</span>
                     </div>
                 </div>
             </div>

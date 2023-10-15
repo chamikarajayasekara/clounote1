@@ -105,6 +105,9 @@
     transform: translate(-50%, -50%);
     background: transparent linear-gradient(90deg, #000000CC 0%, #00000000 100%) 0% 0% no-repeat padding-box;
     z-index: 1;
+    @media #{$Mobile}  {
+      background: transparent linear-gradient(360deg,rgba(0,0,0,.8),transparent) 0 0 no-repeat padding-box;
+    }
     .mid-content{
       position: absolute;
       width: 45%;
@@ -112,7 +115,7 @@
       left: 10%;
       @media #{$Mobile}  {
         width: 80%;
-        top: 20%;
+        top: 25%;
         left: unset;
         margin: 4%;
       }

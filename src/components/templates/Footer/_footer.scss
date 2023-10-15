@@ -14,7 +14,7 @@ footer{
       margin-left: 2%;
       margin-right: 2%;
       margin-top: 4%;
-      border-bottom: 1px solid #CCCCCC;
+      //border-bottom: 1px solid #CCCCCC;
       @media #{$Mobile}  {
         margin-left:0;
         margin-right: 0;
@@ -79,7 +79,7 @@ footer{
       }
       .useful-info{
         @media #{$Mobile}  {
-          padding-bottom: 10px;
+          padding-bottom: 30px;
         }
         h5{
           width: 83px;
@@ -104,10 +104,18 @@ footer{
         }
       }
     }
+    hr{
+      color: #CCCCCC;
+      display: flex;
+      justify-content: center;
+      margin-left: 10px;
+      margin-right: 10px;
+    }
     .footer-bottom-row{
       margin-top: 2%;
       @media #{$Mobile}  {
         margin-left: 0;
+        margin-top: 30px;
         margin-bottom: 50px;
       }
       span{
@@ -117,7 +125,7 @@ footer{
         color: #FFFFFF;
         opacity: 0.8;
         @media #{$Mobile}  {
-          font-size: 12px;
+          font-size: 14px;
         }
         a{
           cursor: pointer;
@@ -131,7 +139,8 @@ footer{
         opacity: 0.8;
         margin-left: 8%;
         @media #{$Mobile}  {
-          font-size: 12px;
+          font-size: 14px;
+          margin-left: unset;
         }
       }
     }

@@ -28,6 +28,10 @@
       color: #FFFFFF;
       opacity: 1;
       margin-bottom: 10px;
+      @media #{$Mobile}  {
+        font-size: 17px;
+        margin-bottom: 6px;
+      }
     }
     .content2{
       text-align: left;

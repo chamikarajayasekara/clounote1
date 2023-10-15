@@ -69,35 +69,35 @@ export const ThingsToDoDataset =
 export const TopToursDataset = [
     {
         image: walk,
-        content1: "All Inclusive Knuckles Day Track With Accom…",
+        content1: "All inclusive knuckles day track with accom",
         location:'Knuckles',
         price: 'USD 90',
         category:'Walking Tours'
     },
     {
         image: wf,
-        content1: "Waterfall Trekking In Knuckles Mountain Ran…",
+        content1: "Waterfall trekking in knuckles mountain ran",
         location:'Knuckles',
         price: 'USD 175',
         category:'Extreme Sports'
     },
     {
         image:treeking,
-        content1: "Knuckles Trek",
+        content1: "Knuckles trek",
         location:'Knuckles',
         price: 'USD 1000',
         category:'Camping'
     },
     {
         image:trek,
-        content1: "Trekking Tour - Knuckles Mountain Range In Sri …",
+        content1: "Trekking tour - knuckles mountain range in sri",
         location:'Knuckles',
         price: 'USD 260',
         category:'Full-day Tours'
     },
     {
         image:mount,
-        content1: "Knuckles Spice Trail Trek From Kandy",
+        content1: "Knuckles spice trail trek from kandy",
         location:'Knuckles',
         price: 'USD 169',
         category:'4WD Tours'
@@ -111,45 +111,59 @@ export const TopToursDataset = [
     },
     {
         image: walk,
-        content1: "All Inclusive Knuckles Day Track With Accom…",
+        content1: "All inclusive knuckles day track with accom",
         location:'Knuckles',
         price: 'USD 90',
         category:'Walking Tours'
     },
     {
         image: wf,
-        content1: "Waterfall Trekking In Knuckles Mountain Ran…",
+        content1: "Waterfall trekking in knuckles mountain ran",
         location:'Knuckles',
         price: 'USD 175',
         category:'Extreme Sports'
     },
     {
         image:treeking,
-        content1: "Knuckles Trek",
+        content1: "Knuckles trek",
         location:'Knuckles',
-        price: 'USD 300',
+        price: 'USD 1000',
         category:'Camping'
     },
     {
         image:trek,
-        content1: "Trekking Tour - Knuckles Mountain Range In Sri …",
+        content1: "Trekking tour - knuckles mountain range in sri",
         location:'Knuckles',
         price: 'USD 260',
         category:'Full-day Tours'
     },
     {
-        image:mount,
-        content1: "Knuckles Spice Trail Trek From Kandy",
+        image: walk,
+        content1: "All inclusive knuckles day track with accom",
         location:'Knuckles',
-        price: 'USD 169',
-        category:'4WD Tours'
+        price: 'USD 90',
+        category:'Walking Tours'
     },
     {
-        image:top,
-        content1: "Exclusive Knuckles Camping Tour From Ka…",
+        image: wf,
+        content1: "Waterfall trekking in knuckles mountain ran",
         location:'Knuckles',
-        price: 'USD 250',
-        category:'4WD Tours'
+        price: 'USD 175',
+        category:'Extreme Sports'
+    },
+    {
+        image:treeking,
+        content1: "Knuckles trek",
+        location:'Knuckles',
+        price: 'USD 1000',
+        category:'Camping'
+    },
+    {
+        image:trek,
+        content1: "Trekking tour - knuckles mountain range in sri",
+        location:'Knuckles',
+        price: 'USD 260',
+        category:'Full-day Tours'
     },
 ]
 

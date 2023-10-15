@@ -6,6 +6,7 @@ import angleLeft from '../../../assets/angleLeft.png';
 import angleRight from '../../../assets/angleRight.png';
 import button2 from '../../../assets/angle2.svg';
 import button3 from '../../../assets/angle3.svg';
+import seAll from '../../../assets/navigate_next_black_24dp (3).svg';
 
 interface Props {
     name:string,
@@ -28,7 +29,7 @@ const SectionHeader:React.FC<Props>= ({ onClick, name, noOfItems, toNavigate, ha
                     <span>{name}</span>
                 </div>
                 <div className="view-all">
-                    <span>{`See All >`}</span>
+                    <span>{`See All `}<img src={seAll} alt="" width={16} height={16}/></span>
                 </div>
                 <div className="section-controllers">
                     <span onClick={handleNavigate}>Show All ({noOfItems})</span>

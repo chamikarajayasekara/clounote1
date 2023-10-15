@@ -8,6 +8,7 @@ const RentATukLeftSideContent = () => {
             <h1>Rent a <br/> Tuk Tuk?</h1>
             <h2>Rent a Tuk Tuk?</h2>
             <span>We provide tourists transportation services with the <br/> highest quality and best price </span>
+            <span className="mobile-span">We provide tourists transportation services with the highest quality and best price </span>
             <div className="explore">
                 <FlatRoundButton name={'greenButtonBig'} text={'Explore'} onClick={() => {}}/>
             </div>

@@ -11,21 +11,17 @@ interface Props {
 const MobileMenu = (props:Props) => {
     return (
         <Container className="mobile-nav">
-            <Row>
-                <Col xs={8} md={8}>
-                    <Logo/>
-                </Col>
-                <Col xs={2} md={2}>
-                    <div onClick={props.handleOpenDrawer} className="drawer-button">
-                        <IconButton name={'menu'} icon={search} width={20} height={20}/>
-                    </div>
-                </Col>
-                <Col xs={2} md={2}>
-                    <div onClick={props.handleOpenDrawer} className="drawer-button">
-                        <IconButton name={'menu'} icon={menu} width={20} height={20}/>
-                    </div>
-                </Col>
-            </Row>
+            <div className="logo-section">
+                <Logo/>
+            </div>
+            <div className="buttons">
+                <div onClick={props.handleOpenDrawer} className="drawer-button">
+                    <IconButton name={'menu'} icon={search} width={17} height={17}/>
+                </div>
+                <div onClick={props.handleOpenDrawer} className="drawer-button">
+                    <IconButton name={'menu'} icon={menu} width={20} height={20}/>
+                </div>
+            </div>
         </Container>
     );
 };

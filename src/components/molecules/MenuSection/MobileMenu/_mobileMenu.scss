@@ -6,28 +6,17 @@
     left: 50%;
     display: none;
     @media #{$Mobile}  {
-      display: block;
-
+      display: flex;
     }
-    .drawer-button{
-      width: 40px !important;
-      height: 40px !important;
-      background-color: white;
-      box-shadow: 0px 3px 6px #00000029;
-      border-radius: 50px;
-      position: relative;
-      .icon-button{
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-      }
+    .logo-section{
+      display: flex;
+      justify-content: flex-start;
+      width: 70%;
     }
-    .drawer-round-button2{
-      @media #{$Mobile}  {
-        display: block;
-
-      }
+    .buttons{
+      display: flex;
+      justify-content: space-between;
+      width: 30%;
       .drawer-button{
         width: 40px !important;
         height: 40px !important;
@@ -42,6 +31,27 @@
           transform: translate(-50%, -50%);
         }
       }
+      .drawer-round-button2{
+        @media #{$Mobile}  {
+          display: block;
+
+        }
+        .drawer-button{
+          width: 40px !important;
+          height: 40px !important;
+          background-color: white;
+          box-shadow: 0px 3px 6px #00000029;
+          border-radius: 50px;
+          position: relative;
+          .icon-button{
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+          }
+        }
+      }
     }
+
 
 }
