@@ -1,5 +1,5 @@
 import React from 'react';
-import  image from '../../../../../assets/laugh.png'
+import  image from '../../../../../assets/haha.jpg'
 import OtherSayingLeft from "../../../../molecules/Contents/OtherSayingContentAll/OtherSayingLeft";
 import OtherSayingRight from "../../../../molecules/Contents/OtherSayingContentAll/OtherSayingRight";
 
