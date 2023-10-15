@@ -125,6 +125,7 @@
       width: 650px;
       height: 626px;
       opacity: 1;
+      border-radius: 25px;
       @media #{$Mobile}  {
         position: unset;
         transform: unset;
