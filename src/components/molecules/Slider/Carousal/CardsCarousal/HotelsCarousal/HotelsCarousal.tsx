@@ -15,7 +15,7 @@ const HotelsCarousal :React.FC<Props>= ({  slider,settings, slides}) => {
                 {
                     slides?.map((slide: any, key:number) =>
                         (
-                            <div key={key} className="card1">
+                            <div key={key} className="card4">
                                 <Card4 image={slide.image} content1={slide.content1} location={slide.location} price={slide.price} category={slide.category} rating={slide.rating} unit={slide.unit} />
                             </div>
                         )

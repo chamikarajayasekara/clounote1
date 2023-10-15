@@ -80,6 +80,8 @@
   margin-top: 20px;
   margin-left: 10%;
   cursor: pointer;
+  height: 400px;
+  border-radius: 16px;
   @media #{$Mobile}  {
     margin-left: unset;
     display: flex !important;
@@ -110,7 +112,9 @@
 }
 
 .card4{
+  height: 400px;
   cursor: pointer;
+  margin-top: 5%;
   @media #{$Mobile}  {
     margin-left: unset;
     display: flex !important;
@@ -118,4 +122,12 @@
     width: 160px  !important;;
     height: 257px  !important;;
   }
+}
+
+.card5{
+  margin-top: 20px;
+  margin-left: 10%;
+  cursor: pointer;
+  height: 280px;
+  border-radius: 16px;
 }

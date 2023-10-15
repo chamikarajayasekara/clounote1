@@ -38,7 +38,9 @@
 }
 
 .card-carousal-content-2{
-  margin: 2%;
+  margin-top: 1%;
+  margin-left: 2%;
+  margin-right: 2%;
   @media #{$Mobile}  {
     margin: unset;
     display: none;
@@ -46,6 +48,8 @@
 }
 
 .card-carousal-content-3{
+  margin-left: 4%;
+  margin-top: 1%;
   @media #{$Mobile}  {
     margin: unset;
     display: none;

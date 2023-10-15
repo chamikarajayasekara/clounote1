@@ -1,9 +1,9 @@
 import React, {useState} from 'react';
 import NavigationBar from "../../../organisms/NavigationBar/NavigationBar";
 import HeroSlider from "../../../organisms/Sliders/HeroSLider/HeroSlider";
-import hero1 from "../../../../assets/hss1.png";
-import hero2 from "../../../../assets/h3.png";
-import hero3 from "../../../../assets/h4.png";
+import hero1 from "../../../../assets/heros1.jpg";
+import hero2 from "../../../../assets/heros2.jpg";
+import hero3 from "../../../../assets/heros3.jpg";
 import menu from "../../../../assets/dmb.png";
 import MobileDrawer from '../../../organisms/MobileDarwer/MobileDrawer';
 import IconButton from "../../../atoms/Buttons/IconButton/IconButton";

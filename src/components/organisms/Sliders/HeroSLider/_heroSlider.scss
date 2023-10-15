@@ -107,7 +107,7 @@
     z-index: 1;
     .mid-content{
       position: absolute;
-      width: 49%;
+      width: 45%;
       top: 12%;
       left: 10%;
       @media #{$Mobile}  {
@@ -160,7 +160,7 @@
         }
       }
       .carousel-content-2 {
-        margin-top: 5%;
+        margin-top: 8%;
         text-align: left;
         @media #{$Mobile}  {
           margin-top: 25px;
@@ -195,7 +195,7 @@
         }
       }
       .carousel-content-3{
-        margin-top: 5%;
+        margin-top: 4%;
         text-align: left;
         display: flex;
         @media #{$Mobile}  {

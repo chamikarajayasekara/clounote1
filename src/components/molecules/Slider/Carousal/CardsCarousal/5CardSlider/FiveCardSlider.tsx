@@ -14,7 +14,7 @@ const FiveCardSlider:React.FC<Props>= ({  slider,settings, slides}) => {
                 {
                     slides?.map((slide: any, key:number) =>
                         (
-                            <div key={key} className="card1">
+                            <div key={key} className="card5">
                                 <Card3 image={slide.image} content1={slide.content1} content2={slide.content2} />
                             </div>
                         )

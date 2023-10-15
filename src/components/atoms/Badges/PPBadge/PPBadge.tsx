@@ -8,7 +8,7 @@ interface Props {
 const PpBadge :React.FC<Props>= ({content1, content2}) => {
     return (
         <div className='pp-badge'>
-            <p className="badge-text">{content1}</p>
+            <p className="badge-text">{content1}&nbsp;&nbsp;/<span>{content2}</span></p>
         </div>
     );
 };

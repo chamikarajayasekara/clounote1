@@ -22,7 +22,10 @@ const Card4 :React.FC<Props>= ({image,content1, rating, category, location, pric
             <div className="content-section-card4">
                 <div className="content1">
                     <span className="hotel-name">
-                        <Rating rate={rating} space={'2px'} widths={'12px'} color={'#FF8300'}/>
+                        <Rating rate={rating} space={'2px'} widths={'16px'} color={'#FF8300'}/>
+                    </span>
+                    <span className="mobile-rate">
+                        <Rating rate={rating} space={'2px'} widths={'10px'} color={'#FF8300'}/>
                     </span>
                     <span className="hotel-category">{category}</span>
                 </div>

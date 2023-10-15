@@ -26,7 +26,7 @@ const Card2:React.FC<Props>= ({image,content1,  location, price, category}) => {
                     </span>
                 </div>
                 <div className="content2">
-                    <PPBadge content1={price} content2={price}/>
+                    <PPBadge content1={price} content2={'pp'}/>
                     <span className="category">
                         {category}
                     </span>

@@ -11,7 +11,7 @@ const FooterContentFour = () => {
                 <span>Designed and developed by Clounote.com</span>
             </Col>
             <Col md={4}>
-               <span>Contact Us | Terms of Use | Privacy Policy</span>
+               <span>Contact Us   &nbsp; &nbsp;| &nbsp;&nbsp;  Terms of Use&nbsp;&nbsp;   |&nbsp;&nbsp;   Privacy Policy</span>
             </Col>
         </Row>
     );
