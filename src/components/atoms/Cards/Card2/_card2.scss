@@ -26,6 +26,7 @@
       @media #{$Mobile}  {
         width: 250px;
         height: 182px;
+        object-fit: cover;
       }
     }
   }

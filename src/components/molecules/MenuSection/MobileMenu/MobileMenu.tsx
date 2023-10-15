@@ -1,7 +1,7 @@
 import React from 'react';
 import IconButton from "../../../atoms/Buttons/IconButton/IconButton";
-import menu from "../../../../assets/dmb.png";
-import search from "../../../../assets/search.png"
+import menu from "../../../../assets/menu_black_24dp.svg";
+import search from "../../../../assets/Path 101.svg"
 import { Container, Row, Col } from 'react-bootstrap';
 import Logo from "../../../atoms/Logo/Logo";
 

@@ -20,6 +20,10 @@
     color: #FFFFFF;
     margin: 0;
     text-align: center;
+    @media #{$Mobile}  {
+      font-size: 13px;
+      line-height: 19px;
+    }
     span{
       font-style: normal;
       font-variant: normal;
