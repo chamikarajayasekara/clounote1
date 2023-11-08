@@ -7,6 +7,7 @@
 @import "../components/atoms/Buttons/RoundedButtons/AngleRoundedButtons/angleRoundedButton";
 @import "../components/atoms/Buttons/FlatButton/MobileButton/mobileButton";
 @import "../components/atoms/Logo/logo.scss";
+@import "../components/atoms/Headers/pageHeader";
 
 @import "../components/atoms/Cards/Card1/card1";
 @import "../components/atoms/Cards/Card2/card2";
@@ -25,6 +26,7 @@
 @import "../components/molecules/Contents/ContactUs/contactUsDetail";
 @import "../components/molecules/MenuSection/MobileMenu/mobileMenu";
 @import "../components/molecules/ButtonsMenu/MobileButtonMenu/mobileButtonMenu";
+@import "../components/molecules/Breadcrumb/breadCrumb";
 
 @import "../components/organisms/NavigationBar/navigationBar.scss";
 @import "../components/organisms/Sliders/HeroSLider/heroSlider.scss";
@@ -43,8 +45,16 @@
 @import "../components/templates/HomePagetemplates/HotelsSection/hotelsSection";
 @import "../components/templates/Footer/footer";
 @import "../components/templates/HomePagetemplates/HomePageHeroSection/homePageHeroSection";
+@import "../components/templates/ToursPageTemplate/FourImageSection/fourImageSection";
+@import "../components/templates/ToursPageTemplate/LocationInfo/locationInfo";
 
 .home{
   position: relative;
   width: 100%;
+}
+.tours{
+  width: auto !important;
+  margin-left: 7.5% !important;
+  margin-right: 7.5% !important;
+  margin-top: 40px!important;
 }

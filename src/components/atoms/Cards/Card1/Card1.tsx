@@ -13,7 +13,8 @@ const Card1 :React.FC<Props>= ({image,content1,  content2}) => {
         backgroundImage: `url(${image})`,
         backgroundPosition: '0% 0%',
         backgroundRepeat: 'no-repeat',
-        backgroundOrigin: 'padding-box'
+        backgroundOrigin: 'padding-box',
+
     };
 
     return (

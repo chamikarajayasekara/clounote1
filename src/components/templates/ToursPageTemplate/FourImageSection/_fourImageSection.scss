@@ -1,0 +1,35 @@
+
+.four-image-section{
+  height: 568px;
+  margin-bottom: 56px;
+  margin-top: 28px !important;
+  .left-img{
+    width: 97%;
+    height: 568px;
+    opacity: 1;
+    border-radius: 20px 0px 0px 20px;
+  }
+
+  .right-top-img{
+    height: 284px;
+    margin-bottom: 10px;
+    width: 100%;
+    opacity: 1;
+    border-radius: 0px 20px 0px 0px;
+  }
+
+  .right-bottom-left-img{
+    height: 275px;
+    width: 97%;
+    //opacity: 1;
+    background-position: 54% 0% !important;
+  }
+
+  .right-bottom-right-img{
+    height: 275px;
+    width: 97%;
+    //opacity: 1;
+    border-radius: 0px 0px 20px 0px;
+  }
+}
+

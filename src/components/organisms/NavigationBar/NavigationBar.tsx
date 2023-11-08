@@ -4,10 +4,8 @@ import FlatRoundButton from "../../atoms/Buttons/FlatButton/FlatRoundButton";
 import Container from 'react-bootstrap/Container';
 import MenuSection from "../../molecules/MenuSection/MenuSection";
 import ButtonsMenuSection from "../../molecules/ButtonsMenu/ButtonsMenuSection";
+
 const NavigationBar = () => {
-    function sayHi() {
-        console.log("hi")
-    }
 
     return (
         <Container fluid className="navigation-bar">

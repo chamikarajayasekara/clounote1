@@ -1,0 +1,22 @@
+.location-info {
+  display: flex;
+  align-items: center;
+  margin-top: 5px;
+  .location-icon {
+    width: 20px;
+    height: 20px;
+    //background-color: $blue1;
+    opacity: 1;
+    margin-right: 9px;
+  }
+
+  .location-name {
+    height: 20px;
+    text-align: left;
+    font: normal normal 900 14px/22px $mainFont;
+    letter-spacing: 0.2px;
+    color: $blue2;
+    opacity: 1;
+    //margin-left: 6px;
+  }
+}

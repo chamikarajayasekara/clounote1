@@ -1,0 +1,39 @@
+/* Breadcrumb Container */
+.breadcrumbs {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  border-radius: .25rem;
+  display: flex;
+}
+
+/* Breadcrumb Item */
+.breadcrumbs-item {
+  display: inline-block;
+  font: normal normal normal 18px/27px $mainFont;
+  color: $breadcrumb-color;
+  opacity: 1;
+  cursor: pointer;
+  letter-spacing: 0px;
+}
+
+/* Breadcrumb Link */
+.breadcrumbs-item a {
+  color: $breadcrumb-color;
+  text-decoration: none;
+  padding: .75rem .5rem;
+  opacity: 1;
+}
+
+/* Active Breadcrumb Item (current page) */
+.breadcrumbs-item.active {
+  color: $breadcrumb-color;
+  opacity: 1;
+}
+
+.breadcrumbs-item:not(:last-child)::after {
+  content: ">";
+  color: #AFAFAF;
+  margin-left: 5px;
+  margin-right: 5px;
+}

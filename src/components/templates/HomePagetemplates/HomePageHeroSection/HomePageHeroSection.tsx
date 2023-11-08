@@ -27,7 +27,6 @@ const HomePageHeroSection = () => {
 
     return (
         <div className="hero-section">
-            <NavigationBar/>
             <HeroSlider images={images}/>
             <MobileMenu handleOpenDrawer={handleOpenDrawer}/>
             {
