@@ -7,6 +7,7 @@ import ThingsToDo from "../pages/ThingsToDo";
 import Login from "../pages/Login";
 import Home from "../pages/Home/Home";
 import Tours from "../pages/Tours/Tours";
+import Footer from "../components/templates/Footer/Footer";
 
 function App() {
 
@@ -20,6 +21,7 @@ function App() {
                 <Route path="/tours" element={<Tours/>} />
                 {/*<Route path="*" element={<NotFound />} />*/}
             </Routes>
+        <Footer/>
     </div>
   );
 }

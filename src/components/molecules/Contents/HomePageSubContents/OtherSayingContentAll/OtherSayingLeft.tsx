@@ -1,5 +1,5 @@
 import React from 'react';
-import FlatRoundButton from "../../../atoms/Buttons/FlatButton/FlatRoundButton";
+import FlatRoundButton from "../../../../atoms/Buttons/FlatButton/FlatRoundButton";
 const HeadShake = require("react-reveal/HeadShake")
 
 const OtherSayingLeft = () => {

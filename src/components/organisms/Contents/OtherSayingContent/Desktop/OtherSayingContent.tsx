@@ -1,7 +1,7 @@
 import React from 'react';
 import  image from '../../../../../assets/haha.jpg'
-import OtherSayingLeft from "../../../../molecules/Contents/OtherSayingContentAll/OtherSayingLeft";
-import OtherSayingRight from "../../../../molecules/Contents/OtherSayingContentAll/OtherSayingRight";
+import OtherSayingLeft from "../../../../molecules/Contents/HomePageSubContents/OtherSayingContentAll/OtherSayingLeft";
+import OtherSayingRight from "../../../../molecules/Contents/HomePageSubContents/OtherSayingContentAll/OtherSayingRight";
 
 
 const OtherSayingContent = () => {

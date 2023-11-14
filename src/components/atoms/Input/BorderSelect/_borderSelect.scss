@@ -1,0 +1,83 @@
+
+.bordered-select-container-custom {
+  border: 1px solid #B0B0B0;
+  padding: 10px;
+  margin-bottom: 10px;
+  height: 62px;
+  border-radius: 5px;
+
+
+  .bordered-select-label {
+    display: block;
+    color: $pageHeader;
+    font-family: $mainFont;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+  }
+
+  .bordered-select {
+    border: none;
+    border-radius: 4px;
+    //overflow: hidden;
+    height: 22px;
+    cursor: pointer !important;
+    .css-13cymwt-control{
+      border: none;
+      border-radius: 0;
+      box-shadow: none !important;
+      min-height: unset;
+      cursor: pointer !important;
+      .css-1u9des2-indicatorSeparator{
+        display: none;
+        cursor: pointer !important;
+      }
+      .css-1fdsijx-ValueContainer{
+        padding: 0;
+        .css-1dimb5e-singleValue{
+          color: $pageHeader;
+          font-family: $mainFont;
+          font-size: 16px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: normal;
+        }
+      }
+    }
+    .css-t3ipsp-control{
+      border: none;
+      border-radius: 0;
+      box-shadow: none !important;
+      min-height: unset;
+      cursor: pointer !important;
+      .css-1u9des2-indicatorSeparator{
+        display: none;
+      }
+      .css-1fdsijx-ValueContainer{
+        padding: 0;
+        cursor: pointer !important;
+        .css-1dimb5e-singleValue{
+          color: $pageHeader;
+          font-family: $mainFont;
+          font-size: 16px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: normal;
+        }
+      }
+    }
+    .css-t3ipsp-control:hover{
+      border: none !important;
+      color: #111111 !important;
+      min-height: 20px !important;
+      box-shadow: none !important;
+      background-color: transparent !important;
+      cursor: none !important;
+    }
+    .css-1nmdiq5-menu{
+      cursor: pointer !important;
+    }
+
+  }
+}

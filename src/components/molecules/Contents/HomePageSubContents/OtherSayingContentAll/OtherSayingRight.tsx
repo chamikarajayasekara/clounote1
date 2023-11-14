@@ -1,5 +1,5 @@
 import React from 'react';
-import ta from '../../../../assets/ta.png'
+import ta from '../../../../../assets/ta.png'
 const Fade = require("react-reveal/Fade")
 
 const OtherSayingRight = () => {

@@ -1,0 +1,60 @@
+.reviews{
+  border-bottom: 2px solid $grey2;
+  width: 100%;
+  margin-top: 55px;
+  .header{
+    display: flex;
+    align-items: center;
+    .heading{
+      width: 78%;
+    }
+    .count{
+      width: auto;
+      display: flex;
+      justify-content: flex-end;
+      span{
+        text-align: left;
+        font: normal normal 900 32px/36px $mainFont;
+        letter-spacing: 0px;
+        color: $pageHeader;
+        opacity: 1;
+      }
+      .star{
+        margin-left: 8.5px;
+        display: block;
+        .sub-count{
+          height: 22px;
+          text-align: left;
+          font-family: $mainFont;
+          font-size: 14px !important;
+          font-style: normal;
+          font-weight: 500;
+          line-height: normal;
+          letter-spacing: 0px;
+          color: $grey;
+          opacity: 1;
+        }
+      }
+
+    }
+  }
+  .comments{
+    margin-top: 33px;
+  }
+  .underlined-sec{
+    display: flex;
+    align-items: center;
+    margin-left: 11%;
+    .green-underlined-text{
+      height: 25px;
+      text-align: left;
+      text-decoration: underline;
+      font: normal normal 900 16px/13px $mainFont;
+      letter-spacing: 0px;
+      color: $base-green;
+      opacity: 1;
+      cursor: pointer;
+      margin-right: 25px;
+    }
+  }
+}

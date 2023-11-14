@@ -1,5 +1,5 @@
 import React from 'react';
-import vw from "../../../../assets/wv.png";
+import vw from "../../../../../assets/wv.png";
 
 const VideoButtonContent = () => {
     return (

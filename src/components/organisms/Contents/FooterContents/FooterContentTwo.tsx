@@ -3,7 +3,7 @@ import location from '../../../../assets/fmd_good_black_24dp.svg'
 import email from '../../../../assets/email_black_24dp.svg'
 import phone from '../../../../assets/call_black_24dp.svg'
 import {Col} from "react-bootstrap";
-import ContactUsDetail from "../../../molecules/Contents/ContactUs/ContactUsDetail";
+import ContactUsDetail from "../../../molecules/Contents/HomePageSubContents/ContactUs/ContactUsDetail";
 
 const FooterContentTwo = () => {
     return (

@@ -12,9 +12,9 @@ import FlatRoundButton from "../../../atoms/Buttons/FlatButton/FlatRoundButton";
 import IconButton from "../../../atoms/Buttons/IconButton/IconButton";
 import SocialMediaMenu from "../../../molecules/SocialMediaMenu/SocialMediaMenu";
 import BookNowSection from "../../../molecules/ButtonsMenu/BookNowSection";
-import DescriptionHeroSlider from "../../../molecules/Contents/SliderContents/DescriptionHeroSlider";
-import MainHeroContent from "../../../molecules/Contents/SliderContents/MainHeroContent";
-import VideoButtonContent from "../../../molecules/Contents/SliderContents/VideoButtonContent";
+import DescriptionHeroSlider from "../../../molecules/Contents/HomePageSubContents/SliderContents/DescriptionHeroSlider";
+import MainHeroContent from "../../../molecules/Contents/HomePageSubContents/SliderContents/MainHeroContent";
+import VideoButtonContent from "../../../molecules/Contents/HomePageSubContents/SliderContents/VideoButtonContent";
 
 interface CarouselProps {
     images: string[];

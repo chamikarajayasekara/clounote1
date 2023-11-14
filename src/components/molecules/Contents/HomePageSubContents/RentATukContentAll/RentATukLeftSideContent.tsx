@@ -1,6 +1,6 @@
 import React from 'react';
-import FlatRoundButton from "../../../atoms/Buttons/FlatButton/FlatRoundButton";
-import MobileButton from "../../../atoms/Buttons/FlatButton/MobileButton/MobileButton";
+import FlatRoundButton from "../../../../atoms/Buttons/FlatButton/FlatRoundButton";
+import MobileButton from "../../../../atoms/Buttons/FlatButton/MobileButton/MobileButton";
 
 const RentATukLeftSideContent = () => {
     return (

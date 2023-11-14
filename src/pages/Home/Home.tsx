@@ -23,7 +23,6 @@ const Home = () => {
             <LocalCraftsSection/>
             <HotelsSection/>
             <WhatOtherSayingSection/>
-            <Footer/>
             <SocialMediaMenu/>
         </div>
     );

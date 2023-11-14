@@ -1,0 +1,20 @@
+.collage-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 10px;
+
+  .gallery-item {
+    flex: 0 0 calc(33.33% - 10px);
+    cursor: pointer;
+
+  }
+
+  .gallery-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+}
+

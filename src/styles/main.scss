@@ -8,6 +8,7 @@
 @import "../components/atoms/Buttons/FlatButton/MobileButton/mobileButton";
 @import "../components/atoms/Logo/logo.scss";
 @import "../components/atoms/Headers/pageHeader";
+@import "../components/atoms/Input/BorderSelect/borderSelect";
 
 @import "../components/atoms/Cards/Card1/card1";
 @import "../components/atoms/Cards/Card2/card2";
@@ -16,6 +17,11 @@
 
 @import "../components/atoms/Badges/PPBadge/ppBadge";
 
+@import "../components/atoms/Text/UndelinedText/underlinedText";
+@import "../components/atoms/Text/SubHeader/subHeader";
+
+@import "../components/atoms/Accordian/accordionOne";
+
 @import "../components/molecules/Slider/Carousal/CardsCarousal/4CardsSlider/cardCarousal";
 @import "../components/molecules/Slider/Carousal/MulitiRowCardCarousal/multipleRowCarousal";
 
@@ -23,10 +29,22 @@
 @import "../components/molecules/ButtonsMenu/buttonsMenuSection.scss";
 @import "../components/molecules/SocialMediaMenu/socialMediaMenu";
 @import "../components/molecules/SectionHeader/sectionHeader";
-@import "../components/molecules/Contents/ContactUs/contactUsDetail";
+@import "../components/molecules/Contents/HomePageSubContents/ContactUs/contactUsDetail";
 @import "../components/molecules/MenuSection/MobileMenu/mobileMenu";
 @import "../components/molecules/ButtonsMenu/MobileButtonMenu/mobileButtonMenu";
 @import "../components/molecules/Breadcrumb/breadCrumb";
+@import "../components/molecules/Gallery/collageGallery";
+@import "../components/molecules/Contents/TourPageSubContents/LowerSectionHeading/lowerSectionHeading";
+@import "../components/molecules/Contents/TourPageSubContents/LowerSectionDetails/lowerSectionDetails";
+@import "../components/molecules/Contents/TourPageSubContents/LowerSectionLocationImage/locationImageSection";
+@import "../components/molecules/Contents/TourPageSubContents/Highlights/highligts";
+@import "../components/molecules/Contents/TourPageSubContents/TourIncludes/toursIncluded";
+@import "../components/molecules/Contents/TourPageSubContents/ReviewsSection/reviews";
+@import "../components/molecules/Contents/TourPageSubContents/ReviewsSection/ReviewItem/reviewItem";
+@import "../components/molecules/Contents/TourPageSubContents/AccordionSection/accordionSection";
+@import "../components/molecules/Contents/TourPageSubContents/OtherSection/.other-details";
+@import "../components/molecules/Contents/TourPageSubContents/OtherSection/OtherDetailsItem/otherDetailsItem";
+@import "../components/molecules/CardsMenu/PriceSelectorCard/priceCard";
 
 @import "../components/organisms/NavigationBar/navigationBar.scss";
 @import "../components/organisms/Sliders/HeroSLider/heroSlider.scss";
@@ -37,6 +55,7 @@
 @import "../components/organisms/Sliders/CardSlider/MobileCardSliders/TopTours/topToursMobile";
 @import "../components/organisms/Sliders/CardSlider/MobileCardSliders/LocalCraft/craftsMobileSlider";
 @import "../components/organisms/Sliders/CardSlider/MobileCardSliders/Hotels/hotelsMobile";
+@import "../components/organisms/Sliders/GallerySilder/gallerySlider";
 
 //Templates
 
@@ -48,6 +67,10 @@
 @import "../components/templates/ToursPageTemplate/FourImageSection/fourImageSection";
 @import "../components/templates/ToursPageTemplate/LocationInfo/locationInfo";
 
+//common
+@import "common";
+
+
 .home{
   position: relative;
   width: 100%;
@@ -57,4 +80,18 @@
   margin-left: 7.5% !important;
   margin-right: 7.5% !important;
   margin-top: 40px!important;
+  @media #{$Mobile}  {
+    margin-left: unset !important;
+    margin-right: unset !important;
+  }
 }
+.home-highlights{
+  border-top: 1px solid gray;
+  width: 85%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 7.5% !important;
+  margin-right: 7.5% !important;
+}
+
