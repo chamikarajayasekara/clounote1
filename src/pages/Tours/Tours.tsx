@@ -41,7 +41,7 @@ const Tours = () => {
 
     return (
         <div>
-            <Container fluid className="tours">
+            <Container fluid className="tours px-0">
                 <Breadcrumb paths={paths} />
                 <PageHeader title={'Knuckles Spice Trail Trek From Kandy'}/>
                 <LocationInfo locationName="Knuckles, Sri Lanka" />

@@ -1,13 +1,14 @@
 import React from 'react';
+import {Container} from "react-bootstrap";
 
 interface Props {
     title:string
 }
 const PageHeader = (props:Props) => {
     return (
-        <div className="page-header">
+        <Container className="page-header">
             <h1>{props.title}</h1>
-        </div>
+        </Container>
     );
 };
 

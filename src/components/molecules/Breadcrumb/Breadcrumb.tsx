@@ -1,5 +1,6 @@
 import React from 'react';
 import {Link} from "react-router-dom";
+import {Container} from "react-bootstrap";
 
 interface Props {
     paths: any
@@ -8,7 +9,7 @@ interface Props {
 const Breadcrumb = (props:Props) => {
     const {paths} = props;
     return (
-        <nav aria-label="breadcrumb">
+        <Container aria-label="breadcrumb">
             <ol className="breadcrumbs">
                 {paths.map((path: any, index:any) => (
                     <li key={index} className={`breadcrumbs-item${index === paths.length - 1 ? ' active' : ''}`}>
@@ -20,7 +21,7 @@ const Breadcrumb = (props:Props) => {
                     </li>
                 ))}
             </ol>
-        </nav>
+        </Container>
     );
 };
 

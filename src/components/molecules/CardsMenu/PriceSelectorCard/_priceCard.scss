@@ -114,7 +114,10 @@
   position:fixed;
   top: 40px;
   transition: top 0.3s ease;
-  right: 8.3%;
+  right: 7.5%;
+  @media #{$bigScreens}  {
+    right: 15.3%;
+  }
 }
 .absolute-styles{
   position: absolute;
