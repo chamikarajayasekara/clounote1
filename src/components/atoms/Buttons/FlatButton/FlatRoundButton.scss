@@ -151,6 +151,22 @@
       line-height: 24px;
     }
   }
+  &.button-black-white-full{
+    width: 342px;
+    height: 39px;
+    flex-shrink: 0;
+    background-color: $base-white;
+    color: #333333;
+    border: 1px solid #333333;
+    background-position: 0% 0%;
+    background-repeat: no-repeat;
+    background-origin: padding-box;
+    letter-spacing: 0.35px;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 24px;
+  }
 }
 
 .rounded-flat-btn:hover{

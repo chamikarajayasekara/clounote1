@@ -9,11 +9,16 @@
 @import "../components/atoms/Logo/logo.scss";
 @import "../components/atoms/Headers/pageHeader";
 @import "../components/atoms/Input/BorderSelect/borderSelect";
+@import "../components/atoms/Input/RoundedSelect/roundedSelect";
+@import "../components/atoms/Input/CheckBoxList/checkBoxList";
+@import "../components/atoms/Input/Range/range";
+@import "../components/atoms/Input/Range/multiRangeSlider";
 
 @import "../components/atoms/Cards/Card1/card1";
 @import "../components/atoms/Cards/Card2/card2";
 @import "../components/atoms/Cards/Card3/card3";
 @import "../components/atoms/Cards/Card4/card4";
+@import "../components/atoms/Cards/PackageCard/packageCard";
 
 @import "../components/atoms/Badges/PPBadge/ppBadge";
 
@@ -51,11 +56,13 @@
 @import "../components/organisms/MobileDarwer/mobileDrawer";
 @import "../components/organisms/Contents/OtherSayingContent/Desktop/otherSaying";
 @import "../components/organisms/Contents/OtherSayingContent/Mobile/otherSayingMobile";
+@import "../components/organisms/Contents/TourPackagePageContent/TourPackagePageItem/tourPackagePageItem";
 @import "../components/organisms/Sliders/CardSlider/MobileCardSliders/ThingsToDO/ThingsToDoMobileSlider";
 @import "../components/organisms/Sliders/CardSlider/MobileCardSliders/TopTours/topToursMobile";
 @import "../components/organisms/Sliders/CardSlider/MobileCardSliders/LocalCraft/craftsMobileSlider";
 @import "../components/organisms/Sliders/CardSlider/MobileCardSliders/Hotels/hotelsMobile";
 @import "../components/organisms/Sliders/GallerySilder/gallerySlider";
+@import "../components/organisms/Banners/Banner1/banner1";
 
 //Templates
 
@@ -66,6 +73,7 @@
 @import "../components/templates/HomePagetemplates/HomePageHeroSection/homePageHeroSection";
 @import "../components/templates/ToursPageTemplate/FourImageSection/fourImageSection";
 @import "../components/templates/ToursPageTemplate/LocationInfo/locationInfo";
+@import "../components/templates/TourPackagesPagesTemplate/FilterSection/filterSection";
 
 //common
 @import "common";
@@ -76,6 +84,16 @@
   width: 100%;
 }
 .tours{
+  width: auto !important;
+  margin-left: 7.5% !important;
+  margin-right: 7.5% !important;
+  margin-top: 40px!important;
+  @media #{$Mobile}  {
+    margin-left: unset !important;
+    margin-right: unset !important;
+  }
+}
+.tours-package{
   width: auto !important;
   margin-left: 7.5% !important;
   margin-right: 7.5% !important;

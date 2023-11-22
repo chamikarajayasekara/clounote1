@@ -1,0 +1,202 @@
+
+.rounded-select-container-custom {
+  border: 1px solid #B0B0B0;
+  padding-top: 10px;
+  margin-bottom: 10px;
+  width: 164px;
+  height: 47px;
+  border-radius: 100px;
+  border: 1px solid var(--gray-200, #E5E7EB);
+  background: var(--white, #FFF);
+  box-shadow: 0px 1px 2px 0px rgba(31, 41, 55, 0.08);
+  .rounded-select-label {
+    display: block;
+    color: $pageHeader;
+    font-family: $mainFont;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px;
+  }
+
+  .rounded-select {
+    border: none;
+    border-radius: 4px;
+    //overflow: hidden;
+    height: 22px;
+    cursor: pointer !important;
+    .css-b62m3t-container{
+      width: 110px;
+      margin-left: 5px;
+    }
+    .css-1jqq78o-placeholder{
+      color: $pageHeader;
+      font-family: $mainFont;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+    }
+    .css-13cymwt-control{
+      border: none;
+      border-radius: 0;
+      box-shadow: none !important;
+      min-height: unset;
+      cursor: pointer !important;
+      .css-1u9des2-indicatorSeparator{
+        display: none;
+        cursor: pointer !important;
+      }
+      .css-1fdsijx-ValueContainer{
+        padding: 0;
+
+        .css-1dimb5e-singleValue{
+          color: $pageHeader;
+          font-family: $mainFont;
+          font-size: 16px;
+          font-style: normal;
+          font-weight: 700;
+          line-height: 20px;
+        }
+      }
+    }
+    .css-1xc3v61-indicatorContainer{
+      cursor: pointer !important;
+      color: $pageHeader;
+    }
+    .css-t3ipsp-control{
+      border: none;
+      border-radius: 0;
+      box-shadow: none !important;
+      min-height: unset;
+      cursor: pointer !important;
+      .css-1u9des2-indicatorSeparator{
+        display: none;
+      }
+      .css-1fdsijx-ValueContainer{
+        padding: 0;
+        cursor: pointer !important;
+        .css-1dimb5e-singleValue{
+          color: $pageHeader;
+          font-family: $mainFont;
+          font-size: 16px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: normal;
+        }
+      }
+    }
+    .css-t3ipsp-control:hover{
+      border: none !important;
+      color: #111111 !important;
+      min-height: 20px !important;
+      box-shadow: none !important;
+      background-color: transparent !important;
+      cursor: none !important;
+    }
+    .css-1nmdiq5-menu{
+      cursor: pointer !important;
+    }
+
+  }
+}
+.rounded-select-container-custom-small{
+  padding-top: 10px;
+  margin-bottom: 10px;
+  width: 98px;
+  height: 41px;
+  border-radius: 100px;
+  border: 1px solid #E5E7EB;
+  background: white;
+  box-shadow: 0px 1px 2px 0px rgba(31, 41, 55, 0.08);
+  .rounded-select-label {
+    display: block;
+    color: $black4;
+    font-family: $mainFont;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px;
+  }
+
+  .rounded-select {
+    border: none;
+    border-radius: 4px;
+    //overflow: hidden;
+    height: 22px;
+    cursor: pointer !important;
+    .css-b62m3t-container{
+      //width: 110px;
+      //margin-left: 2px;
+    }
+    .css-1jqq78o-placeholder{
+      color:$black4;
+      font-family: $mainFont;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 20px;
+    }
+    .css-13cymwt-control{
+      border: none;
+      border-radius: 0;
+      box-shadow: none !important;
+      min-height: unset;
+      cursor: pointer !important;
+      .css-1u9des2-indicatorSeparator{
+        display: none;
+        cursor: pointer !important;
+      }
+      .css-1fdsijx-ValueContainer{
+        padding: 0;
+
+        .css-1dimb5e-singleValue{
+          color:$black4;
+          font-family: $mainFont;
+          font-size: 14px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: 20px;
+        }
+      }
+    }
+    .css-1xc3v61-indicatorContainer{
+      cursor: pointer !important;
+      color: $black4;
+    }
+    .css-t3ipsp-control{
+      border: none;
+      border-radius: 0;
+      box-shadow: none !important;
+      min-height: unset;
+      cursor: pointer !important;
+      .css-1u9des2-indicatorSeparator{
+        display: none;
+      }
+      .css-1fdsijx-ValueContainer{
+        padding: 0;
+        cursor: pointer !important;
+        .css-1dimb5e-singleValue{
+          color:$black4;
+          font-family: $mainFont;
+          font-size: 14px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: 20px;
+        }
+      }
+    }
+    .css-t3ipsp-control:hover{
+      border: none !important;
+      color:$black4 !important;
+      min-height: 20px !important;
+      box-shadow: none !important;
+      background-color: transparent !important;
+      cursor: none !important;
+    }
+    .css-1nmdiq5-menu{
+      cursor: pointer !important;
+    }
+
+  }
+}

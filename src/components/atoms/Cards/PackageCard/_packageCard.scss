@@ -1,0 +1,29 @@
+.package-card{
+  width: 300px;
+  height: 200px;
+  margin: 0 auto;
+  border-radius: 20px;
+  .slider-item{
+    width:100%;
+    height: 200px;
+    margin: 0 auto;
+    img{
+      width: 100%;
+      height: 200px;
+      margin: 0 auto;
+      border-radius: 10px;
+    }
+  }
+  .slick-dots {
+    top: 85% !important;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100% !important;
+  }
+  .slick-dots li.slick-active button:before {
+    opacity: .75 !important;
+    color: white !important;
+    font-size: 10px !important;
+  }
+}

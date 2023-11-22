@@ -1,0 +1,81 @@
+.package-tour-section{
+  height: 224px;
+  border-bottom: 1px solid $grey6;
+  margin-top: 24px !important;
+  cursor: pointer;
+  .left-col-content{
+    .category{
+      color: $grey;
+      font-family: $mainFont;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: normal;
+    }
+    .content-header{
+      color: $black4;
+      font-family: $mainFont;
+      font-size: 20px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: normal;
+    }
+    .content-time{
+      color: $black4;
+      font-family: $mainFont;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: 20px;
+    }
+    .facilities{
+      width: 368px;
+      color: $grey5;
+      font-family: $mainFont;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+    }
+    .review{
+      display: flex;
+      align-items: center;
+      margin-top: 41px;
+      span{
+        color: $black4;
+        font-family: $mainFont;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 20px;
+        margin-top: 5px;
+      }
+    }
+  }
+  .right-col-content{
+    .price{
+      color: $black4;
+      font-family: $mainFont;
+      font-size: 25px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: normal;
+      margin-top: 75px;
+      height: 34px;
+    }
+    .pp{
+      color: $grey4;
+      font-family: $mainFont;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+      height: 20px;
+    }
+  }
+}
+.package-tour-section:last-child{
+  border-top: 2px solid $grey2;
+  padding-top: 24px;
+  height: 248px;
+}

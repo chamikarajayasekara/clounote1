@@ -8,6 +8,7 @@ import Login from "../pages/Login";
 import Home from "../pages/Home/Home";
 import Tours from "../pages/Tours/Tours";
 import Footer from "../components/templates/Footer/Footer";
+import PackageTours from "../pages/Tours/PackageTours/PackageTours";
 
 function App() {
 
@@ -18,7 +19,8 @@ function App() {
                 <Route path="/" element={<Home/>} />
                 <Route path="/things-to-do" element={<ThingsToDo/>} />
                 <Route path="/login" element={<Login/>} />
-                <Route path="/tours" element={<Tours/>} />
+                <Route path="/tours/tour-details" element={<Tours/>} />
+                <Route path="/tours" element={<PackageTours/>} />
                 {/*<Route path="*" element={<NotFound />} />*/}
             </Routes>
         <Footer/>

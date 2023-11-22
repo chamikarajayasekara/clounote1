@@ -72,7 +72,8 @@ export interface IPricing {
 const ToursPageDetails = {
   paths: [
     { name: 'Home', url: '/' },
-    { name: 'Knuckles Top Tours', url: '/tours' }
+    { name: 'Tours', url: '/tours' },
+    { name: 'Knuckles Top Tours', url: '/tours/tour-details' }
   ],
   tourPageDetails: [
     "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
@@ -159,3 +160,109 @@ const ToursPageDetails = {
 };
 
 export default ToursPageDetails;
+
+export const TourPackageDataSet = {
+  packageData:[
+    {
+      category: "Nature and Wildlife Tours",
+      heading: "Knuckles Mountain Hiking",
+      time: "3+ days",
+      facilities: "4-6 guests · Entire home · 5 beds · 3 bath · Wifi · Kitchen · Free parking",
+      rate: "5.0",
+      count: "(318 reviews)",
+      price: "$325",
+      images:[
+          'https://i.postimg.cc/MTFcm778/Image.png',
+          'https://i.postimg.cc/JhKHGVt0/Image-1.png',
+          'https://i.postimg.cc/wB9sqTqn/Image-2.png'
+      ]
+    },
+    {
+      category: "Nature and Wildlife Tours",
+      heading: "Knuckles Mountain Hiking",
+      time: "3+ days",
+      facilities: "4-6 guests · Entire home · 5 beds · 3 bath · Wifi · Kitchen · Free parking",
+      rate: "5.0",
+      count: "(318 reviews)",
+      price: "$325",
+      images: [
+          'https://i.postimg.cc/kM0K4Y8m/ella-3621804-640.jpg',
+          'https://i.postimg.cc/fWtYMQVC/sri-lanka-2726045-640.jpg',
+          'https://i.postimg.cc/wM3wWY7b/istockphoto-1196492117-1024x1024.jpg'
+      ]
+    },
+    {
+      category: "Nature and Wildlife Tours",
+      heading: "Knuckles Mountain Hiking",
+      time: "3+ days",
+      facilities: "4-6 guests · Entire home · 5 beds · 3 bath · Wifi · Kitchen · Free parking",
+      rate: "5.0",
+      count: "(318 reviews)",
+      price: "$325",
+      images: [
+        'https://i.postimg.cc/63MHLp5v/istockphoto-615835420-1024x1024.jpg',
+        'https://i.postimg.cc/J0Hs6sxH/Image-3.png',
+        'https://i.postimg.cc/x87thpmj/istockphoto-889806348-1024x1024.jpg'
+      ]
+    },
+    {
+      category: "Nature and Wildlife Tours",
+      heading: "Knuckles Mountain Hiking",
+      time: "3+ days",
+      facilities: "4-6 guests · Entire home · 5 beds · 3 bath · Wifi · Kitchen · Free parking",
+      rate: "5.0",
+      count: "(318 reviews)",
+      price: "$325",
+      images: [
+        'https://i.postimg.cc/VLtHC1MK/hero3.jpg',
+        'https://i.postimg.cc/GtyLVQhP/monkey-4036088-640.jpg',
+        'https://i.postimg.cc/J7vjWL95/Rectangle-718.png'
+      ]
+    },
+    {
+      category: "Nature and Wildlife Tours",
+      heading: "Knuckles Mountain Hiking",
+      time: "3+ days",
+      facilities: "4-6 guests · Entire home · 5 beds · 3 bath · Wifi · Kitchen · Free parking",
+      rate: "5.0",
+      count: "(318 reviews)",
+      price: "$325",
+      images: [
+        'https://i.postimg.cc/7brHk2fF/elephant-4037451-640.jpg',
+        'https://i.postimg.cc/MT4Z94xK/meditate-5375835-640.jpg',
+        'https://i.postimg.cc/J7vjWL95/Rectangle-718.png'
+      ]
+    }
+  ],
+  checkboxGroups : [
+    {
+      header: 'Categories',
+      mapName:'Categories',
+      options: ['Mountain hiking', 'Tuk tuk tours', 'Cycling','Camping','Nature and outdoors','Food','Sports','Art and culture'],
+    },
+    {
+      header: 'Duration',
+      mapName:'Duration',
+      options: ['Up to 1 hours', '1 - 4 hours', '4 hours to 1 day', '2 - 3 days', '3+ days'],
+    },
+    {
+      header: 'Language',
+      mapName:'Language',
+      options: ['English', 'French', 'Spannish','Camping','German'],
+    },
+    {
+      header: 'Popular attraction',
+      mapName:'PopularAttraction',
+      options: ['Corbets Gap', 'Mini Worlds End', 'Knuckles Summit', 'Knuckles Waterfalls'],
+    },
+    {
+      header: 'Special offers',
+      mapName:'SpecialOffers',
+      options: ['Likely to sell out', 'Special offers'],
+    },
+  ],
+  paths: [
+    { name: 'Home', url: '/' },
+    { name: 'Tours', url: '/tours' }
+  ],
+}

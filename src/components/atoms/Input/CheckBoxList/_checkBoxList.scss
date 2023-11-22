@@ -1,0 +1,33 @@
+.checkbox-list{
+  margin-bottom: 27px;
+  h3{
+    color: $black3;
+    font-family: $mainFont;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+  label{
+    color: $black3;
+    font-family: $mainFont;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  //.form-check-input  .form-check-input :checked ~ .form-check-input ::before {
+  //  background-color: green;
+  //  border-color: green;
+  //}
+  //
+
+  .form-check-input:checked{
+    background-color: $base-green;
+    box-shadow: unset;
+    border-color: $base-green;
+  }
+  .form-check-input:focus{
+    box-shadow: unset;
+  }
+}

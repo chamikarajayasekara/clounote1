@@ -1,0 +1,40 @@
+.tours-package{
+  h3{
+    color: $black3;
+    font-family: $mainFont;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    height: 25px;
+  }
+  .form-control{
+    appearance: auto !important;
+    width: 80%;
+    border: rebeccapurple solid $blue;
+    border-radius: 10px;
+    transition: $blue .15s ease-in-out,box-shadow .15s ease-in-out;
+    padding: 0;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .form-control:focus{
+    color:unset !important;
+    background-color: unset !important;
+    border-color: unset !important;
+    outline: 0;
+    box-shadow: unset !important;
+  }
+  .range-text{
+    color: $black3;
+    font-family: $mainFont;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding: 0;
+    height: 20px;
+    display: block;
+  }
+}
+
