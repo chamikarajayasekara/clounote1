@@ -59,9 +59,9 @@ const PackageTours = () => {
         <div className="tours-package px-0 ">
             <Breadcrumb paths={TourPackageDataSet.paths} />
             <PageHeader title={'Tour Packages'}/>
-            <Container fluid >
+            <Container fluid>
                 <FilterSection  options={ToursPageDetails?.pricing.guest} label={''} handleSelectGuest={handleSelectGuest}/>
-                <Row>
+                <Row className="px-0">
                     <CheckboxSection handleCheckboxChange={handleCheckboxChange} selectedOptionsCategory={selectedOptionsCategory} selectedOptionsAttraction={selectedOptionsAttraction} selectedOptionsDuration={selectedOptionsDuration} selectedOptionsLanguage={selectedOptionsLanguage} selectedOptionsOffers={selectedOptionsOffers} setSelectedPriceRange={setSelectedPriceRange} />
                     <MainPackageSection/>
                 </Row>

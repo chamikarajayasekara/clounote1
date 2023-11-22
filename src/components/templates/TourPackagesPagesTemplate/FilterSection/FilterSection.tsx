@@ -9,6 +9,10 @@ interface IFilterSection {
     label:string,
     handleSelectGuest : (selectedOption:IGuestOption ) =>void
 }
+const sortOptions = [
+    {label:'asc', value:1},
+    {label:'desc', value:2}
+]
 const FilterSection : React.FC<IFilterSection>=({options,label,handleSelectGuest})=>{
     return (
         <Row className="tour-package-filter mt-4">
@@ -25,7 +29,7 @@ const FilterSection : React.FC<IFilterSection>=({options,label,handleSelectGuest
             </Col>
             <Col md={3} className="px-0 ">
                 <div className="d-flex justify-content-end">
-                    <RoundedSelect options={options} label={''} onChange={handleSelectGuest} image={null} placeholder={'Sort by'}/>
+                    <RoundedSelect options={sortOptions} label={''} onChange={handleSelectGuest} image={null} placeholder={'Sort by'}/>
                 </div>
 
             </Col>
