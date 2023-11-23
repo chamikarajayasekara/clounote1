@@ -63,6 +63,8 @@
     letter-spacing: 0px;
     opacity: 1;
     @media #{$Mobile}  {
+      width: 80px;
+      height: 30px;
       font-size: 14px;
       line-height: 10px;
     }
@@ -166,6 +168,13 @@
     font-style: normal;
     font-size: 14px;
     line-height: 24px;
+    @media #{$Mobile}  {
+      width:112px;
+      height: 38px;
+      font-size: 14px;
+      margin-top: 40px;
+      margin-bottom: 30px;
+    }
   }
 }
 

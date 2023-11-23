@@ -2,6 +2,9 @@
   border-bottom: 1px solid $grey6;
   .filter-line{
     margin-bottom: 20px;
+    @media #{$Mobile}  {
+      display: none;
+    }
   }
   .sub-content-1{
     width: 200px;
@@ -23,5 +26,8 @@
     font-weight: 700;
     line-height: normal;
     text-decoration-line: underline;
+    @media #{$Mobile}  {
+      display: none;
+    }
   }
 }

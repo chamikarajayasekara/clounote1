@@ -75,6 +75,9 @@
 @import "../components/templates/ToursPageTemplate/LocationInfo/locationInfo";
 @import "../components/templates/TourPackagesPagesTemplate/FilterSection/filterSection";
 
+
+@import "../pages/Tours/PackageTours/packageTours";
+
 //common
 @import "common";
 
@@ -93,16 +96,7 @@
     margin-right: unset !important;
   }
 }
-.tours-package{
-  width: auto !important;
-  margin-left: 7.5% !important;
-  margin-right: 7.5% !important;
-  margin-top: 40px!important;
-  @media #{$Mobile}  {
-    margin-left: unset !important;
-    margin-right: unset !important;
-  }
-}
+
 .home-highlights{
   border-top: 1px solid gray;
   width: 85%;

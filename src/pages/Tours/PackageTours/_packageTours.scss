@@ -1,0 +1,23 @@
+.tours-package{
+  width: auto !important;
+  margin-left: 7.5% !important;
+  margin-right: 7.5% !important;
+  margin-top: 40px!important;
+  @media #{$Mobile}  {
+    margin-left: unset !important;
+    margin-right: unset !important;
+  }
+  .tour-page-right-row{
+    //@media #{$Mobile}  {
+    //  margin-left: 1%;
+    //  margin-right: 1%;
+    //  width: 98%;
+    //}
+    .checkbox-section{
+
+      @media #{$Mobile}  {
+        display: none;
+      }
+    }
+  }
+}

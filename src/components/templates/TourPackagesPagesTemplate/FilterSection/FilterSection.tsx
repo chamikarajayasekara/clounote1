@@ -16,12 +16,12 @@ const sortOptions = [
 const FilterSection : React.FC<IFilterSection>=({options,label,handleSelectGuest})=>{
     return (
         <Row className="tour-package-filter mt-4">
-            <Col md={3} className="px-0   ">
+            <Col md={3} className=" ">
                 <div className="filter-line">
                     <RoundedSelect options={options} label={label} onChange={handleSelectGuest} image={user} placeholder={'Select'}/>
                 </div>
             </Col>
-            <Col md={6} className="px-0">
+            <Col md={6} className="">
                 <div className="d-flex justify-content-start align-items-center mt-4">
                     <span className="sub-content-1">5 places sorted by featured</span>
                     <span className="sub-content-2 ">Clear all filters</span>

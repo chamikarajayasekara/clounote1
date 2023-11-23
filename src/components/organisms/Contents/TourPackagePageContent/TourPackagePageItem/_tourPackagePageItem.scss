@@ -3,77 +3,144 @@
   border-bottom: 1px solid $grey6;
   margin-top: 24px !important;
   cursor: pointer;
-  .left-col-content{
-    width: 400px;
-    .category{
-      color: $grey;
-      font-family: $mainFont;
-      font-size: 16px;
-      font-style: normal;
-      font-weight: 500;
-      line-height: normal;
+  @media #{$Mobile}  {
+    height: 170px !important;
+    border-bottom: unset;
+    width: 98% !important;
+    margin-left: 1% !important;;
+    margin-right: 1% !important;;
+  }
+  .package-tour-section-left{
+    @media #{$Mobile}  {
+      width: 30%;
     }
-    .content-header{
-      color: $black4;
-      font-family: $mainFont;
-      font-size: 20px;
-      font-style: normal;
-      font-weight: 700;
-      line-height: normal;
+    .package-card-mobile-img{
+      display: none;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      @media #{$Mobile}  {
+        display: flex;
+        padding: 0;
+      }
     }
-    .content-time{
-      color: $black4;
-      font-family: $mainFont;
-      font-size: 16px;
-      font-style: normal;
-      font-weight: 600;
-      line-height: 20px;
+
+  }
+  .package-tour-section-right{
+    @media #{$Mobile}  {
+      width: 70%;
+      padding: 0;
     }
-    .facilities{
-      width: 368px;
-      color: $grey5;
-      font-family: $mainFont;
-      font-size: 14px;
-      font-style: normal;
-      font-weight: 400;
-      line-height: normal;
-    }
-    .review{
-      display: flex;
-      align-items: center;
-      margin-top: 41px;
-      span{
+    .left-col-content{
+      width: 400px;
+      @media #{$Mobile}  {
+        width: 60%;
+        height: 146px;
+      }
+      .category{
+        color: $grey;
+        font-family: $mainFont;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        @media #{$Mobile}  {
+          font-size: 14px;
+        }
+      }
+      .content-header{
         color: $black4;
+        font-family: $mainFont;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        @media #{$Mobile}  {
+          font-size: 16px;
+          height: unset !important;
+        }
+      }
+      .content-time{
+        color: $black4;
+        font-family: $mainFont;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 20px;
+        @media #{$Mobile}  {
+          font-size: 14px;
+        }
+      }
+      .facilities{
+        width: 368px;
+        color: $grey5;
         font-family: $mainFont;
         font-size: 14px;
         font-style: normal;
         font-weight: 400;
-        line-height: 20px;
-        margin-top: 5px;
+        line-height: normal;
+        @media #{$Mobile}  {
+          display: none;
+        }
+      }
+      .review{
+        display: flex;
+        align-items: center;
+        margin-top: 41px;
+        @media #{$Mobile}  {
+          margin-top: 0px;
+        }
+        span{
+          color: $black4;
+          font-family: $mainFont;
+          font-size: 14px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: 20px;
+          margin-top: 5px;
+          @media #{$Mobile}  {
+            font-size: 12px;
+
+          }
+        }
+      }
+    }
+    .right-col-content{
+      @media #{$Mobile}  {
+        width: 30%;
+        height: 146px;
+      }
+      .price{
+        color: $black4;
+        font-family: $mainFont;
+        font-size: 25px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        margin-top: 75px;
+        height: 34px;
+        @media #{$Mobile}  {
+          font-size: 20px;
+          height: 27px;
+          margin-top: 20px;
+        }
+      }
+      .pp{
+        color: $grey4;
+        font-family: $mainFont;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        height: 20px;
+        @media #{$Mobile}  {
+          font-size: 12px;
+          height: unset;
+        }
       }
     }
   }
-  .right-col-content{
-    .price{
-      color: $black4;
-      font-family: $mainFont;
-      font-size: 25px;
-      font-style: normal;
-      font-weight: 700;
-      line-height: normal;
-      margin-top: 75px;
-      height: 34px;
-    }
-    .pp{
-      color: $grey4;
-      font-family: $mainFont;
-      font-size: 14px;
-      font-style: normal;
-      font-weight: 400;
-      line-height: normal;
-      height: 20px;
-    }
-  }
+
 }
 .package-tour-section:last-child{
   border-top: 2px solid $grey2;

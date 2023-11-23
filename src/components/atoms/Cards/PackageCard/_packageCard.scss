@@ -3,6 +3,9 @@
   height: 200px;
   margin: 0 auto;
   border-radius: 20px;
+  @media #{$Mobile}  {
+   display: none;
+  }
   .slider-item{
     width:100%;
     height: 200px;

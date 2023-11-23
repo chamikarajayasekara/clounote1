@@ -6,6 +6,9 @@
   color: #fff;
   text-align: left;
   position: relative;
+  @media #{$Mobile}  {
+    border-radius: unset !important;
+  }
   .description-side{
     width: 50%;
     position: absolute;
@@ -15,9 +18,17 @@
     background: linear-gradient(90deg, #000 39.34%, rgba(0, 0, 0, 0.00) 99.59%);
     height: 100%;
     z-index: 2;
+    @media #{$Mobile}  {
+      background: linear-gradient(90deg, rgba(0, 0, 0, 0.85) 39.34%, rgba(0, 0, 0, 0.00) 99.59%);
+      border-radius: unset !important;
+    }
     .banner-contents{
       padding-top: 60px;
       padding-left: 60px;
+      @media #{$Mobile}  {
+        padding-top: 20px !important;
+        padding-left: 20px !important;
+      }
       h1{
         color: #FFF;
         font-family: $mainFont;
@@ -25,6 +36,12 @@
         font-style: normal;
         font-weight: 800;
         line-height: 42px;
+        @media #{$Mobile}  {
+          font-size: 28px;
+          font-style: normal;
+          font-weight: 800;
+          line-height: 35px
+        }
       }
       p{
         margin-bottom: 30px;

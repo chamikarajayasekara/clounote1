@@ -6,7 +6,7 @@ import FlatRoundButton from "../../../../atoms/Buttons/FlatButton/FlatRoundButto
 const TourPackagePageItem = ({category,heading,time,facilities,rate,count,price}:{category:string,heading:string,time:string,facilities:string,rate:string,count:string,price:string}) => {
     return (
         <Row>
-            <Col md={10} className=" left-col-content">
+            <Col md={10} className=" left-col-content ">
                 <h5 className="category">{category}</h5>
                 <h3 className="content-header">{heading}</h3>
                 <h5 className="content-time">{time}</h5>
@@ -19,7 +19,7 @@ const TourPackagePageItem = ({category,heading,time,facilities,rate,count,price}
                     <span >{count}</span>&nbsp;
                 </div>
             </Col>
-            <Col md={2} className="right-col-content">
+            <Col md={2} className="right-col-content ">
                 <img src={heart} alt="rating" width={20} height={20} className="cursor-pointer"/>
                 <div className="price">{price}</div>
                 <div className="pp mb-2">per person</div>

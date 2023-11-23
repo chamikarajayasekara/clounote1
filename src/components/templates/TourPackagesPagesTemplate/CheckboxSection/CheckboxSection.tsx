@@ -16,7 +16,7 @@ interface CheckBoxTemplateProps {
 }
 const CheckboxSection:React.FC<CheckBoxTemplateProps> = ({selectedOptionsCategory, selectedOptionsDuration, selectedOptionsOffers, selectedOptionsLanguage, selectedOptionsAttraction, handleCheckboxChange, setSelectedPriceRange}) => {
     return (
-        <Col md={3} className="px-0 mt-4">
+        <Col md={3} className=" mt-4 checkbox-section">
             <CheckboxList groups={TourPackageDataSet?.checkboxGroups[0]} selectedOptions={ selectedOptionsCategory } onCheckboxChange={handleCheckboxChange} />
             <CheckboxList groups={TourPackageDataSet?.checkboxGroups[1]} selectedOptions={ selectedOptionsDuration } onCheckboxChange={handleCheckboxChange} />
             <MultiRangeSlider label="Price" rangeValue={"$0 -$500+"}  max={500} min={0} setSelectedPriceRange={setSelectedPriceRange}/>

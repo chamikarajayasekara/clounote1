@@ -8,7 +8,7 @@ import {Link} from "react-router-dom";
 
 const MainPackageSection = () => {
     return (
-        <Col md={9} className="px-0 ">
+        <Col md={9} className=" ">
             {TourPackageDataSet?.packageData?.map((item: any, index: number) => (
                 <React.Fragment key={index}>
                     <Link to={'/tours/tour-details'} className="text-decoration-none">
