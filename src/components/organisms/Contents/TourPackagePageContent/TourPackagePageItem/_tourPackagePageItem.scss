@@ -4,7 +4,7 @@
   margin-top: 24px !important;
   cursor: pointer;
   @media #{$Mobile}  {
-    height: 170px !important;
+    height: 200px !important;
     border-bottom: unset;
     width: 98% !important;
     margin-left: 1% !important;;
@@ -134,8 +134,9 @@
         line-height: normal;
         height: 20px;
         @media #{$Mobile}  {
-          font-size: 12px;
+          font-size: 11px;
           height: unset;
+          margin-bottom: 40px !important;
         }
       }
     }

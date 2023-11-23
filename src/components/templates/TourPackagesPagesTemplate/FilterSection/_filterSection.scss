@@ -1,12 +1,69 @@
 .tour-package-filter{
   border-bottom: 1px solid $grey6;
+  margin-top: 10px !important;
+  @media #{$Mobile}  {
+    border: unset;
+  }
   .filter-line{
     margin-bottom: 20px;
     @media #{$Mobile}  {
-      display: none;
     }
   }
-  .sub-content-1{
+  .feature-line{
+    margin-top: 1.5rem;
+    @media #{$Mobile}  {
+      margin-top: unset;
+      display: none !important;
+    }
+    .sub-content-1{
+      width: 200px;
+      height: 20px;
+      color: #333;
+      font-family: $mainFont;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+      border-right: 1px solid $grey6;
+      @media #{$Mobile}  {
+        border: unset;
+      }
+    }
+    .sub-content-2{
+      padding-left: 17px;
+      color: #333;
+      font-family: $mainFont;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: normal;
+      text-decoration-line: underline;
+      @media #{$Mobile}  {
+        //display: none;
+      }
+    }
+  }
+  .sort-line{
+    display: flex;
+    justify-content: flex-end;
+    @media #{$Mobile}  {
+      margin-top: 10px;
+      justify-content: space-between;
+    }
+    .mobile-filter{
+      width: 50%;
+      display: none;
+      @media #{$Mobile}  {
+        margin-top: unset;
+        display: flex;
+      }
+    }
+    .sortby{
+
+    }
+  }
+  .sub-content-1-mobile {
+    display: none;
     width: 200px;
     height: 20px;
     color: #333;
@@ -15,19 +72,8 @@
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    border-right: 1px solid $grey6;
-  }
-  .sub-content-2{
-    padding-left: 17px;
-    color: #333;
-    font-family: $mainFont;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-    text-decoration-line: underline;
     @media #{$Mobile}  {
-      display: none;
+      display: flex;
     }
   }
 }

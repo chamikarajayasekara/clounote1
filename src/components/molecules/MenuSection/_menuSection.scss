@@ -110,4 +110,34 @@
       }
     }
   }
+  .list-styles-active{
+    text-decoration: none;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    .menu-item {
+      margin-bottom: 40px;
+      .link-tag {
+        text-decoration: none;
+        .menu-item-name{
+          text-align: center;
+          font-weight: normal;
+          font-style: normal;
+          font-size: 16px;
+          line-height: 24px;
+          font-family: $mainFont;
+          color: $base-green;
+          letter-spacing: 0px;
+          opacity: 1;
+          &:hover {
+            color: $base-green;
+          }
+        }
+      }
+
+      @media #{$SmallLaptops}  {
+        width: 100px;
+      }
+    }
+  }
 }

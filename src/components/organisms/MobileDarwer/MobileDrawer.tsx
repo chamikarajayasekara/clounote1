@@ -10,6 +10,7 @@ interface MobileDrawerProps {
 }
 
 const MobileDrawer: React.FC<MobileDrawerProps> = ({ isOpen, onClose }) => {
+
     return (
         // <div className={`mobile-drawer ${isOpen ? 'open' : ''}`}>
         //     <div className="drawer-content">

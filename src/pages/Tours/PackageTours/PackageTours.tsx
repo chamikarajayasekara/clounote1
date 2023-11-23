@@ -17,6 +17,8 @@ import SeeMoreButtonSection
 import FilterSection from "../../../components/templates/TourPackagesPagesTemplate/FilterSection/FilterSection";
 import Breadcrumb from "../../../components/molecules/Breadcrumb/Breadcrumb";
 import PageHeader from "../../../components/atoms/Headers/PageHeader";
+import MobileMenu from "../../../components/molecules/MenuSection/MobileMenu/MobileMenu";
+import MobileDrawer from "../../../components/organisms/MobileDarwer/MobileDrawer";
 
 export interface IMultiRangeSliderProps {
     min: number;
@@ -35,7 +37,14 @@ const PackageTours = () => {
     const [selectedPriceRange, setSelectedPriceRange] = useState<IMultiRangeSliderProps>({min:0, max:0});
     const [rangeValue, setRangeValue] = useState<number>(50);
     const [numberOfGuest, setNumberOfGuest] = useState<number>(0);
+    const [isDrawerOpen, setIsDrawerOpen] = useState(false);
 
+    const handleOpenDrawer = () => {
+        setIsDrawerOpen(true);
+    };
+    const handleCloseDrawer = () => {
+        setIsDrawerOpen(false);
+    };
     const handleCheckboxChange = (newSelection: string[], group_header: string) => {
         const headerToSetterMap: Record<string, React.Dispatch<React.SetStateAction<string[]>>> = {
             Categories: setSelectedOptionsCategory,
@@ -57,6 +66,7 @@ const PackageTours = () => {
     }
     return (
         <div className="tours-package">
+            <MobileMenu handleOpenDrawer={handleOpenDrawer}/>
             <Breadcrumb paths={TourPackageDataSet.paths} />
             <PageHeader title={'Tour Packages'}/>
             <Container>
@@ -67,6 +77,9 @@ const PackageTours = () => {
                 </Row>
                 <SeeMoreButtonSection/>
             </Container>
+            {
+                isDrawerOpen ? <MobileDrawer isOpen={isDrawerOpen} onClose={handleCloseDrawer} /> : null
+            }
         </div>
     );
 };

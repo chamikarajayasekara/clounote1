@@ -6,4 +6,7 @@
   text-transform: capitalize;
   opacity: 1;
   margin-top: 35px;
+  @media #{$Mobile}  {
+    margin-top: 80px;
+  }
 }

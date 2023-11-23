@@ -6,6 +6,9 @@
   border-radius: .25rem;
   display: flex;
   overflow: hidden;
+  @media #{$Mobile}  {
+    display: none;
+  }
 }
 
 /* Breadcrumb Item */
