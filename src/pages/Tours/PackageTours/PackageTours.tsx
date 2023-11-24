@@ -19,6 +19,8 @@ import Breadcrumb from "../../../components/molecules/Breadcrumb/Breadcrumb";
 import PageHeader from "../../../components/atoms/Headers/PageHeader";
 import MobileMenu from "../../../components/molecules/MenuSection/MobileMenu/MobileMenu";
 import MobileDrawer from "../../../components/organisms/MobileDarwer/MobileDrawer";
+import FullScreenModal from "../../../components/molecules/FullWidthImageModal/FullScreenModal";
+import MobileFilterModalHeader from "../../../components/molecules/Header/Modals/MobileFilterModalHeader";
 
 export interface IMultiRangeSliderProps {
     min: number;
@@ -38,6 +40,7 @@ const PackageTours = () => {
     const [rangeValue, setRangeValue] = useState<number>(50);
     const [numberOfGuest, setNumberOfGuest] = useState<number>(0);
     const [isDrawerOpen, setIsDrawerOpen] = useState(false);
+    const [isMobileFiletOpen, setIsMobileFiletOpen] = useState(false);
 
     const handleOpenDrawer = () => {
         setIsDrawerOpen(true);
@@ -53,9 +56,7 @@ const PackageTours = () => {
             PopularAttraction: setSelectedOptionsAttraction,
             SpecialOffers: setSelectedOptionsOffers
         };
-
         const setter = headerToSetterMap[group_header];
-
         if (setter) {
             setter(newSelection);
         }
@@ -64,13 +65,21 @@ const PackageTours = () => {
     const handleSelectGuest = (selectedOption:IGuestOption ) => {
         setNumberOfGuest(selectedOption.value)
     }
+
+    const mobileFilterOnClick =() =>{
+        setIsMobileFiletOpen(true)
+    }
+
+    const mobileFilterClose =() =>{
+        setIsMobileFiletOpen(false)
+    }
     return (
         <div className="tours-package">
             <MobileMenu handleOpenDrawer={handleOpenDrawer}/>
             <Breadcrumb paths={TourPackageDataSet.paths} />
             <PageHeader title={'Tour Packages'}/>
             <Container>
-                <FilterSection  options={ToursPageDetails?.pricing.guest} label={''} handleSelectGuest={handleSelectGuest}/>
+                <FilterSection  options={ToursPageDetails?.pricing.guest} label={''} handleSelectGuest={handleSelectGuest} mobileFilterOnClick={mobileFilterOnClick}/>
                 <Row className="tour-page-right-row">
                     <CheckboxSection handleCheckboxChange={handleCheckboxChange} selectedOptionsCategory={selectedOptionsCategory} selectedOptionsAttraction={selectedOptionsAttraction} selectedOptionsDuration={selectedOptionsDuration} selectedOptionsLanguage={selectedOptionsLanguage} selectedOptionsOffers={selectedOptionsOffers} setSelectedPriceRange={setSelectedPriceRange} />
                     <MainPackageSection/>
@@ -80,6 +89,17 @@ const PackageTours = () => {
             {
                 isDrawerOpen ? <MobileDrawer isOpen={isDrawerOpen} onClose={handleCloseDrawer} /> : null
             }
+            {
+                isMobileFiletOpen &&
+                <FullScreenModal
+                    title={''}
+                    body={ <CheckboxSection handleCheckboxChange={handleCheckboxChange} selectedOptionsCategory={selectedOptionsCategory} selectedOptionsAttraction={selectedOptionsAttraction} selectedOptionsDuration={selectedOptionsDuration} selectedOptionsLanguage={selectedOptionsLanguage} selectedOptionsOffers={selectedOptionsOffers} setSelectedPriceRange={setSelectedPriceRange} />}
+                    show={isMobileFiletOpen}
+                    handleClose={mobileFilterClose}
+                    header={<MobileFilterModalHeader/>}
+                />
+            }
+
         </div>
     );
 };

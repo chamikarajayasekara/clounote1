@@ -6,6 +6,7 @@
 @import "../components/atoms/Buttons/RoundedButtons/SliderButton/sliderButton";
 @import "../components/atoms/Buttons/RoundedButtons/AngleRoundedButtons/angleRoundedButton";
 @import "../components/atoms/Buttons/FlatButton/MobileButton/mobileButton";
+@import "../components/atoms/Buttons/FilterButton/mobileFilter";
 @import "../components/atoms/Logo/logo.scss";
 @import "../components/atoms/Headers/pageHeader";
 @import "../components/atoms/Input/BorderSelect/borderSelect";
@@ -50,6 +51,7 @@
 @import "../components/molecules/Contents/TourPageSubContents/OtherSection/.other-details";
 @import "../components/molecules/Contents/TourPageSubContents/OtherSection/OtherDetailsItem/otherDetailsItem";
 @import "../components/molecules/CardsMenu/PriceSelectorCard/priceCard";
+@import "../components/molecules/Header/Modals/mobileFilterModalHeader";
 
 @import "../components/organisms/NavigationBar/navigationBar.scss";
 @import "../components/organisms/Sliders/HeroSLider/heroSlider.scss";

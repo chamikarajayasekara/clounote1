@@ -1,0 +1,22 @@
+.filter-mobile-modal-header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  .modal-header{
+    border: unset ;
+  }
+  .sub-content-2{
+    color: #333;
+    font-family: $mainFont;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-decoration-line: underline;
+    padding-right: 10px;
+    @media #{$Mobile}  {
+      //display: none;
+    }
+  }
+}

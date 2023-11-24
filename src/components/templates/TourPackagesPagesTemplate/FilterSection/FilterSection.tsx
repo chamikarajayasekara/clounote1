@@ -3,17 +3,20 @@ import {Row, Col} from "react-bootstrap";
 import RoundedSelect from "../../../atoms/Input/RoundedSelect/RoundedSelect";
 import {IGuestOption} from "../../../../pages/Tours/PackageTours/PackageTours";
 import user from "../../../../assets/user (2) 1.png";
+import filter from "../../../../assets/filterList.svg";
+import MobileFilter from "../../../atoms/Buttons/FilterButton/MobileFilter";
 
 interface IFilterSection {
     options: IGuestOption[],
     label:string,
-    handleSelectGuest : (selectedOption:IGuestOption ) =>void
+    handleSelectGuest : (selectedOption:IGuestOption ) =>void,
+    mobileFilterOnClick: ()=> void
 }
 const sortOptions = [
     {label:'asc', value:1},
     {label:'desc', value:2}
 ]
-const FilterSection : React.FC<IFilterSection>=({options,label,handleSelectGuest})=>{
+const FilterSection : React.FC<IFilterSection>=({options,label,handleSelectGuest, mobileFilterOnClick})=>{
     return (
         <Row className="tour-package-filter ">
             <Col md={3} className=" ">
@@ -30,7 +33,8 @@ const FilterSection : React.FC<IFilterSection>=({options,label,handleSelectGuest
             <Col md={3} className="">
                 <div className="sort-line">
                     <div className="mobile-filter">
-                        <RoundedSelect options={sortOptions} label={''} onChange={handleSelectGuest} image={null} placeholder={'Filter'}/>
+                        {/*<RoundedSelect options={sortOptions} label={''} onChange={handleSelectGuest} image={null} placeholder={'Filter'}/>*/}
+                        <MobileFilter label={'Filter'} image={filter} onClick={mobileFilterOnClick} badgeCount={'2'}/>
                     </div>
                     <div className="sortby">
                         <RoundedSelect options={sortOptions} label={''} onChange={handleSelectGuest} image={null} placeholder={'Sort by'}/>
