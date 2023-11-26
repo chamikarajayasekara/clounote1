@@ -20,6 +20,7 @@
 @import "../components/atoms/Cards/Card3/card3";
 @import "../components/atoms/Cards/Card4/card4";
 @import "../components/atoms/Cards/PackageCard/packageCard";
+@import "../components/atoms/Cards/SmallCard/smallCard";
 
 @import "../components/atoms/Badges/PPBadge/ppBadge";
 
@@ -74,6 +75,8 @@
 @import "../components/templates/Footer/footer";
 @import "../components/templates/HomePagetemplates/HomePageHeroSection/homePageHeroSection";
 @import "../components/templates/ToursPageTemplate/FourImageSection/fourImageSection";
+@import "../components/templates/ToursPageTemplate/LowerPageSections/lowerpageSection";
+@import "../components/templates/ToursPageTemplate/MobileImageSection/-mobileImageSection";
 @import "../components/templates/ToursPageTemplate/LocationInfo/locationInfo";
 @import "../components/templates/TourPackagesPagesTemplate/FilterSection/filterSection";
 
@@ -96,6 +99,7 @@
   @media #{$Mobile}  {
     margin-left: unset !important;
     margin-right: unset !important;
+    margin-top: 0 !important;
   }
 }
 

@@ -1,0 +1,25 @@
+.mobile-tour-details-section{
+  display: none;
+  height: 550px;
+  @media #{$Mobile}  {
+    display: block;
+  }
+  .content-box{
+    width: 80%;
+    margin: 0 auto;
+    position: absolute;
+    top: 25%;
+    left: 5%;
+    h4{
+      color: #FFF;
+      font-family: $mainFont;
+      font-size: 28px;
+      font-style: normal;
+      font-weight: 800;
+      line-height: normal;
+    }
+  }
+  .small-cards-section{
+    margin-top: 40px;
+  }
+}

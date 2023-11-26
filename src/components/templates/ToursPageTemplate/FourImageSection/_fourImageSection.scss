@@ -4,6 +4,9 @@
   margin-bottom: 56px;
   margin-top: 28px !important;
   border-radius: 12px;
+  @media #{$Mobile}  {
+   display: none !important;
+  }
   .left-img{
     width: 97%;
     height: 568px;

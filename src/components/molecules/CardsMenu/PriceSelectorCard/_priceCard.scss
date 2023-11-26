@@ -10,8 +10,9 @@
   opacity: 1;
   padding: 30px;
   @media #{$Mobile}  {
-   width: 100%;
+   width: 93%;
     height: auto;
+    margin: 0 auto;
   }
   .line1{
     .pp{

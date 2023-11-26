@@ -2,6 +2,9 @@
   .content-layer{
     margin-top: 35px;
     margin-bottom: 50px;
+    @media #{$Mobile}  {
+      margin-top: 25px;
+    }
     p{
       margin-bottom: 30px;
       text-align: left;
@@ -9,6 +12,12 @@
       letter-spacing: 0px;
       color: $content-details-color;
       opacity: 1;
+      @media #{$Mobile}  {
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+      }
     }
   }
 }

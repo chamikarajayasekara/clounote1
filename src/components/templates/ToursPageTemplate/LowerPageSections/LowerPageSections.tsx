@@ -42,11 +42,11 @@ const LowerPageSections = (
     return (
         <Container className="tours-lower-section">
             <Row>
-                <Col md={7} className="px-0">
+                <Col md={7} className=" left-wrapper">
                     <TourPageLowerLeft content={content} heading={heading} location={location} highlights={highlights} tourIncluded={tourIncluded}  reviews={ reviews} accordions={accordions} other={other}/>
                 </Col>
-                <Col md={1} className="px-0"></Col>
-                <Col md={4} className="px-0   position-relative">
+                <Col md={1} className="px-0 mid-wrapper"></Col>
+                <Col md={4} className="px-0  position-relative right-wrapper">
                     <ToursPageLowerRight pricing={pricing}/>
                 </Col>
             </Row>

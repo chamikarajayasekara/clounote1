@@ -25,7 +25,7 @@ const MobileMenu = (props:Props) => {
         navigate(-1);
     }
     return (
-        <Container className="mobile-nav">
+        <Container className={isHome ? "mobile-nav" : "mobile-nav-otherpage"}>
             <div className="logo-section">
                 {
                     isHome ?

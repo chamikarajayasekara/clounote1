@@ -1,3 +1,6 @@
 .accordion-section{
   margin-top: 55px;
+  @media #{$Mobile}  {
+    margin-top: 10px;
+  }
 }

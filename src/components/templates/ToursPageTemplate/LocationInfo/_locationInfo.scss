@@ -3,6 +3,9 @@
   align-items: center;
   margin-top: 5px;
   overflow: hidden;
+  @media #{$Mobile}  {
+    display: none;
+  }
   .location-icon {
     width: 20px;
     height: 20px;
@@ -17,6 +20,31 @@
     font: normal normal 900 14px/22px $mainFont;
     letter-spacing: 0.2px;
     color: $blue2;
+    opacity: 1;
+    //margin-left: 6px;
+  }
+}
+
+.location-info-mobile{
+  display: flex;
+  align-items: center;
+  margin-top: 5px;
+  overflow: hidden;
+  margin-left: -12px;
+  .location-icon {
+    width: 16px;
+    height: 16px;
+    //background-color: $blue1;
+    opacity: 1;
+    margin-right: 9px;
+  }
+
+  .location-name {
+    height: 20px;
+    text-align: left;
+    font: normal normal 900 14px/22px $mainFont;
+    letter-spacing: 0.2px;
+    color: $pureWhite;
     opacity: 1;
     //margin-left: 6px;
   }

@@ -7,6 +7,9 @@
     align-items: center;
     .heading{
       width: 78%;
+      @media #{$Mobile}  {
+        width: 50%;
+      }
     }
     .count{
       width: auto;

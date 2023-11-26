@@ -3,6 +3,11 @@
   height: 88px;
   border-bottom: 2px solid $grey2;
   width: 100%;
+  @media #{$Mobile}  {
+    border: none;
+    height: unset;
+    margin-top: 35px;
+  }
   h4{
     text-align: left;
     font: normal normal 900 28px/29px $mainFont;
@@ -11,11 +16,23 @@
     text-transform: capitalize;
     opacity: 1;
     width: 80%;
+    @media #{$Mobile}  {
+      color: $pageHeader;
+      font-family: $mainFont;
+      font-size: 22px;
+      font-style: normal;
+      font-weight: 800;
+      line-height: normal;
+      width: 70%;
+    }
   }
   .temperature{
     width: 20%;
     display: flex;
     justify-content: flex-end;
+    @media #{$Mobile}  {
+      width: 30%;
+    }
     img{
       width: 35px;
       height: 35px;

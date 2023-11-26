@@ -4,6 +4,11 @@
   img{
     width: 66px;
     height: 66px;
+    @media #{$Mobile}  {
+      width: 40px;
+      height: 40px;
+      flex-shrink: 0;
+    }
   }
   .comment{
     margin-left: 12px;

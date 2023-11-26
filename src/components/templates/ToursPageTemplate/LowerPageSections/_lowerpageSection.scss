@@ -1,3 +1,26 @@
 .tours-lower-section{
-  margin-left: 56px;
+
+  @media #{$Mobile}  {
+    margin-top: -5%;
+    z-index: 1;
+    //background-color: white;
+    position: relative;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    background-color: #FFFFFF;
+  }
+
+  .left-wrapper{
+  }
+  .mid-wrapper{
+    @media #{$Mobile}  {
+
+    }
+  }
+  .right-wrapper{
+    @media #{$Mobile}  {
+
+    }
+
+  }
 }

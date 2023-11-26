@@ -1,6 +1,9 @@
 .collapse-item{
   border-bottom: 2px solid $grey2;
   margin-bottom: 30px;
+  @media #{$Mobile}  {
+    margin-bottom: 10px;
+  }
   .accordion{
     border:none !important;
     .accordion-item{
