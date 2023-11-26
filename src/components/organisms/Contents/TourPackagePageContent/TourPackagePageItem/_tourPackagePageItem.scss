@@ -142,7 +142,10 @@
     }
   }
   &:last-of-type {
-    //border-top: 2px solid $grey2;
+
+    @media #{$Mobile}{
+      border-top: 2px solid $grey2;
+    }
     padding-top: 24px;
     height: 248px;
   }
