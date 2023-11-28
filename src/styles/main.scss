@@ -54,6 +54,7 @@
 @import "../components/molecules/Contents/TourPageSubContents/OtherSection/.other-details";
 @import "../components/molecules/Contents/TourPageSubContents/OtherSection/OtherDetailsItem/otherDetailsItem";
 @import "../components/molecules/Contents/HotelsPage/HotelsPageRight/hotelPageRight";
+@import "../components/molecules/Contents/ThingsToDoPage/thingsToDoCard";
 @import "../components/molecules/CardsMenu/PriceSelectorCard/priceCard";
 @import "../components/molecules/Header/Modals/mobileFilterModalHeader";
 
@@ -86,6 +87,7 @@
 
 @import "../pages/Tours/PackageTours/packageTours";
 @import "../pages/Hotels/hotelPackage";
+@import "../pages/ThingsToDo/thingsToDo";
 
 //common
 @import "common";

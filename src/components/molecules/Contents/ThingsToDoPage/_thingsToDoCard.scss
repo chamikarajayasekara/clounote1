@@ -1,0 +1,33 @@
+.things-to-do-card{
+  position: relative;
+  height: 380px;
+  .whishlist{
+    position: absolute;
+    top:4%;
+    right: 8%;
+  }
+  .card-content-things-to-do{
+    margin-top: 8px;
+    margin-left: 5px;
+    h6{
+      color: $pureBlack;
+      font-family: $mainFont;
+      font-size: 25px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: normal;
+      margin: 0;
+      height: 34px;
+    }
+    p{
+      color:$grey8 ;
+      font-family: $mainFont;
+      font-size: 20px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+      height: 27px;
+      margin: 0;
+    }
+  }
+}

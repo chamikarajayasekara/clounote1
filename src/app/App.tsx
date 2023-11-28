@@ -3,13 +3,13 @@ import {Routes, Route, Link} from "react-router-dom";
 import '../App.css';
 import NavigationBar from "../components/organisms/NavigationBar/NavigationBar";
 
-import ThingsToDo from "../pages/ThingsToDo";
 import Login from "../pages/Login";
 import Home from "../pages/Home/Home";
 import Tours from "../pages/Tours/Tours";
 import Footer from "../components/templates/Footer/Footer";
 import PackageTours from "../pages/Tours/PackageTours/PackageTours";
 import Hotels from "../pages/Hotels/Hotels";
+import ThingsToDo from "../pages/ThingsToDo/ThingsToDo";
 
 function App() {
 
