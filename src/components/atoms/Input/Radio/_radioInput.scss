@@ -1,0 +1,32 @@
+.radio-input{
+  margin-bottom: 20px;
+  .form-label{
+    color: $pureBlack;
+    font-family: $mainFont;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 15px;
+  }
+  .form-check{
+    margin-bottom: 5px;
+    .form-check-input{
+      border: 1px solid  #757575 !important;
+      box-shadow: unset;
+    }
+    .form-check-input:checked{
+      background-color: $base-green;
+      border-color: $base-green !important;
+      box-shadow: unset;
+    }
+    .form-check-label{
+      color: $commentText3;
+      font-family:  $mainFont;
+      font-size: 15px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+    }
+  }
+}

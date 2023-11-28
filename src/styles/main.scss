@@ -14,12 +14,14 @@
 @import "../components/atoms/Input/CheckBoxList/checkBoxList";
 @import "../components/atoms/Input/Range/range";
 @import "../components/atoms/Input/Range/multiRangeSlider";
+@import "../components/atoms/Input/Radio/radioInput";
 
 @import "../components/atoms/Cards/Card1/card1";
 @import "../components/atoms/Cards/Card2/card2";
 @import "../components/atoms/Cards/Card3/card3";
 @import "../components/atoms/Cards/Card4/card4";
 @import "../components/atoms/Cards/PackageCard/packageCard";
+@import "../components/atoms/Cards/PackageCradSquare/packagecardHotels";
 @import "../components/atoms/Cards/SmallCard/smallCard";
 
 @import "../components/atoms/Badges/PPBadge/ppBadge";
@@ -51,6 +53,7 @@
 @import "../components/molecules/Contents/TourPageSubContents/AccordionSection/accordionSection";
 @import "../components/molecules/Contents/TourPageSubContents/OtherSection/.other-details";
 @import "../components/molecules/Contents/TourPageSubContents/OtherSection/OtherDetailsItem/otherDetailsItem";
+@import "../components/molecules/Contents/HotelsPage/HotelsPageRight/hotelPageRight";
 @import "../components/molecules/CardsMenu/PriceSelectorCard/priceCard";
 @import "../components/molecules/Header/Modals/mobileFilterModalHeader";
 
@@ -82,6 +85,7 @@
 
 
 @import "../pages/Tours/PackageTours/packageTours";
+@import "../pages/Hotels/hotelPackage";
 
 //common
 @import "common";

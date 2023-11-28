@@ -20,9 +20,6 @@ const PackageCard = ({images}:{images:string[]}) => {
         slidesToShow: 1,
         slidesToScroll: 1,
     };
-    // const images = [
-    //     hero1,hero2,hero3
-    // ];
     return (
         <div className="package-card" >
             <Slider {...settings}>

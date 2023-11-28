@@ -1,0 +1,58 @@
+.hotel-page-right-section{
+  width: 290px;
+  height: 380px;
+  margin-top: 24px !important;
+  cursor: pointer;
+  position: relative;
+  .whishlist{
+    position: absolute;
+    top:4%;
+    right: 8%;
+  }
+  .card-content{
+    height: 90px;
+    margin-top: 8px;
+    margin-left: 5px;
+    h6{
+      color: $pureBlack;
+      font-family: $mainFont;
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: normal;
+      margin: 0;
+      height: 25px;
+    }
+    .name{
+      color: $grey7;
+      font-family: $mainFont;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+      margin: 0;
+      height: 19px;
+    }
+    .price{
+      color: $pureBlack;
+      font-family: $mainFont;
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: normal;
+      margin: 0;
+      height: 25px;
+      .item{
+        color: $pureBlack;
+        font-family: $mainFont;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 25px;
+        padding: 0;
+        margin-left: 8px;
+      }
+    }
+
+  }
+}

@@ -77,7 +77,7 @@ const PackageTours = () => {
         <div className="tours-package">
             <MobileMenu handleOpenDrawer={handleOpenDrawer}/>
             <Breadcrumb paths={TourPackageDataSet.paths} />
-            <PageHeader title={'Tour Packages'}/>
+            <PageHeader title={'Tour Packages'} mobileShow={true}/>
             <Container>
                 <FilterSection  options={ToursPageDetails?.pricing.guest} label={''} handleSelectGuest={handleSelectGuest} mobileFilterOnClick={mobileFilterOnClick}/>
                 <Row className="tour-page-right-row">
