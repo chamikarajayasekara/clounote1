@@ -23,7 +23,7 @@
     z-index: 2;
     @media #{$Mobile}  {
       background: linear-gradient(90deg, rgba(0, 0, 0, 0.85) 39.34%, rgba(0, 0, 0, 0.00) 99.59%);
-      border-radius: unset !important;
+      //border-radius: unset !important;
     }
     .banner-contents{
       padding-top: 60px;
