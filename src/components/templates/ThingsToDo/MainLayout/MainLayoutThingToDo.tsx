@@ -1,6 +1,6 @@
 import React from 'react';
 import {Link} from "react-router-dom";
-import ThingsToDoCards from "../../molecules/Contents/ThingsToDoPage/ThingsToDoCards";
+import ThingsToDoCards from "../../../molecules/Contents/ThingsToDoPage/ThingsToDoCards";
 
 interface props {
     discoverItems: {

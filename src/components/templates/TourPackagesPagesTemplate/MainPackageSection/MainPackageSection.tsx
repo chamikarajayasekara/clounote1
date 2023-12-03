@@ -34,6 +34,7 @@ const MainPackageSection = () => {
                                  borderRadius={'20Px'}
                                  paddingTop={'60Px'}
                                  paddingLeft={'60Px'}
+                                 descriptionSideBorder={true}
                         />
                     )}
                 </React.Fragment>

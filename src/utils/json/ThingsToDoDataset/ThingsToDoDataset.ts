@@ -79,5 +79,26 @@ export const ThingsToDoDataset = {
                 'https://i.postimg.cc/K8FT7KJp/tharaka-jayasuriya-J-QFbak-Di-YQ-unsplash.jpg'
             ]
         }
+    ],
+    bannerText:{
+        question:'Are you a tourist \n' +
+            'guider?',
+        description:'Earn extra income and unlock new opportunities by sharing your tour packages on our platform.',
+        buttonText:'Learn more'
+    },
+    banner2:[
+        {
+            header:'Knuckles top tours specially for you',
+            buttonText:'Explore',
+            navigation:'/',
+            img:'https://i.postimg.cc/8k29rbHj/banner21.png'
+
+        },
+        {
+            header:'Best hotels to stay',
+            buttonText:'Explore',
+            navigation:'/',
+            img:'https://i.postimg.cc/C5q2QZFh/banner2.png'
+        },
     ]
 }
