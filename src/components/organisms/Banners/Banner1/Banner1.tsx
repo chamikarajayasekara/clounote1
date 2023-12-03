@@ -22,7 +22,6 @@ const Banner1 : React.FC<BannerProps> = ({width,height,header, imageUrl,descript
         height: height,
         background: `url(${imageUrl}) center/cover`,
         borderRadius: borderRadius,
-        objectFit: "cover"
     };
 
     const contentStyle: React.CSSProperties = {

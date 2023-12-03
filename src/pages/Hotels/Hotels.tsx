@@ -10,6 +10,8 @@ import SeeMoreButtonSection
 import {IGuestOption, IMultiRangeSliderProps} from "../Tours/PackageTours/PackageTours";
 import CheckboxSection from '../../components/templates/HotelsPageTemplates/CheckboxSection/CheckboxSection';
 import MainPackage from "../../components/templates/HotelsPageTemplates/MainPackage/MainPackage";
+import MobileMenu from "../../components/molecules/MenuSection/MobileMenu/MobileMenu";
+import MobileDrawer from "../../components/organisms/MobileDarwer/MobileDrawer";
 
 const Hotels = () => {
     const [numberOfGuest, setNumberOfGuest] = useState<number>(0);
@@ -49,8 +51,17 @@ const Hotels = () => {
     const handleRadio = (value: string) => {
         setSelectedPlaceType(value);
     }
+
+    const handleOpenDrawer = () => {
+        setIsDrawerOpen(true);
+    };
+    const handleCloseDrawer = () => {
+        setIsDrawerOpen(false);
+    };
+
     return (
         <div className="hotel-package">
+            <MobileMenu handleOpenDrawer={handleOpenDrawer}/>
             <Breadcrumb paths={HotelPageDataset.paths} />
             <PageHeader title={'Best hotels in Knuckles'} mobileShow={true}/>
             <Container>
@@ -70,6 +81,9 @@ const Hotels = () => {
                 </Row>
                 <SeeMoreButtonSection/>
             </Container>
+            {
+                isDrawerOpen ? <MobileDrawer isOpen={isDrawerOpen} onClose={handleCloseDrawer} /> : null
+            }
         </div>
     );
 };
