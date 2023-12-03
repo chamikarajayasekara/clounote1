@@ -8,6 +8,7 @@
   position: relative;
   @media #{$Mobile}  {
     border-radius: unset !important;
+    object-fit: cover !important;
   }
   .description-side{
     width: 50%;
@@ -28,6 +29,7 @@
       @media #{$Mobile}  {
         padding-top: 20px !important;
         padding-left: 5px !important;
+        width: 100% !important;
       }
       h1{
         color: #FFF;
@@ -36,14 +38,19 @@
         font-weight: 800;
         line-height: 42px;
         @media #{$Mobile}  {
-          font-size: 28px;
-          font-style: normal;
-          font-weight: 800;
-          line-height: 35px
+          font-size: 28px !important;
+          font-style: normal !important;
+          font-weight: 800 !important;
+          line-height: 35px !important;
+          width: unset !important;
         }
       }
       p{
         margin-bottom: 30px;
+        @media #{$Mobile}{
+          font-size: 14px !important;
+        }
+
       }
     }
   }
