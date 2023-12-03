@@ -7,8 +7,9 @@
   text-align: left;
   position: relative;
   @media #{$Mobile}  {
-    border-radius: unset !important;
-    object-fit: cover !important;
+    background-size: cover !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
   }
   .description-side{
     width: 50%;

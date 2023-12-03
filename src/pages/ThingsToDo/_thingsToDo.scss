@@ -9,11 +9,17 @@
     margin-top: 75px !important;
     overflow-y: hidden;
   }
+
   .discover-experience{
     display: flex;
     justify-content: space-evenly;
     @media #{$Mobile}  {
       display: block;
     }
+  }
+}
+.discover-section{
+  @media #{$Mobile}  {
+    margin-top: 0 !important;
   }
 }

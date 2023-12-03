@@ -12,7 +12,7 @@ interface Props {
 }
 const DiscoverExperience:React.FC<Props> = ({item}) => {
     return (
-        <div className="things-to-do-page">
+        <div className="things-to-do-page discover-section">
             <PageHeader title={'Discover OneKnuckles Experiences'} mobileShow={true}/>
             <div className="discover-experience">
                 {
