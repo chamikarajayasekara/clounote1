@@ -21,6 +21,9 @@
     left: 50%;
     transform: translate(-50%, -50%);
     width: 100% !important;
+    @media #{$Mobile}  {
+      width: 50% !important;
+    }
   }
   .slick-dots li.slick-active button:before {
     opacity: .75 !important;

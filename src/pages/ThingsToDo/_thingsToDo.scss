@@ -8,4 +8,11 @@
     margin-right: unset !important;
     margin-top: 75px !important;
   }
+  .discover-experience{
+    display: flex;
+    justify-content: space-evenly;
+    @media #{$Mobile}  {
+      display: block;
+    }
+  }
 }

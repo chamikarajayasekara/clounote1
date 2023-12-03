@@ -22,21 +22,21 @@ const ThingsToDo = () => {
                     </Row>
                 </Container>
             </div>
-            <Banner1
-                borderRadius={'0'}
-                paddingTop={'75'}
-                paddingLeft={'90'}
-                imageUrl={banner}
-                height={'500px'}
-                descriptionSideBorder={false}
-                header={ThingsToDoDataset.bannerText.question}
-                description={ThingsToDoDataset.bannerText.description}
-                buttonDescription={ThingsToDoDataset.bannerText.buttonText}
-                leftSideLength={'540px'}
-                h1FontSize={'67px'}
-                h1LineHeight={'83px'}
-                pFont={'18px'}
-            />
+            {/*<Banner1*/}
+            {/*    borderRadius={'0'}*/}
+            {/*    paddingTop={'75'}*/}
+            {/*    paddingLeft={'90'}*/}
+            {/*    imageUrl={banner}*/}
+            {/*    height={'500px'}*/}
+            {/*    descriptionSideBorder={false}*/}
+            {/*    header={ThingsToDoDataset.bannerText.question}*/}
+            {/*    description={ThingsToDoDataset.bannerText.description}*/}
+            {/*    buttonDescription={ThingsToDoDataset.bannerText.buttonText}*/}
+            {/*    leftSideLength={'540px'}*/}
+            {/*    h1FontSize={'67px'}*/}
+            {/*    h1LineHeight={'83px'}*/}
+            {/*    pFont={'18px'}*/}
+            {/*/>*/}
             <DiscoverExperience item={ThingsToDoDataset.banner2}/>
         </>
 

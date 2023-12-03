@@ -14,7 +14,7 @@ const DiscoverExperience:React.FC<Props> = ({item}) => {
     return (
         <div className="things-to-do-page">
             <PageHeader title={'Discover OneKnuckles Experiences'} mobileShow={true}/>
-            <div className="d-flex justify-content-between">
+            <div className="discover-experience">
                 {
                     item.map((bannerItem, key) => (
                         <Banner2

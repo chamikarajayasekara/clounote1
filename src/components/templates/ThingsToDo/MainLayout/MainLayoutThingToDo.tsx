@@ -9,7 +9,7 @@ interface props {
 }
 const MainLayoutThingToDo:React.FC<props> = ({discoverItems}) => {
     return (
-        <div className="d-flex flex-wrap">
+        <div className="main-layout-things-to-do">
             {discoverItems.map((item: any, index: number) => (
                 <React.Fragment key={index} >
                     <Link to={'/things-to-do/things-to-do-details'} className="text-decoration-none w-25" >

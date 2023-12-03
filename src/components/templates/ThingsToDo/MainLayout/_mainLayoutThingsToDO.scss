@@ -1,3 +1,7 @@
 .main-layout-things-to-do{
-
+    display: flex;
+    flex-wrap: wrap;
+    @media #{$Mobile}{
+      display: block;
+    }
 }
