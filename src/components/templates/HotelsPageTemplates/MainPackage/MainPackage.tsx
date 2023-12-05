@@ -10,7 +10,7 @@ import HotelsPageRight from "../../../molecules/Contents/HotelsPage/HotelsPageRi
 
 const MainPackage = () => {
     return (
-        <Col md={9} className="">
+        <Col md={9} className="hotel-layout-col">
             <div className="hotels-list d-flex flex-wrap">
             {HotelPageDataset?.packageData?.map((item: any, index: number) => (
                 <React.Fragment key={index} >

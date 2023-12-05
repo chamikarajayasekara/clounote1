@@ -8,4 +8,23 @@
     margin-right: unset !important;
     margin-top: 75px !important;
   }
+  .hotel-layout{
+
+    .checkbox-section{
+      @media #{$Mobile}  {
+        display: none;
+      }
+    }
+    .hotel-layout-col{
+      @media #{$Tablet}  {
+        width: 100% !important;
+      }
+      .hotels-list{
+        @media #{$Mobile}  {
+          justify-content: center;
+        }
+      }
+    }
+
+  }
 }

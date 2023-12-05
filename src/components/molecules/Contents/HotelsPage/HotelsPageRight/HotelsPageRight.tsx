@@ -12,7 +12,7 @@ interface HotelPageRightSection {
 
 const HotelsPageRight:React.FC<HotelPageRightSection> = ({title,name,time, price, images}) => {
     return (
-        <div className="hotel-page-right-section">
+        <div className="hotel-page-right-section ">
             <PackageCardHotels images={images}/>
             <img src={heart2} alt="rating" width={24} height={24} className="cursor-pointer whishlist"/>
             <div className="card-content">

@@ -27,7 +27,7 @@ const CheckboxSection :React.FC<CheckBoxTemplateHotelsProps> = (
         handleRadio
     }) => {
     return (
-        <Col md={3} className=" mt-4 checkbox-section">
+        <Col md={3} className=" mt-4 checkbox-section ">
             <RadioInput label={HotelPageDataset.radioInput.label} options={HotelPageDataset.radioInput.options} onChange={handleRadio} selectedValue={selectedPlaceType}  />
             <CheckboxList groups={HotelPageDataset?.checkboxGroups[0]} selectedOptions={ selectedOptionsDuration } onCheckboxChange={handleCheckboxChange} />
             <MultiRangeSlider label="Price" rangeValue={"$0 -$500+"}  max={500} min={0} setSelectedPriceRange={setSelectedPriceRange}/>

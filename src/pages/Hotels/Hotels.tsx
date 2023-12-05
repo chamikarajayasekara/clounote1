@@ -12,6 +12,8 @@ import CheckboxSection from '../../components/templates/HotelsPageTemplates/Chec
 import MainPackage from "../../components/templates/HotelsPageTemplates/MainPackage/MainPackage";
 import MobileMenu from "../../components/molecules/MenuSection/MobileMenu/MobileMenu";
 import MobileDrawer from "../../components/organisms/MobileDarwer/MobileDrawer";
+import FullScreenModal from "../../components/molecules/FullWidthImageModal/FullScreenModal";
+import MobileFilterModalHeader from "../../components/molecules/Header/Modals/MobileFilterModalHeader";
 
 const Hotels = () => {
     const [numberOfGuest, setNumberOfGuest] = useState<number>(0);
@@ -66,7 +68,7 @@ const Hotels = () => {
             <PageHeader title={'Best hotels in Knuckles'} mobileShow={true}/>
             <Container>
                 <FilterSection  options={ToursPageDetails?.pricing.guest} label={''} handleSelectGuest={handleSelectGuest} mobileFilterOnClick={mobileFilterOnClick}/>
-                <Row className="">
+                <Row className="hotel-layout">
                     <CheckboxSection
                         handleCheckboxChange={handleCheckboxChange}
                         selectedPlaceType={selectedPlaceType}
@@ -83,6 +85,27 @@ const Hotels = () => {
             </Container>
             {
                 isDrawerOpen ? <MobileDrawer isOpen={isDrawerOpen} onClose={handleCloseDrawer} /> : null
+            }
+            {
+                isMobileFiletOpen &&
+                <FullScreenModal
+                    title={''}
+                    body={
+                        <CheckboxSection
+                            handleCheckboxChange={handleCheckboxChange}
+                            selectedPlaceType={selectedPlaceType}
+                            selectedOptionsAttraction={selectedOptionsAttraction}
+                            selectedOptionsDuration={selectedOptionsDuration}
+                            selectedOptionsLanguage={selectedOptionsLanguage}
+                            selectedOptionsOffers={selectedOptionsOffers}
+                            setSelectedPriceRange={setSelectedPriceRange}
+                            handleRadio={handleRadio}
+                        />
+                    }
+                    show={isMobileFiletOpen}
+                    handleClose={mobileFilterClose}
+                    header={<MobileFilterModalHeader/>}
+                />
             }
         </div>
     );
