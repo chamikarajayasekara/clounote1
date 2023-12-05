@@ -1,0 +1,7 @@
+.local-crafts{
+  .checkbox-section {
+    @media #{$Mobile}  {
+      display: none;
+    }
+  }
+}

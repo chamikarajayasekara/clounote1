@@ -96,6 +96,7 @@ const PackageTours = () => {
                     body={ <CheckboxSection handleCheckboxChange={handleCheckboxChange} selectedOptionsCategory={selectedOptionsCategory} selectedOptionsAttraction={selectedOptionsAttraction} selectedOptionsDuration={selectedOptionsDuration} selectedOptionsLanguage={selectedOptionsLanguage} selectedOptionsOffers={selectedOptionsOffers} setSelectedPriceRange={setSelectedPriceRange} />}
                     show={isMobileFiletOpen}
                     handleClose={mobileFilterClose}
+                    button={<FlatRoundButton name={'greenButtonFull'} text={'Show 5 results'} onClick={mobileFilterClose} />}
                     header={<MobileFilterModalHeader/>}
                 />
             }

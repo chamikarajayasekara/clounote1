@@ -1,5 +1,5 @@
-import React from 'react';
-import {Routes, Route, Link} from "react-router-dom";
+import React, {useEffect} from 'react';
+import {Routes, Route, Link, useLocation} from "react-router-dom";
 import '../App.css';
 import NavigationBar from "../components/organisms/NavigationBar/NavigationBar";
 
@@ -10,10 +10,16 @@ import Footer from "../components/templates/Footer/Footer";
 import PackageTours from "../pages/Tours/PackageTours/PackageTours";
 import Hotels from "../pages/Hotels/Hotels";
 import ThingsToDo from "../pages/ThingsToDo/ThingsToDo";
+import LocalCrafts from "../pages/LocalCrafts/LocalCrafts";
 
 function App() {
+    const location = useLocation();
 
-  return (
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }, [location.pathname]);
+    
+    return (
     <div className="App">
         <NavigationBar/>
             <Routes>
@@ -23,6 +29,7 @@ function App() {
                 <Route path="/tours/tour-details" element={<Tours/>} />
                 <Route path="/tours" element={<PackageTours/>} />
                 <Route path="/hotels" element={<Hotels/>} />
+                <Route path="/local-crafts" element={<LocalCrafts/>} />
                 {/*<Route path="*" element={<NotFound />} />*/}
             </Routes>
         <Footer/>

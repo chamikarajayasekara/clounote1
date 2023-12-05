@@ -14,6 +14,7 @@ import MobileMenu from "../../components/molecules/MenuSection/MobileMenu/Mobile
 import MobileDrawer from "../../components/organisms/MobileDarwer/MobileDrawer";
 import FullScreenModal from "../../components/molecules/FullWidthImageModal/FullScreenModal";
 import MobileFilterModalHeader from "../../components/molecules/Header/Modals/MobileFilterModalHeader";
+import FlatRoundButton from "../../components/atoms/Buttons/FlatButton/FlatRoundButton";
 
 const Hotels = () => {
     const [numberOfGuest, setNumberOfGuest] = useState<number>(0);
@@ -104,6 +105,7 @@ const Hotels = () => {
                     }
                     show={isMobileFiletOpen}
                     handleClose={mobileFilterClose}
+                    button={<FlatRoundButton name={'greenButtonFull'} text={'Show 5 results'} onClick={mobileFilterClose} />}
                     header={<MobileFilterModalHeader/>}
                 />
             }

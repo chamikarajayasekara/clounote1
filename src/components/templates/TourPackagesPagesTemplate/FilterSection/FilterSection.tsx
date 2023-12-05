@@ -9,7 +9,7 @@ import MobileFilter from "../../../atoms/Buttons/FilterButton/MobileFilter";
 interface IFilterSection {
     options: IGuestOption[],
     label:string,
-    handleSelectGuest : (selectedOption:IGuestOption ) =>void,
+    handleSelectGuest? : (selectedOption:IGuestOption ) =>void,
     mobileFilterOnClick: ()=> void
 }
 const sortOptions = [
@@ -21,7 +21,7 @@ const FilterSection : React.FC<IFilterSection>=({options,label,handleSelectGuest
         <Row className="tour-package-filter ">
             <Col md={3} className=" ">
                 <div className="filter-line">
-                    <RoundedSelect options={options} label={label} onChange={handleSelectGuest} image={user} placeholder={'Select'}/>
+                    <RoundedSelect options={options} label={label} onChange={handleSelectGuest? handleSelectGuest : ()=>{} } image={user} placeholder={'Select'}/>
                 </div>
             </Col>
             <Col md={5} className="">
@@ -37,7 +37,7 @@ const FilterSection : React.FC<IFilterSection>=({options,label,handleSelectGuest
                         <MobileFilter label={'Filter'} image={filter} onClick={mobileFilterOnClick} badgeCount={'2'}/>
                     </div>
                     <div className="sortby">
-                        <RoundedSelect options={sortOptions} label={''} onChange={handleSelectGuest} image={null} placeholder={'Sort by'}/>
+                        <RoundedSelect options={sortOptions} label={''} onChange={handleSelectGuest? handleSelectGuest : ()=>{}} image={null} placeholder={'Sort by'}/>
                     </div>
                 </div>
             </Col>

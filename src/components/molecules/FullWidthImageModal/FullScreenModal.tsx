@@ -7,9 +7,10 @@ interface ModalProps {
     title: string;
     body: React.ReactNode;
     header?: React.ReactNode;
+    button?:React.ReactNode;
 }
 
-const FullScreenModal: React.FC<ModalProps> = ({ show, handleClose, title, body, header }) => {
+const FullScreenModal: React.FC<ModalProps> = ({ show, handleClose, title, body, header, button }) => {
     return (
         <div>
             <Modal show={show} fullscreen={true} onHide={handleClose}>
@@ -21,6 +22,12 @@ const FullScreenModal: React.FC<ModalProps> = ({ show, handleClose, title, body,
                         </Modal.Header>
                 }
                 <Modal.Body>{body}</Modal.Body>
+                {
+                    button?
+                        <Modal.Footer>
+                            {button}
+                        </Modal.Footer> : null
+                }
             </Modal>
         </div>
     );
