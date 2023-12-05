@@ -28,7 +28,10 @@ const ThingsToDo = () => {
                 <Container>
                     <Row className="mt-5">
                         <Col md={12} className="">
-                            <MainLayoutThingToDo discoverItems={ThingsToDoDataset.discoverItems}/>
+                            <MainLayoutThingToDo
+                                discoverItems={ThingsToDoDataset.discoverItems}
+                                url={'/things-to-do/things-to-do-details'}
+                            />
                         </Col>
                     </Row>
                 </Container>

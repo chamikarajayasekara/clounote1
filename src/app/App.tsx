@@ -11,6 +11,7 @@ import PackageTours from "../pages/Tours/PackageTours/PackageTours";
 import Hotels from "../pages/Hotels/Hotels";
 import ThingsToDo from "../pages/ThingsToDo/ThingsToDo";
 import LocalCrafts from "../pages/LocalCrafts/LocalCrafts";
+import LocalCraftDiscover from "../pages/LocalCrafts/LocalCraftsDiscover/LocalCraftDiscover";
 
 function App() {
     const location = useLocation();
@@ -18,7 +19,7 @@ function App() {
     useEffect(() => {
         window.scrollTo(0, 0);
     }, [location.pathname]);
-    
+
     return (
     <div className="App">
         <NavigationBar/>
@@ -29,7 +30,8 @@ function App() {
                 <Route path="/tours/tour-details" element={<Tours/>} />
                 <Route path="/tours" element={<PackageTours/>} />
                 <Route path="/hotels" element={<Hotels/>} />
-                <Route path="/local-crafts" element={<LocalCrafts/>} />
+                <Route path="/local-crafts-discover/local-crafts" element={<LocalCrafts/>} />
+                <Route path="/local-crafts-discover" element={<LocalCraftDiscover/>} />
                 {/*<Route path="*" element={<NotFound />} />*/}
             </Routes>
         <Footer/>

@@ -5,14 +5,15 @@ import ThingsToDoCards from "../../../molecules/Contents/ThingsToDoPage/ThingsTo
 interface props {
     discoverItems: {
         title:string, packages:string, images:string[]
-    }[]
+    }[],
+    url:string,
 }
-const MainLayoutThingToDo:React.FC<props> = ({discoverItems}) => {
+const MainLayoutThingToDo:React.FC<props> = ({discoverItems, url}) => {
     return (
         <div className="main-layout-things-to-do">
             {discoverItems.map((item: any, index: number) => (
                 <React.Fragment key={index} >
-                    <Link to={'/things-to-do/things-to-do-details'} className="text-decoration-none w-25" >
+                    <Link to={url+`?category=${item.title}`} className="text-decoration-none w-25">
                         <ThingsToDoCards title={item.title} packages={item.packages} images={item.images}/>
                     </Link>
                 </React.Fragment>

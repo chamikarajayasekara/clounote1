@@ -64,7 +64,7 @@ const LocalCraftsSection = () => {
 
     return (
         <Container className="local-crafts" >
-            <SectionHeader name={'Enjoy Local Crafts'} onClick={()=>{}} noOfItems={23} toNavigate={'/local-crafts'} handlePrev={handlePrev} handleNext={handleNext}/>
+            <SectionHeader name={'Enjoy Local Crafts'} onClick={()=>{}} noOfItems={23} toNavigate={'/local-crafts-discover'} handlePrev={handlePrev} handleNext={handleNext}/>
             <CarftsCardSlider slider={sliderRef3} settings={settings} />
             <LocalCraft/>
         </Container>

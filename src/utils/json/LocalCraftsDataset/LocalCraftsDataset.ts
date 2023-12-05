@@ -90,3 +90,89 @@ export const LocalCraftsDataset = {
         }
     ],
 }
+
+
+export const LocalCraftsDiscoverDataset = {
+    paths: [
+        { name: 'Home', url: '/' },
+        { name: 'Enjoy local crafts', url: '/local-crafts-discover' }
+    ],
+    discoverItems: [
+        {
+            title: 'Coconut shell craft',
+            packages: '',
+            images:[
+                'https://i.postimg.cc/NjbRT7s2/Image-1.png'
+            ]
+        },       {
+            title: 'Arts and crafts',
+            packages: '',
+            images:[
+                'https://i.postimg.cc/Z5PVQdTJ/Image-2.png',
+            ]
+        },
+        {
+            title: 'Original Bee Honey',
+            packages: '',
+            images:[
+                'https://i.postimg.cc/6pxMz0xH/Image-3.png'
+
+            ]
+        },
+        {
+            title: 'Clay pots',
+            packages: '',
+            images:[
+                'https://i.postimg.cc/HsySQNRc/Image-4.png'
+            ]
+        },
+        {
+            title: 'Wooden craft',
+            packages: '',
+            images:[
+                'https://i.postimg.cc/VNYDPk6n/Image-5.png'
+            ]
+        },       {
+            title: 'Sri Lankan Food',
+            packages: '',
+            images:[
+                'https://i.postimg.cc/tT61rhj5/Image-2.png'
+            ]
+        },
+        {
+            title: 'Hand bags',
+            packages: '',
+            images:[
+                'https://i.postimg.cc/qvmCgJw8/Image-3.png'
+            ]
+        },
+        {
+            title: 'Furniture',
+            packages: '',
+            images:[
+                'https://i.postimg.cc/X7ffN6t8/Image-4.png'
+            ]
+        }
+    ],
+    bannerText:{
+        question: 'Do you have \n' +
+            'a business?',
+        description:'Earn extra income and unlock new opportunities by sharing your business idea with us.',
+        buttonText:'Join today'
+    },
+    banner2:[
+        {
+            header:'Knuckles top tours specially for you',
+            buttonText:'Explore',
+            navigation:'/',
+            img:'https://i.postimg.cc/8k29rbHj/banner21.png'
+
+        },
+        {
+            header:'Best hotels to stay',
+            buttonText:'Explore',
+            navigation:'/',
+            img:'https://i.postimg.cc/C5q2QZFh/banner2.png'
+        },
+    ]
+}
