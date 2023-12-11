@@ -63,7 +63,7 @@ const HotelsSection = () => {
 
     return (
         <Container className="hotels-section">
-            <SectionHeader name={'Best Hotels to Stay'} onClick={()=>{}} noOfItems={23} toNavigate={'/things-to-do'} handlePrev={handlePrev} handleNext={handleNext}/>
+            <SectionHeader name={'Best Hotels to Stay'} onClick={()=>{}} noOfItems={23} toNavigate={'/hotels'} handlePrev={handlePrev} handleNext={handleNext}/>
             <HotelsCardSlider slider={sliderRef4} settings={settings} />
             <HotelsMobile/>
         </Container>

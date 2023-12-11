@@ -7,11 +7,11 @@
     display: none;
     @media #{$Mobile}  {
       display: flex;
+      justify-content: space-between;
     }
     .logo-section{
       display: flex;
       justify-content: flex-start;
-      width: 70%;
       .buttons{
         display: flex;
         justify-content: space-between;
@@ -55,7 +55,6 @@
     .buttons{
       display: flex;
       justify-content: space-between;
-      width: 30%;
       .drawer-button{
         width: 40px !important;
         height: 40px !important;
@@ -103,15 +102,15 @@
   display: none;
   @media #{$Mobile}  {
     display: flex;
+    justify-content: space-between;
   }
   .logo-section{
     display: flex;
     justify-content: flex-start;
-    width: 70%;
     .buttons{
       display: flex;
       justify-content: space-between;
-      width: 30%;
+      width: 10%;
       .drawer-button{
         width: 40px !important;
         height: 40px !important;
@@ -151,7 +150,6 @@
   .buttons{
     display: flex;
     justify-content: space-between;
-    width: 30%;
     .drawer-button{
       width: 40px !important;
       height: 40px !important;

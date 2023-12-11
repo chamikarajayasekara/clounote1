@@ -11,7 +11,7 @@ const TourPackageRight = ({category,heading,time,facilities,rate,count,price, im
                 <PackageCard images={images}/>
                 <img src={images[0]} alt="" className="package-card-mobile-img"/>
             </Col>
-            <Col md={8} className="package-tour-section-right">
+            <Col md={8}  className="package-tour-section-right">
                <TourPackagePageItem  category={category} heading={heading} time={time} facilities={facilities} rate={rate} count={count} price={price}/>
             </Col>
         </Row>

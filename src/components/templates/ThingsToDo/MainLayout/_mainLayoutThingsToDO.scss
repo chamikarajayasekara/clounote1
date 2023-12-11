@@ -3,5 +3,17 @@
     flex-wrap: wrap;
     @media #{$Mobile}{
       display: block;
+      width: 80%;
+      margin: 0 auto;
     }
+    @media #{$Tablet}{
+      display: flex;
+      width: unset;
+    }
+  .card-wrapper{
+    width: 25%;
+    @media #{$Tablet}{
+      width: 50%;
+    }
+  }
 }

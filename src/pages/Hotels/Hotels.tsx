@@ -69,7 +69,7 @@ const Hotels = () => {
             <PageHeader title={'Best hotels in Knuckles'} mobileShow={true}/>
             <Container>
                 <FilterSection  options={ToursPageDetails?.pricing.guest} label={''} handleSelectGuest={handleSelectGuest} mobileFilterOnClick={mobileFilterOnClick}/>
-                <Row className="hotel-layout">
+                <Row className="hotel-layout" >
                     <CheckboxSection
                         handleCheckboxChange={handleCheckboxChange}
                         selectedPlaceType={selectedPlaceType}

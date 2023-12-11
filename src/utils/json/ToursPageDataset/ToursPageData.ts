@@ -238,7 +238,7 @@ export const TourPackageDataSet = {
     {
       header: 'Categories',
       mapName:'Categories',
-      options: ['Mountain hiking', 'Tuk tuk tours', 'Cycling','Camping','Nature and outdoors','Food','Sports','Art and culture'],
+      options: ['Mountain Hiking', 'Tuk Tuk Tours', 'Cycling','Camping','Nature and outdoors','Try Sri Lankan Food','Sports','Art and culture'],
     },
     {
       header: 'Duration',

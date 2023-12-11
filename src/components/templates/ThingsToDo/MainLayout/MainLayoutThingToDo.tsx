@@ -10,10 +10,10 @@ interface props {
 }
 const MainLayoutThingToDo:React.FC<props> = ({discoverItems, url}) => {
     return (
-        <div className="main-layout-things-to-do">
+        <div className="main-layout-things-to-do ">
             {discoverItems.map((item: any, index: number) => (
                 <React.Fragment key={index} >
-                    <Link to={url+`?category=${item.title}`} className="text-decoration-none w-25">
+                    <Link to={url+`?category=${item.title}`} className="text-decoration-none card-wrapper" >
                         <ThingsToDoCards title={item.title} packages={item.packages} images={item.images}/>
                     </Link>
                 </React.Fragment>

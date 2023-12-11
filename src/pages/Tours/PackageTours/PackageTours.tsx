@@ -21,6 +21,7 @@ import MobileMenu from "../../../components/molecules/MenuSection/MobileMenu/Mob
 import MobileDrawer from "../../../components/organisms/MobileDarwer/MobileDrawer";
 import FullScreenModal from "../../../components/molecules/FullWidthImageModal/FullScreenModal";
 import MobileFilterModalHeader from "../../../components/molecules/Header/Modals/MobileFilterModalHeader";
+import {useLocation} from "react-router-dom";
 
 export interface IMultiRangeSliderProps {
     min: number;
@@ -41,6 +42,17 @@ const PackageTours = () => {
     const [numberOfGuest, setNumberOfGuest] = useState<number>(0);
     const [isDrawerOpen, setIsDrawerOpen] = useState(false);
     const [isMobileFiletOpen, setIsMobileFiletOpen] = useState(false);
+
+    const location = useLocation();
+    const searchParams = new URLSearchParams(location.search);
+
+    useEffect(()=>{
+        const query = searchParams.get('category') || '';
+        if (query){
+            setSelectedOptionsCategory([query])
+        }
+        console.log(query)
+    },[]);
 
     const handleOpenDrawer = () => {
         setIsDrawerOpen(true);

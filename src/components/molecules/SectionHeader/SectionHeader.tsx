@@ -29,7 +29,7 @@ const SectionHeader:React.FC<Props>= ({ onClick, name, noOfItems, toNavigate, ha
                     <span>{name}</span>
                 </div>
                 <div className="view-all">
-                    <span>{`See All `}<img src={seAll} alt="" width={16} height={16}/></span>
+                    <span onClick={handleNavigate}>{`See All `}<img src={seAll} alt="" width={16} height={16}/></span>
                 </div>
                 <div className="section-controllers">
                     <span onClick={handleNavigate}>Show All ({noOfItems})</span>

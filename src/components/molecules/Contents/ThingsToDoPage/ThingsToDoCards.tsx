@@ -14,7 +14,7 @@ const ThingsToDoCards:React.FC<Props>= ({
         <div className="things-to-do-card">
             <PackageCardHotels images={images}/>
             <img src={heart2} alt="rating" width={24} height={24} className="cursor-pointer whishlist"/>
-            <div className="card-content-things-to-do">
+            <div className="card-content-things-to-do ">
                 <h6>{title}</h6>
                 <p>{packages}</p>
             </div>

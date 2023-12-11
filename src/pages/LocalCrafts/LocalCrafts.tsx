@@ -27,12 +27,13 @@ const LocalCrafts = () => {
     const location = useLocation();
     const searchParams = new URLSearchParams(location.search);
 
+
     useEffect(()=>{
         const query = searchParams.get('category') || '';
         if (query){
             setSelectedOptionsCategory([query])
         }
-    },[searchParams]);
+    },[]);
 
     const handleOpenDrawer = () => {
         setIsDrawerOpen(true);
@@ -57,6 +58,7 @@ const LocalCrafts = () => {
             setter(newSelection);
         }
     };
+
     return (
         <div className="local-crafts">
             <MobileMenu handleOpenDrawer={handleOpenDrawer}/>

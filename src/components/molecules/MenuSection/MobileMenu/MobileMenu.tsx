@@ -36,9 +36,9 @@ const MobileMenu = (props:Props) => {
                 }
             </div>
             <div className="buttons">
-                <div onClick={props.handleOpenDrawer} className="drawer-button">
-                    <IconButton name={'menu'} icon={search} width={17} height={17}/>
-                </div>
+                {/*<div onClick={props.handleOpenDrawer} className="drawer-button">*/}
+                {/*    <IconButton name={'menu'} icon={search} width={17} height={17}/>*/}
+                {/*</div>*/}
                 <div onClick={props.handleOpenDrawer} className="drawer-button">
                     <IconButton name={'menu'} icon={menu} width={20} height={20}/>
                 </div>
