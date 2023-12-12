@@ -32,6 +32,6 @@ export const AboutUsDataset = {
         heading4:'adventures? We\'re all ears! Connect with us and',
         heading5:'let the conversation begin.',
         heading1Mobile:'Want to talk to us?',
-        heading2Mobile:'Got questions, ideas, or just want to share your adventures? We\'re all ears! Connect with us and let the conversation begin.',
+        heading2Mobile:'Got questions, ideas,Connect with us and let the conversation begin.',
     }
 }

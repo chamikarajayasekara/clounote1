@@ -1,10 +1,20 @@
-import React from 'react';
+import React, {useState} from 'react';
 import AboutUsExplore from "../../components/templates/AboutUsPageTemplate/ExploreSection/AboutUsExplore";
 import {AboutUsDataset} from "../../utils/json/AboutUsDataset/AboutUsDataset";
+import MobileMenu from "../../components/molecules/MenuSection/MobileMenu/MobileMenu";
+import MobileDrawer from "../../components/organisms/MobileDarwer/MobileDrawer";
 
 const AboutUs = () => {
+    const [isDrawerOpen, setIsDrawerOpen] = useState(false);
+    const handleOpenDrawer = () => {
+        setIsDrawerOpen(true);
+    };
+    const handleCloseDrawer = () => {
+        setIsDrawerOpen(false);
+    };
     return (
         <div className="about-us">
+            <MobileMenu handleOpenDrawer={handleOpenDrawer}/>
            <AboutUsExplore
                header={AboutUsDataset.heading}
                description={AboutUsDataset.description}
@@ -16,6 +26,9 @@ const AboutUs = () => {
                highlights={AboutUsDataset.highlights}
                talkUs={AboutUsDataset.talkUs}
            />
+            {
+                isDrawerOpen ? <MobileDrawer isOpen={isDrawerOpen} onClose={handleCloseDrawer} /> : null
+            }
         </div>
     );
 };
