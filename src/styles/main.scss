@@ -86,12 +86,14 @@
 @import "../components/templates/ToursPageTemplate/LocationInfo/locationInfo";
 @import "../components/templates/TourPackagesPagesTemplate/FilterSection/filterSection";
 @import "../components/templates/ThingsToDo/MainLayout/mainLayoutThingsToDO";
+@import "../components/templates/AboutUsPageTemplate/ExploreSection/aboutUsExplore";
 
 
 @import "../pages/Tours/PackageTours/packageTours";
 @import "../pages/Hotels/hotelPackage";
 @import "../pages/ThingsToDo/thingsToDo";
 @import "../pages/LocalCrafts/localCraft";
+@import "../pages/AboutUs/aboutUs";
 
 //common
 @import "common";

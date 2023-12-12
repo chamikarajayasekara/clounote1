@@ -1,9 +1,13 @@
 import React from 'react';
-import tuktuk from "../../../../../assets/3wl.jpg"
-const RentATukRightSideContent = () => {
+
+
+interface Image {
+    url:string
+}
+const RentATukRightSideContent:React.FC<Image> = ({url}) => {
     return (
         <div className="right-side-content">
-            <img src={tuktuk} alt="" className="wheel-img"/>
+            <img src={url} alt="" className="wheel-img"/>
         </div>
     );
 };
