@@ -1,0 +1,95 @@
+.contact-us-container{
+  width: 90% !important;
+  margin:0 auto;
+  margin-top: 100px;
+  @media #{$Mobile}{
+    width: 100% !important;
+    margin-bottom: 50px;
+  }
+  h2{
+    color: $pageHeader;
+    font-family: $mainFont;
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    @media #{$Mobile}{
+      font-size: 22px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: normal;
+    }
+  }
+  p{
+    color: $grey13;
+    font-family: $mainFont;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 165.4%; /* 29.772px */
+    @media #{$Mobile}{
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+    }
+  }
+  .contact-us-form{
+    .label-text{
+      color: $labelText;
+      font-family: $mainFont;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+      margin-bottom: 5px;
+    }
+    .form-control{
+      border-radius: 8px;
+      border: 1px solid $borderColor !important;
+      background: #FFF !important;;
+      height: 54px;
+      flex-shrink: 0;
+      color: $placeholderText;
+      font-family: $mainFont;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+    }
+    .form-control:focus{
+      transition: unset !important;
+      border-color: $borderColor !important;
+      color: unset !important;
+      background-color: var(--bs-body-bg);
+      outline: 0;
+      box-shadow: unset !important;;
+    }
+    .text-danger{
+      font-family: $mainFont;
+      font-size: 10px;
+      color: $badge-red2;
+    }
+    .submit-button{
+      background-color: #54BD36 !important;
+      color: #FFFFFF;
+      width: 174px;
+      height: 59px;
+      flex-shrink: 0;
+      margin-top: 20px;
+      border: 1px solid #54BD36;
+      @media #{$Mobile}{
+        width: 100%;
+      }
+    }
+    //.submit-button:hover{
+    //  border: 1px solid #54BD36;
+    //  color: #FFFFFF;
+    //}
+  }
+}
+.contact-us-img{
+  @media #{$Mobile}{
+    display: none;
+  }
+}

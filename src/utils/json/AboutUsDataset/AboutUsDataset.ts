@@ -33,5 +33,6 @@ export const AboutUsDataset = {
         heading5:'let the conversation begin.',
         heading1Mobile:'Want to talk to us?',
         heading2Mobile:'Got questions, ideas,Connect with us and let the conversation begin.',
+        navigateURL:'/contact-us'
     }
 }

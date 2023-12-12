@@ -13,6 +13,7 @@ import ThingsToDo from "../pages/ThingsToDo/ThingsToDo";
 import LocalCrafts from "../pages/LocalCrafts/LocalCrafts";
 import LocalCraftDiscover from "../pages/LocalCrafts/LocalCraftsDiscover/LocalCraftDiscover";
 import AboutUs from "../pages/AboutUs/AboutUs";
+import ContactUs from "../pages/ContactUs/ContactUs";
 
 function App() {
     const location = useLocation();
@@ -35,6 +36,7 @@ function App() {
                 <Route path="/local-crafts-discover/local-crafts" element={<LocalCrafts/>} />
                 <Route path="/local-crafts-discover" element={<LocalCraftDiscover/>} />
                 <Route path="/about-us" element={<AboutUs/>} />
+                <Route path="/contact-us" element={<ContactUs/>} />
                 {/*<Route path="*" element={<NotFound />} />*/}
             </Routes>
         <Footer/>

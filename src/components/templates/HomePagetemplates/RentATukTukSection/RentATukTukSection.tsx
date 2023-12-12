@@ -14,6 +14,7 @@ const RentATukTukSection = () => {
                 url={tuktuk}
                 heading1Mobile={'Rent a Tuk Tuk'}
                 heading2Mobile={'We provide transportation services with the highest quality and best price.'}
+                navigateURL={'/things-to-do/things-to-do-details?category=Tuk Tuk Tours'}
             />
         </div>
     );

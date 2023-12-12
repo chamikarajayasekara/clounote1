@@ -35,6 +35,7 @@ interface AboutExploreProps {
         url:string,
         heading1Mobile:string,
         heading2Mobile:string,
+        navigateURL:string
     }
 }
 const AboutUsExplore:React.FC<AboutExploreProps> = ({header, description,imageUrl, story,subHeading1, subDescription,socialMedia, highlights, talkUs}) => {
@@ -78,6 +79,7 @@ const AboutUsExplore:React.FC<AboutExploreProps> = ({header, description,imageUr
                     heading1Mobile={talkUs.heading1Mobile}
                     heading2Mobile={talkUs.heading2Mobile}
                     heading5={talkUs.heading5}
+                    navigateURL={talkUs.navigateURL}
                 />
             </div>
             <SocialSection subHeading1={subHeading1} subDescription={subDescription} socialMedia={socialMedia}/>

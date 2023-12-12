@@ -11,12 +11,13 @@ interface RentATukProps {
     heading2:string,
     heading1Mobile:string,
     heading2Mobile:string,
-    heading5?:string
+    heading5?:string,
+    navigateURL:string
 }
-const RentATukTukContent:React.FC<RentATukProps> = ({heading1, heading4, buttonText, url, heading3, heading2, heading2Mobile,heading1Mobile, heading5}) => {
+const RentATukTukContent:React.FC<RentATukProps> = ({heading1, heading4, buttonText, url, heading3, heading2, heading2Mobile,heading1Mobile, heading5,navigateURL}) => {
     return (
         <>
-            <RentATukLeftSideContent heading1={heading1} heading4={heading4} buttonText={buttonText} heading3={heading3} heading2={heading2} heading1Mobile={heading1Mobile} heading2Mobile={heading2Mobile} heading5={heading5? heading5 : ''}/>
+            <RentATukLeftSideContent heading1={heading1} heading4={heading4} buttonText={buttonText} heading3={heading3} heading2={heading2} heading1Mobile={heading1Mobile} heading2Mobile={heading2Mobile} navigateURL={navigateURL} heading5={heading5? heading5 : ''}/>
             <RentATukRightSideContent url={url}/>
         </>
     );
