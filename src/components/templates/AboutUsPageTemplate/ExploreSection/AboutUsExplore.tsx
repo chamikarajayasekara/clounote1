@@ -68,7 +68,7 @@ const AboutUsExplore:React.FC<AboutExploreProps> = ({header, description,imageUr
                     ))
                 }
             </div>
-            <div className="rent-a-tuk w-100">
+            <div className="rent-a-tuk w-100 rent-a-tuk-about-us">
                 <RentATukTukContent
                     heading1={talkUs.heading1}
                     heading2={talkUs.heading2}

@@ -2,7 +2,7 @@
   width: auto !important;
   margin-left: 7.5% !important;
   margin-right: 7.5% !important;
-  margin-top: 40px!important;
+  margin-top: 80px!important;
   @media #{$Mobile}  {
     width: 90% !important;
     margin: 0 auto !important;
@@ -94,6 +94,9 @@
   }
   .sub-heading-content{
     margin-top: 100px;
+    @media #{$Mobile}{
+      margin-top: 50px;
+    }
     h5{
       color: $popular-black;
       font-family: $mainFont;
@@ -126,6 +129,9 @@
   }
   .about-us-social-media{
     margin-top: 150px;
+    @media #{$Mobile}{
+      margin-top: 0;
+    }
     h5{
       color: $pageHeader;
       text-align: center;
@@ -167,6 +173,7 @@
       margin-top: 60px;
       @media #{$Mobile}  {
         justify-content: left;
+        margin-bottom: 0;
       }
       .social-card-box {
         width: 20%;
@@ -233,14 +240,17 @@
             line-height: normal;
             @media #{$Mobile}  {
               font-size: 16px;
-              font-style: normal;
-              font-weight: 600;
-              line-height: normal;
+              font-weight: 500;
               text-align: center;
              }
           }
         }
       }
+    }
+  }
+  .rent-a-tuk-about-us{
+    @media #{$Mobile}{
+      margin-top: 50px;
     }
   }
 }
