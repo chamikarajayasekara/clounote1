@@ -6,7 +6,7 @@
   margin-bottom: 7%;
   @media #{$Mobile}  {
     width: 270px;
-    height: 323px;
+    height: 310px;
   }
   .img-content{
     height: 223px;
@@ -39,10 +39,10 @@
     .content1{
       display: flex;
       text-align: left;
-      font: normal normal 900 20px/27px $mainFont;
+      font: normal normal 400 18px/24px $mainFont;
       letter-spacing: 0px;
       color: $black1;
-      text-transform: capitalize;
+      // text-transform: capitalize;
       opacity: 1;
       width: 100%;
       //white-space: nowrap;
@@ -57,6 +57,7 @@
         height: 50px;
         overflow: hidden;
         @media #{$Mobile}  {
+          width: 65%;
         }
       }
       .location{
@@ -69,6 +70,9 @@
         color: $blue;
         opacity: 1;
         width: 30%;
+        @media #{$Mobile}  {
+          width: 35%;
+        }
         .location-img{
           width: 20px;
           height: 20px;

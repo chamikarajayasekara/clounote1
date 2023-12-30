@@ -25,9 +25,9 @@ const LocalCraftDiscover = () => {
             <div className="things-to-do-page">
                 <MobileMenu handleOpenDrawer={handleOpenDrawer}/>
                 <Breadcrumb paths={LocalCraftsDiscoverDataset.paths} />
-                <PageHeader title={'Enjoy local crafts, specially in Knuckles'} mobileShow={true}/>
+                <PageHeader title={'Enjoy our unique local crafts'} mobileShow={true}/>
                 <Container>
-                    <Row className="mt-5">
+                    <Row className="mt-3">
                         <Col md={12} className="">
                             <MainLayoutThingToDo
                                 discoverItems={LocalCraftsDiscoverDataset.discoverItems}

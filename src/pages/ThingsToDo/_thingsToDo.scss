@@ -2,7 +2,7 @@
   width: auto !important;
   margin-left: 7.5% !important;
   margin-right: 7.5% !important;
-  margin-top: 40px!important;
+  margin-top: 20px!important;
   @media #{$Mobile}  {
     margin-left: unset !important;
     margin-right: unset !important;
@@ -15,6 +15,7 @@
     justify-content: space-evenly;
     @media #{$Mobile}  {
       display: block;
+      margin-top: 20px;
     }
   }
 }

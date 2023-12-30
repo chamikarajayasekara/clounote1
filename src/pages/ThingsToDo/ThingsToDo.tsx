@@ -26,7 +26,7 @@ const ThingsToDo = () => {
                 <Breadcrumb paths={ThingsToDoDataset.paths} />
                 <PageHeader title={'Discover things to do'} mobileShow={true}/>
                 <Container>
-                    <Row className="mt-5">
+                    <Row className="mt-3">
                         <Col md={12} className="">
                             <MainLayoutThingToDo
                                 discoverItems={ThingsToDoDataset.discoverItems}

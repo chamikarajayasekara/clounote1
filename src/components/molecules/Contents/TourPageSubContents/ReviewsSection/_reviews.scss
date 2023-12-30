@@ -2,6 +2,9 @@
   border-bottom: 2px solid $grey2;
   width: 100%;
   margin-top: 55px;
+  @media #{$Mobile}  {
+    margin-top: 30px;
+  }
   .header{
     display: flex;
     align-items: center;

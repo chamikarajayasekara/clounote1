@@ -63,7 +63,7 @@ const LocalCrafts = () => {
         <div className="local-crafts">
             <MobileMenu handleOpenDrawer={handleOpenDrawer}/>
             <Breadcrumb paths={LocalCraftsDataset.paths} />
-            <PageHeader title={'Enjoy local crafts, specially in Knuckles'} mobileShow={true}/>
+            <PageHeader title={'Enjoy our unique local crafts'} mobileShow={true}/>
             <Container>
                 <FilterSection  options={ToursPageDetails?.pricing.guest} label={''}  mobileFilterOnClick={mobileFilterOnClick}/>
                 <Row className="local-craft-layout">

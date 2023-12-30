@@ -24,8 +24,8 @@ export const AboutUsDataset = {
         {logo:'https://i.postimg.cc/Pf9V9kfT/image-22.png', name:'Youtube', alt:'Knuckles', url:''},
     ],
     talkUs: {
-        heading1:'Want to',
-        heading2:'talk to us?',
+        heading1:'Want to talk',
+        heading2:'to us?',
         buttonText:'Contact Us',
         url:'',
         heading3:'Got questions, ideas, or just want to share your',

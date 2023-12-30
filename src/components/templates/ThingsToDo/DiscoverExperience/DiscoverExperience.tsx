@@ -13,7 +13,7 @@ interface Props {
 const DiscoverExperience:React.FC<Props> = ({item}) => {
     return (
         <div className="things-to-do-page discover-section">
-            <PageHeader title={'Discover OneKnuckles Experiences'} mobileShow={true}/>
+            <PageHeader title={'Discover OneKnuckles experiences'} mobileShow={true}/>
             <div className="discover-experience">
                 {
                     item.map((bannerItem, key) => (
@@ -23,9 +23,9 @@ const DiscoverExperience:React.FC<Props> = ({item}) => {
                             paddingLeft={'60px'}
                             header={bannerItem.header}
                             buttonDescription={bannerItem.buttonText}
-                            height={'628px'}
-                            h1FontSize={'48px'}
-                            h1LineHeight={'56px'}
+                            height={'480px'}
+                            h1FontSize={'40px'}
+                            h1LineHeight={'50px'}
                             imageUrl={bannerItem.img}
                         />
                     ))

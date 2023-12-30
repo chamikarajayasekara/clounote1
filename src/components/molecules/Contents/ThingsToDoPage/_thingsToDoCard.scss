@@ -12,22 +12,28 @@
     h6{
       color: $pureBlack;
       font-family: $mainFont;
-      font-size: 25px;
+      font-size: 20px;
       font-style: normal;
       font-weight: 600;
       line-height: normal;
       margin: 0;
-      height: 34px;
+      // height: 34px;
+      @media #{$Mobile}  {
+        font-size: 18px;
+      }
     }
     p{
       color:$grey8 ;
       font-family: $mainFont;
-      font-size: 20px;
+      font-size: 18px;
       font-style: normal;
       font-weight: 400;
       line-height: normal;
-      height: 27px;
+      // height: 27px;
       margin: 0;
+      @media #{$Mobile}  {
+        font-size: 16px;
+      }
     }
   }
 }

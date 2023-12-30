@@ -6,13 +6,13 @@ const RentATukTukSection = () => {
     return (
         <div className="rent-a-tuk">
             <RentATukTukContent
-                heading1={`Rent a`}
-                heading2={`Tuk Tuk`}
+                heading1={`Roll with the`}
+                heading2={`rentals!`}
                 heading3={'We provide transportation services with the'}
                 heading4={'highest quality and best price.'}
                 buttonText={'Explore'}
                 url={tuktuk}
-                heading1Mobile={'Rent a Tuk Tuk'}
+                heading1Mobile={'Roll with the rentals!'}
                 heading2Mobile={'We provide transportation services with the highest quality and best price.'}
                 navigateURL={'/things-to-do/things-to-do-details?category=Tuk Tuk Tours'}
             />

@@ -8,13 +8,13 @@ const MainHeroContent = (props:Props) => {
     return (
         <div className="carousel-content-1">
             {
-                index === 0 ?    <span>The Knuckles Mountain Range</span> : null
+                index === 0 ?    <span>The rhythm of Knuckles</span> : null
             }
             {
-                index === 1 ?    <span>Worlds Beautiful train ride</span> : null
+                index === 1 ?    <span>Hunting the unexplored wilderness</span> : null
             }
             {
-                index === 2 ?    <span>Most Attractive beaches</span> : null
+                index === 2 ?    <span>A unique climate that changes hourly</span> : null
             }
         </div>
     );

@@ -18,6 +18,14 @@
       font-weight: 800;
       line-height: normal;
     }
+    @media #{$Mobile}  {
+      background: linear-gradient(360deg,rgba(0,0,0,.85) 2%,transparent 100%);
+      left: 0%;
+      top: 32%;
+      width: 100%;
+      padding-left: 5%;
+      padding-bottom: 16%;
+    }
   }
   .small-cards-section{
     margin-top: 40px;

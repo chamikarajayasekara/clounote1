@@ -1,6 +1,10 @@
 .tours-included{
   margin-top: 55px;
   border-bottom: 2px solid $grey2;
+  @media #{$Mobile}  {
+    margin-top: 30px;
+    padding-bottom: 20px;
+  }
   .ul-list{
     margin-top: 20px;
     .item{
@@ -20,6 +24,11 @@
         letter-spacing: 0px;
         color: #333333;
         opacity: 1;
+        line-height: normal;
+      }
+      @media #{$Mobile}  {
+        height: auto;
+        margin-bottom: 2px;
       }
     }
   }

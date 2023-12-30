@@ -1,6 +1,10 @@
 .highlights{
   margin-top: 55px;
   border-bottom: 2px solid $grey2;
+  @media #{$Mobile}  {
+    margin-top: 30px;
+    padding-bottom: 20px;
+  }
   ul{
     list-style-type: disc;
     padding-left: 20px;

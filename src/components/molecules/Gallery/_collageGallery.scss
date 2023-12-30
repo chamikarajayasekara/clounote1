@@ -7,7 +7,9 @@
   .gallery-item {
     flex: 0 0 calc(33.33% - 10px);
     cursor: pointer;
-
+    @media #{$Mobile}  {
+      flex: 0 0 100%;
+    }
   }
 
   .gallery-item img {

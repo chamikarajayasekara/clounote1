@@ -4,7 +4,7 @@ const DescriptionHeroSlider = () => {
     return (
         <div className="carousel-content-2">
                             <span>
-                                Therefore, whether you are after a relaxing vacation, on a sightseeing expedition or looking for thrills and spills : Knuckles International Tours is happy to make your dreams come true!
+                            Explore the untamed beauty of Sri Lanka's hidden gem, the Knuckles Mountain range. Known locally as Dambara Kanduvetiya, this mist-laden haven is a gateway to heaven, where the sky passionately meets the earth beneath misty blankets. Join the adventure and uncover the secrets of the Knuckles.
                             </span>
         </div>
     );
